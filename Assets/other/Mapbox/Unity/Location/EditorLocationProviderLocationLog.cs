@@ -55,11 +55,10 @@
 		}
 
 // public double movemement_speed;
-		Vector2d current_player_latlong = new Vector2d(42.27956272028746, -83.7482328924759);
-        public void Update()
+		static Vector2d current_player_latlong = new Vector2d(42.27956272028746, -83.7482328924759);
+		public double movement_speed = 0.000004;
+		public void Update()
         {
-			double movement_speed = 0.000007;
-
 			if (Input.GetKey(KeyCode.UpArrow))
 				current_player_latlong += new Vector2d(movement_speed, 0.0);
 			if (Input.GetKey(KeyCode.DownArrow))
@@ -70,7 +69,6 @@
 				current_player_latlong += new Vector2d(0.0, -movement_speed);
 
 			_currentLocation.LatitudeLongitude = current_player_latlong;
-
 		}
 
 

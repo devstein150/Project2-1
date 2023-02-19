@@ -7,11 +7,11 @@ using UnityEngine.XR.ARFoundation;
 public class ARCursor : MonoBehaviour
 {
     ARRaycastManager ar_raycast_manager;
-
+    
     public Transform cursor; /* Change A */
 
     void Start()
-    {
+    {   
         ar_raycast_manager = GetComponent<ARRaycastManager>();
     }
 
