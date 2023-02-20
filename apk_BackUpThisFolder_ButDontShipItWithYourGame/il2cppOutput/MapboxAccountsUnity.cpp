@@ -468,10 +468,6 @@ struct MapboxAccountsConstants_t1B1565763F31C8B7B6A9020BF006B52006E75DE0_StaticF
 
 // MapboxAccountsUnity.MapboxAccountsConstants
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.String
 struct String_t_StaticFields
 {
@@ -484,10 +480,6 @@ struct String_t_StaticFields
 // System.Text.StringBuilder
 
 // System.Text.StringBuilder
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -547,15 +539,6 @@ struct Guid_t_StaticFields
 
 // System.Int64
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // System.Single
 
 // System.Single
@@ -577,34 +560,9 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 
 // System.Void
 
-// Interop/Sys/FileStatus
-
-// Interop/Sys/FileStatus
-
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
-// System.IO.FileStatus
-
-// System.IO.FileStatus
-
 // MapboxAccountsUnity.MapboxAccountImpl
 
 // MapboxAccountsUnity.MapboxAccountImpl
-
-// System.IO.FileSystemInfo
-
-// System.IO.FileSystemInfo
-
-// System.SystemException
-
-// System.SystemException
 
 // System.ArgumentException
 

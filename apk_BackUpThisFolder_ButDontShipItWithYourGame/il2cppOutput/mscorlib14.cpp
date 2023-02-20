@@ -3943,10 +3943,6 @@ struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57_StaticFields
 
 // System.Runtime.Remoting.ConfigHandler
 
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
 // System.Runtime.Remoting.Channels.CrossAppDomainChannel
 struct CrossAppDomainChannel_tE71FA47A5E8E9AF40EC1B7B9F8C04CA91F9DF0F1_StaticFields
 {
@@ -4286,10 +4282,6 @@ struct TrackingServices_t3E957D2DB6E276D98D08ECBAC8357552BCFCCCC0_StaticFields
 
 // System.Runtime.Remoting.TypeInfo
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Security.Cryptography.X509Certificates.X509CertificateImpl
 
 // System.Security.Cryptography.X509Certificates.X509CertificateImpl
@@ -4544,15 +4536,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 
 // System.UInt64
 
-// System.UIntPtr
-struct UIntPtr_t_StaticFields
-{
-	// System.UIntPtr System.UIntPtr::Zero
-	uintptr_t ___Zero_0;
-};
-
-// System.UIntPtr
-
 // System.Void
 
 // System.Void
@@ -4631,10 +4614,6 @@ struct Exception_t_StaticFields
 
 // System.Exception
 
-// System.Runtime.InteropServices.GCHandle
-
-// System.Runtime.InteropServices.GCHandle
-
 // System.Runtime.Remoting.Lifetime.Lease
 
 // System.Runtime.Remoting.Lifetime.Lease
@@ -4686,10 +4665,6 @@ struct RemotingProxy_t48019881976E5D5DF0B369B14977D002D12754AB_StaticFields
 // System.RuntimeTypeHandle
 
 // System.RuntimeTypeHandle
-
-// System.Runtime.InteropServices.SafeHandle
-
-// System.Runtime.InteropServices.SafeHandle
 
 // System.Runtime.Remoting.SingleCallIdentity
 
@@ -4758,17 +4733,9 @@ struct WindowsIdentity_t18EC60B678C8A1AA9A67A89BC3BCFA1CC1E2C459_StaticFields
 
 // System.Runtime.AmbiguousImplementationException
 
-// System.ApplicationException
-
-// System.ApplicationException
-
 // System.Runtime.Remoting.Messaging.AsyncResult
 
 // System.Runtime.Remoting.Messaging.AsyncResult
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.Reflection.RuntimeMethodInfo
 
@@ -4835,10 +4802,6 @@ struct Type_t_StaticFields
 
 // System.InvalidOperationException
 
-// System.MemberAccessException
-
-// System.MemberAccessException
-
 // System.NotSupportedException
 
 // System.NotSupportedException
@@ -4868,10 +4831,6 @@ struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7_StaticFi
 
 // System.Threading.TimerCallback
 
-// System.Reflection.TypeInfo
-
-// System.Reflection.TypeInfo
-
 // System.UnauthorizedAccessException
 
 // System.UnauthorizedAccessException
@@ -4887,10 +4846,6 @@ struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7_StaticFi
 // System.ArgumentNullException
 
 // System.ArgumentNullException
-
-// System.MissingMemberException
-
-// System.MissingMemberException
 
 // System.RuntimeType
 struct RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_StaticFields

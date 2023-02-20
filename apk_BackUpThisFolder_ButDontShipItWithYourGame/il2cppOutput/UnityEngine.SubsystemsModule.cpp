@@ -636,10 +636,6 @@ struct List_1_tD834E8FB7FDC0D4243FBCF922D7FE4E3C707AAC3_StaticFields
 
 // UnityEngine.Internal_SubsystemDescriptors
 
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.String
 struct String_t_StaticFields
 {
@@ -711,10 +707,6 @@ struct SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_StaticFields
 
 // UnityEngine.SubsystemsImplementation.SubsystemWithProvider
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.IntegratedSubsystem>
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.IntegratedSubsystem>
@@ -759,10 +751,6 @@ struct IntPtr_t_StaticFields
 
 // System.Void
 
-// System.Delegate
-
-// System.Delegate
-
 // UnityEngine.IntegratedSubsystem
 
 // UnityEngine.IntegratedSubsystem
@@ -770,14 +758,6 @@ struct IntPtr_t_StaticFields
 // UnityEngine.IntegratedSubsystemDescriptor
 
 // UnityEngine.IntegratedSubsystemDescriptor
-
-// System.RuntimeTypeHandle
-
-// System.RuntimeTypeHandle
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.Type
 struct Type_t_StaticFields

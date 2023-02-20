@@ -655,10 +655,6 @@ struct TrackedPoseDriverDataDescription_tDD80D37EB4F938007BCE0FAB9705032594E4D9F
 
 // UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -736,10 +732,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData
 
-// System.Delegate
-
-// System.Delegate
-
 // System.Int32Enum
 
 // System.Int32Enum
@@ -773,10 +765,6 @@ struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
 // UnityEngine.Component
 
 // UnityEngine.Component
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // UnityEngine.Behaviour
 

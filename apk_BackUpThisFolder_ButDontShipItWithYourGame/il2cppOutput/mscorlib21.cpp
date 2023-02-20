@@ -1939,10 +1939,6 @@ struct CalendarData_t4A54E28AB4470E0B835605CAEE9BEB25EBF9B6A9_StaticFields
 
 // System.Globalization.CalendarData
 
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
 // System.Globalization.CultureData
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_StaticFields
 {
@@ -2032,10 +2028,6 @@ struct GlobalizationMode_t8C0DD244B8C6347DE7AB7AE83B10911D2EB7582A_StaticFields
 
 // System.Globalization.GlobalizationMode
 
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Globalization.NumberFormatInfo
 struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472_StaticFields
 {
@@ -2113,10 +2105,6 @@ struct TextInfoToUpperData_tFBD90672D05C6FCC5E42201C4AA643040CB20F66_StaticField
 // System.Globalization.TimeSpanParse
 
 // System.Globalization.TimeSpanParse
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Nullable`1<System.Boolean>
 
@@ -2200,15 +2188,6 @@ struct GregorianCalendar_t6CC2956C5298E69CE93FE53A9DF5AE4F33621815_StaticFields
 // System.Int64
 
 // System.Int64
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Runtime.Serialization.StreamingContext
 
@@ -2402,10 +2381,6 @@ struct UmAlQuraCalendar_tE0B5A6EEC29AE1EFC40F338F5EBCEC112E44743B_StaticFields
 
 // System.Span`1<System.Char>
 
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -2431,10 +2406,6 @@ struct Type_t_StaticFields
 
 // System.ArgumentException
 
-// System.ArithmeticException
-
-// System.ArithmeticException
-
 // System.FormatException
 
 // System.FormatException
@@ -2446,10 +2417,6 @@ struct Type_t_StaticFields
 // System.NotImplementedException
 
 // System.NotImplementedException
-
-// System.NotSupportedException
-
-// System.NotSupportedException
 
 // System.Runtime.Serialization.SerializationException
 struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7_StaticFields

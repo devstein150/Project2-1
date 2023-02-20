@@ -3300,10 +3300,6 @@ struct ConcurrentDictionary_2_t421F761E5F7000F25374ACA7F13932BC7DAD49EA_StaticFi
 
 // System.Tuple`4<System.Boolean,System.Boolean,System.Boolean,System.Boolean>
 
-// System.Attribute
-
-// System.Attribute
-
 // System.Collections.BitArray
 
 // System.Collections.BitArray
@@ -3396,23 +3392,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 };
 
 // System.Text.Encoding
-
-// System.Diagnostics.Tracing.EventSource
-
-// System.Diagnostics.Tracing.EventSource
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.ComponentModel.MarshalByValueComponent
-struct MarshalByValueComponent_t19E5966D1CE2F9ED341EB16C060BA573F63AEDAA_StaticFields
-{
-	// System.Object System.ComponentModel.MarshalByValueComponent::s_eventDisposed
-	RuntimeObject* ___s_eventDisposed_0;
-};
-
-// System.ComponentModel.MarshalByValueComponent
 
 // System.Reflection.MemberInfo
 
@@ -3517,10 +3496,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XmlParserContext
 
 // System.Xml.XmlParserContext
@@ -3548,10 +3523,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 };
 
 // System.Xml.XmlReader
-
-// System.Xml.Schema.XmlSchemaObject
-
-// System.Xml.Schema.XmlSchemaObject
 
 // System.Xml.Schema.XmlSchemaSet
 
@@ -3603,10 +3574,6 @@ struct TempAssemblyComparer_t707E444B0527620C656AFC504DD81FE07EB285DB_StaticFiel
 // System.Collections.Generic.KeyValuePair`2<System.Type,System.Xml.Serialization.XmlRootAttribute>
 
 // System.Collections.Generic.KeyValuePair`2<System.Type,System.Xml.Serialization.XmlRootAttribute>
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
 
 // System.Numerics.BigInteger
 struct BigInteger_tF7779A0AA6D6B9BE0E0C1C293E7708765DEF7D0F_StaticFields
@@ -3768,10 +3735,6 @@ struct IntPtr_t_StaticFields
 };
 
 // System.IntPtr
-
-// System.Reflection.MethodBase
-
-// System.Reflection.MethodBase
 
 // System.Data.Common.ObjectStorage
 struct ObjectStorage_t816E88583419792A49925A19C8692C8DF3AA99F0_StaticFields
@@ -4293,17 +4256,6 @@ struct UnicodeEncoding_t2C90D9E1E55C16081FACA57B229053C1EF05DAF0_StaticFields
 
 // System.Void
 
-// System.Xml.XmlCharType
-struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
-{
-	// System.Object System.Xml.XmlCharType::s_Lock
-	RuntimeObject* ___s_Lock_0;
-	// System.Byte[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.XmlCharType::s_CharProperties
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_CharProperties_1;
-};
-
-// System.Xml.XmlCharType
-
 // System.Xml.Serialization.XmlRootAttribute
 
 // System.Xml.Serialization.XmlRootAttribute
@@ -4547,10 +4499,6 @@ struct XmlTextWriter_t9CB64E379F8FE646DA31698A03CE6AF8A594A73B_StaticFields
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Type,System.Xml.Serialization.XmlRootAttribute>,System.Xml.Serialization.XmlSerializer>
 
-// System.ApplicationException
-
-// System.ApplicationException
-
 // System.Data.Common.DateTimeOffsetStorage
 struct DateTimeOffsetStorage_tAD74524FE51000993C4987F283F5F8E6CCD8DBE1_StaticFields
 {
@@ -4559,10 +4507,6 @@ struct DateTimeOffsetStorage_tAD74524FE51000993C4987F283F5F8E6CCD8DBE1_StaticFie
 };
 
 // System.Data.Common.DateTimeOffsetStorage
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.SystemException
 
@@ -4604,10 +4548,6 @@ struct Type_t_StaticFields
 // System.ArgumentException
 
 // System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.InvalidOperationException
 

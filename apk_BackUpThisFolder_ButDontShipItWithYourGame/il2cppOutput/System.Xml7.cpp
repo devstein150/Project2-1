@@ -3052,15 +3052,6 @@ struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A_StaticFields
 
 // System.Globalization.DateTimeFormatInfo
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // System.Collections.Hashtable
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 {
@@ -3133,10 +3124,6 @@ struct TypeData_t7337956773D9138116ADAB3E8CB50EDD106FA704_StaticFields
 // System.Xml.Serialization.TypeMember
 
 // System.Xml.Serialization.TypeMember
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.Serialization.XmlAttributeOverrides
 
@@ -3546,10 +3533,6 @@ struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 
 // System.Xml.Serialization.XmlIncludeAttribute
 
-// System.Xml.XmlLinkedNode
-
-// System.Xml.XmlLinkedNode
-
 // System.Xml.Serialization.XmlMembersMapping
 
 // System.Xml.Serialization.XmlMembersMapping
@@ -3613,10 +3596,6 @@ struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 // System.Xml.Serialization.XmlTypeMapping
 
 // System.Xml.Serialization.XmlTypeMapping
-
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
-
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
 
 // System.Xml.Serialization.ClassMap
 
@@ -3673,14 +3652,6 @@ struct XmlSerializationReaderInterpreter_t912EF8FEC9E40E218B269BB1B990E9732A442C
 // System.Xml.Serialization.XmlTypeMapMemberList
 
 // System.Xml.Serialization.XmlTypeMapMemberList
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

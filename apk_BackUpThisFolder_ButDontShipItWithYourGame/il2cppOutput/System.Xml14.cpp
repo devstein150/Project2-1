@@ -3589,10 +3589,6 @@ struct List_1_t58AF3D711DC0DE27975C30F2ADB022D669E3E1FB_StaticFields
 
 // System.Xml.AttributePSVIInfo
 
-// System.Xml.Schema.BaseProcessor
-
-// System.Xml.Schema.BaseProcessor
-
 // System.Xml.Schema.ChameleonKey
 
 // System.Xml.Schema.ChameleonKey
@@ -3629,15 +3625,6 @@ struct ContentValidator_t42EB1802005FF0D871EE98A34ADB69091CCE48FE_StaticFields
 
 // System.Xml.Schema.ContentValidator
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // System.Xml.HWStack
 
 // System.Xml.HWStack
@@ -3669,10 +3656,6 @@ struct LocalAppContextSwitches_tD4691F88F847A5F076065A6FEF10BBB5DB039434_StaticF
 };
 
 // System.LocalAppContextSwitches
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.Reflection.MemberInfo
 
@@ -3774,10 +3757,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Xml.ValidatingReaderNodeData
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XmlNameTable
 
 // System.Xml.XmlNameTable
@@ -3869,10 +3848,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 // System.Collections.Generic.KeyValuePair`2<System.String,System.String>
 
 // System.Collections.Generic.KeyValuePair`2<System.String,System.String>
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -4182,10 +4157,6 @@ struct SchemaElementDecl_t985EC0AC51DF3E0339341916D061539CF41846AD_StaticFields
 
 // System.Single
 
-// System.Xml.Schema.StateUnion
-
-// System.Xml.Schema.StateUnion
-
 // System.IO.Stream
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 {
@@ -4400,10 +4371,6 @@ struct Exception_t_StaticFields
 
 // System.Xml.Schema.ValidationState
 
-// System.Xml.Schema.XmlListConverter
-
-// System.Xml.Schema.XmlListConverter
-
 // System.Xml.XmlReaderSettings
 struct XmlReaderSettings_t8D51BA3ED2A013EE1F44525C9861326CAFB44AEA_StaticFields
 {
@@ -4528,14 +4495,6 @@ struct XsdDateTime_t232255D69CF1B25B380F0C9D87D0002844A1E8BB_StaticFields
 
 // System.Xml.Schema.XsdDateTime
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -4628,10 +4587,6 @@ struct XmlUntypedConverter_tB707BD09CB81865831777481D33D744A4E960703_StaticField
 // System.ArgumentException
 
 // System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.FormatException
 

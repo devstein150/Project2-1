@@ -3104,18 +3104,22 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023
 	float ___index_3;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::depth
 	int32_t ___depth_4;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupID
+	int32_t ___sortingGroupID_5;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupOrder
+	int32_t ___sortingGroupOrder_6;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingLayer
-	int32_t ___sortingLayer_5;
+	int32_t ___sortingLayer_7;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
-	int32_t ___sortingOrder_6;
+	int32_t ___sortingOrder_8;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.RaycastResult::screenPosition
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::displayIndex
-	int32_t ___displayIndex_10;
+	int32_t ___displayIndex_12;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
@@ -3125,12 +3129,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 // Native definition for COM marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
@@ -3140,12 +3146,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 
 // System.RuntimeTypeHandle
@@ -5442,17 +5450,9 @@ struct List_1_t2D422802284C607CCDF0AEC2E66140D97474AB4F_StaticFields
 
 // System.Collections.Generic.List`1<TMPro.TMP_MaterialManager/MaskingMaterial>
 
-// UnityEngine.EventSystems.AbstractEventData
-
-// UnityEngine.EventSystems.AbstractEventData
-
 // TMPro.CodePoint
 
 // TMPro.CodePoint
-
-// UnityEngine.CustomYieldInstruction
-
-// UnityEngine.CustomYieldInstruction
 
 // TMPro.FaceInfo_Legacy
 
@@ -5461,10 +5461,6 @@ struct List_1_t2D422802284C607CCDF0AEC2E66140D97474AB4F_StaticFields
 // TMPro.KerningTable
 
 // TMPro.KerningTable
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // TMPro.SetPropertyUtility
 
@@ -5697,18 +5693,6 @@ struct TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C_StaticFields
 
 // TMPro.TMP_TextElement_Legacy
 
-// UnityEngine.Events.UnityEventBase
-
-// UnityEngine.Events.UnityEventBase
-
-// System.ValueType
-
-// System.ValueType
-
-// UnityEngine.YieldInstruction
-
-// UnityEngine.YieldInstruction
-
 // TMPro.KerningTable/<>c
 struct U3CU3Ec_t366AF356A3D25B81C4FD68C17E5F26CF6D8B818B_StaticFields
 {
@@ -5804,26 +5788,6 @@ struct U3CU3Ec_t010C6DD1D6A4662B467F3C1BDE9A8352A3495F34_StaticFields
 };
 
 // TMPro.TMP_SpriteAsset/<>c
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.FontWeight>
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.FontWeight>
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.HorizontalAlignmentOptions>
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.HorizontalAlignmentOptions>
-
-// TMPro.TMP_TextProcessingStack`1<System.Int32>
-
-// TMPro.TMP_TextProcessingStack`1<System.Int32>
-
-// TMPro.TMP_TextProcessingStack`1<System.Single>
-
-// TMPro.TMP_TextProcessingStack`1<System.Single>
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.TMP_ColorGradient>
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.TMP_ColorGradient>
 
 // UnityEngine.Events.UnityEvent`1<System.String>
 
@@ -5931,21 +5895,6 @@ struct IntPtr_t_StaticFields
 
 // TMPro.MaterialReference
 
-// UnityEngine.Matrix4x4
-struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
-{
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::zeroMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix_16;
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::identityMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix_17;
-};
-
-// UnityEngine.Matrix4x4
-
-// UnityEngine.UI.Navigation
-
-// UnityEngine.UI.Navigation
-
 // UnityEngine.Quaternion
 struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 {
@@ -5963,17 +5912,9 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 
 // System.Single
 
-// UnityEngine.UI.SpriteState
-
-// UnityEngine.UI.SpriteState
-
 // TMPro.TMP_Character
 
 // TMPro.TMP_Character
-
-// TMPro.TMP_FontStyleStack
-
-// TMPro.TMP_FontStyleStack
 
 // TMPro.TMP_FontWeightPair
 
@@ -5986,15 +5927,6 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 // TMPro.TMP_GlyphValueRecord
 
 // TMPro.TMP_GlyphValueRecord
-
-// TMPro.TMP_Offset
-struct TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6_StaticFields
-{
-	// TMPro.TMP_Offset TMPro.TMP_Offset::k_ZeroOffset
-	TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 ___k_ZeroOffset_4;
-};
-
-// TMPro.TMP_Offset
 
 // TMPro.TMP_SpriteCharacter
 
@@ -6077,34 +6009,9 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.WaitForSecondsRealtime
 
-// TMPro.TMP_Text/SpecialCharacter
-
-// TMPro.TMP_Text/SpecialCharacter
-
-// TMPro.TMP_Text/TextBackingContainer
-
-// TMPro.TMP_Text/TextBackingContainer
-
-// TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32>
-
-// TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32>
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.MaterialReference>
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.MaterialReference>
-
 // UnityEngine.Bounds
 
 // UnityEngine.Bounds
-
-// UnityEngine.UI.ColorBlock
-struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_StaticFields
-{
-	// UnityEngine.UI.ColorBlock UnityEngine.UI.ColorBlock::defaultColorBlock
-	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___defaultColorBlock_7;
-};
-
-// UnityEngine.UI.ColorBlock
 
 // UnityEngine.Coroutine
 
@@ -6114,26 +6021,6 @@ struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_StaticFields
 
 // System.Delegate
 
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
-// TMPro.Extents
-struct Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8_StaticFields
-{
-	// TMPro.Extents TMPro.Extents::zero
-	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___zero_0;
-	// TMPro.Extents TMPro.Extents::uninitialized
-	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___uninitialized_1;
-};
-
-// TMPro.Extents
-
 // UnityEngine.TextCore.Glyph
 
 // UnityEngine.TextCore.Glyph
@@ -6141,10 +6028,6 @@ struct Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8_StaticFields
 // UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
 
 // UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-
-// TMPro.HighlightState
-
-// TMPro.HighlightState
 
 // TMPro.KerningPair
 struct KerningPair_tC8E09DC4C7DA41551F1BCC9DDABF4AE44938D481_StaticFields
@@ -6163,14 +6046,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 };
 
 // UnityEngine.Object
-
-// Unity.Profiling.ProfilerMarker
-
-// Unity.Profiling.ProfilerMarker
-
-// UnityEngine.EventSystems.RaycastResult
-
-// UnityEngine.EventSystems.RaycastResult
 
 // System.RuntimeTypeHandle
 
@@ -6195,19 +6070,6 @@ struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_StaticFields
 
 // TMPro.TMP_TextInfo
 
-// TMPro.TMP_Vertex
-struct TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A_StaticFields
-{
-	// TMPro.TMP_Vertex TMPro.TMP_Vertex::k_Zero
-	TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A ___k_Zero_5;
-};
-
-// TMPro.TMP_Vertex
-
-// TMPro.VertexGradient
-
-// TMPro.VertexGradient
-
 // TMPro.TMP_InputField/<MouseDragOutsideRect>d__294
 
 // TMPro.TMP_InputField/<MouseDragOutsideRect>d__294
@@ -6232,10 +6094,6 @@ struct TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A_StaticFields
 
 // TMPro.TMP_InputField/TouchScreenKeyboardEvent
 
-// TMPro.TMP_TextProcessingStack`1<TMPro.HighlightState>
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.HighlightState>
-
 // UnityEngine.Component
 
 // UnityEngine.Component
@@ -6256,10 +6114,6 @@ struct TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A_StaticFields
 
 // UnityEngine.Mesh
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // UnityEngine.EventSystems.PointerEventData
 
 // UnityEngine.EventSystems.PointerEventData
@@ -6275,10 +6129,6 @@ struct TMP_Vertex_t0FD80AE2515219689310A8F619A265667B530E1A_StaticFields
 // UnityEngine.Sprite
 
 // UnityEngine.Sprite
-
-// System.SystemException
-
-// System.SystemException
 
 // TMPro.TMP_CharacterInfo
 
@@ -6422,10 +6272,6 @@ struct TMP_Settings_t5875BC616C98A30032C6B733CF7FC90A0EE48062_StaticFields
 
 // UnityEngine.Transform
 
-// TMPro.WordWrapState
-
-// TMPro.WordWrapState
-
 // UnityEngine.Canvas/WillRenderCanvases
 
 // UnityEngine.Canvas/WillRenderCanvases
@@ -6437,10 +6283,6 @@ struct TMP_Settings_t5875BC616C98A30032C6B733CF7FC90A0EE48062_StaticFields
 // TMPro.TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7
 
 // TMPro.TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.WordWrapState>
-
-// TMPro.TMP_TextProcessingStack`1<TMPro.WordWrapState>
 
 // UnityEngine.Camera
 struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
@@ -6563,17 +6405,6 @@ struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
 // UnityEngine.UI.Mask
 
 // UnityEngine.UI.Mask
-
-// UnityEngine.UI.Selectable
-struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712_StaticFields
-{
-	// UnityEngine.UI.Selectable[] UnityEngine.UI.Selectable::s_Selectables
-	SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9* ___s_Selectables_4;
-	// System.Int32 UnityEngine.UI.Selectable::s_SelectableCount
-	int32_t ___s_SelectableCount_5;
-};
-
-// UnityEngine.UI.Selectable
 
 // UnityEngine.UI.MaskableGraphic
 

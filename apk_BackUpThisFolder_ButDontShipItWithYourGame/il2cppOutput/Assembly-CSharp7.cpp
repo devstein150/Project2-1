@@ -4780,10 +4780,6 @@ struct List_1_tA27BB8F2607FEA04803AC954D93CEA89FAF71820_StaticFields
 
 // Mapbox.Directions.Annotation
 
-// SQLite4Unity3d.BaseTableQuery
-
-// SQLite4Unity3d.BaseTableQuery
-
 // Mapbox.Platform.Cache.CachingWebFileSource
 
 // Mapbox.Platform.Cache.CachingWebFileSource
@@ -4928,10 +4924,6 @@ struct JsonConverters_tBECA50BB9A98F9FBB151F6EDB38CA94CE3F73860_StaticFields
 // Mapbox.Tokens.MapboxTokenApi
 
 // Mapbox.Tokens.MapboxTokenApi
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.Reflection.MemberInfo
 
@@ -5080,10 +5072,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.UriBuilder
 
-// System.ValueType
-
-// System.ValueType
-
 // Mapbox.VectorTile.VectorTile
 
 // Mapbox.VectorTile.VectorTile
@@ -5091,10 +5079,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 // Mapbox.VectorTile.VectorTileLayer
 
 // Mapbox.VectorTile.VectorTileLayer
-
-// UnityEngine.YieldInstruction
-
-// UnityEngine.YieldInstruction
 
 // Mapbox.Platform.Cache.tilesets
 
@@ -5259,34 +5243,6 @@ struct GeocodeResource_1_t7B8BCD0E28D48307E045F86FA55AD6983F60CF94_StaticFields
 
 // System.Nullable`1<System.Boolean>
 
-// System.Nullable`1<Mapbox.Json.DateFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.DateFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.DateParseHandling>
-
-// System.Nullable`1<Mapbox.Json.DateParseHandling>
-
-// System.Nullable`1<Mapbox.Json.DateTimeZoneHandling>
-
-// System.Nullable`1<Mapbox.Json.DateTimeZoneHandling>
-
-// System.Nullable`1<System.Double>
-
-// System.Nullable`1<System.Double>
-
-// System.Nullable`1<Mapbox.Json.FloatFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatParseHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatParseHandling>
-
-// System.Nullable`1<Mapbox.Json.Formatting>
-
-// System.Nullable`1<Mapbox.Json.Formatting>
-
 // System.Nullable`1<Mapbox.MapMatching.Geometries>
 
 // System.Nullable`1<Mapbox.MapMatching.Geometries>
@@ -5310,10 +5266,6 @@ struct GeocodeResource_1_t7B8BCD0E28D48307E045F86FA55AD6983F60CF94_StaticFields
 // System.Nullable`1<Mapbox.MapMatching.Overview>
 
 // System.Nullable`1<Mapbox.MapMatching.Overview>
-
-// System.Nullable`1<Mapbox.Json.StringEscapeHandling>
-
-// System.Nullable`1<Mapbox.Json.StringEscapeHandling>
 
 // System.Nullable`1<System.UInt32>
 
@@ -5414,23 +5366,6 @@ struct IntPtr_t_StaticFields
 
 // System.IntPtr
 
-// Mapbox.Json.Linq.JContainer
-
-// Mapbox.Json.Linq.JContainer
-
-// Mapbox.Json.JsonPosition
-struct JsonPosition_t0D64A24195A4953E327757BFBC8F0E897D5CBEE9_StaticFields
-{
-	// System.Char[] Mapbox.Json.JsonPosition::SpecialCharacters
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___SpecialCharacters_0;
-};
-
-// Mapbox.Json.JsonPosition
-
-// System.Linq.Expressions.LambdaExpression
-
-// System.Linq.Expressions.LambdaExpression
-
 // Mapbox.MapMatching.MatchObject
 
 // Mapbox.MapMatching.MatchObject
@@ -5458,23 +5393,6 @@ struct JsonPosition_t0D64A24195A4953E327757BFBC8F0E897D5CBEE9_StaticFields
 // System.Single
 
 // System.Single
-
-// System.Runtime.Serialization.StreamingContext
-
-// System.Runtime.Serialization.StreamingContext
-
-// System.TimeSpan
-struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
-{
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
-};
-
-// System.TimeSpan
 
 // System.UInt32
 
@@ -5507,10 +5425,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24
-
-// Interop/Sys/FileStatus
-
-// Interop/Sys/FileStatus
 
 // <>f__AnonymousType0`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
 
@@ -5569,14 +5483,6 @@ struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49
 
 // Mapbox.Utils.BearingFilter
 
-// UnityEngine.Networking.CertificateHandler
-
-// UnityEngine.Networking.CertificateHandler
-
-// System.Delegate
-
-// System.Delegate
-
 // Mapbox.Directions.DirectionResource
 
 // Mapbox.Directions.DirectionResource
@@ -5593,10 +5499,6 @@ struct Exception_t_StaticFields
 };
 
 // System.Exception
-
-// System.IO.FileStatus
-
-// System.IO.FileStatus
 
 // Mapbox.Geocoding.Geometry
 
@@ -5645,15 +5547,6 @@ struct JsonWriter_t9234CB10B45B32FE36E8B357F5646AAB98473CEF_StaticFields
 
 // System.Reflection.MethodInfo
 
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
-
-// UnityEngine.Object
-
 // Mapbox.Utils.JsonConverters.PolylineToVector2dListConverter
 
 // Mapbox.Utils.JsonConverters.PolylineToVector2dListConverter
@@ -5697,10 +5590,6 @@ struct SQLiteConnection_t7E2BA1E4CC3809FD458BFD2813B706A91189DCC4_StaticFields
 
 // Mapbox.Map.TileErrorEventArgs
 
-// UnityEngine.Networking.UploadHandler
-
-// UnityEngine.Networking.UploadHandler
-
 // Mapbox.Utils.Vector2dBounds
 
 // Mapbox.Utils.Vector2dBounds
@@ -5749,21 +5638,9 @@ struct SQLiteConnection_t7E2BA1E4CC3809FD458BFD2813B706A91189DCC4_StaticFields
 
 // Mapbox.Platform.Cache.CacheItem
 
-// UnityEngine.Component
-
-// UnityEngine.Component
-
 // Mapbox.Platform.FileSource
 
 // Mapbox.Platform.FileSource
-
-// System.IO.FileSystemInfo
-
-// System.IO.FileSystemInfo
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // Mapbox.Map.RasterTile
 
@@ -5776,10 +5653,6 @@ struct SQLiteConnection_t7E2BA1E4CC3809FD458BFD2813B706A91189DCC4_StaticFields
 // SQLite4Unity3d.SQLiteException
 
 // SQLite4Unity3d.SQLiteException
-
-// System.SystemException
-
-// System.SystemException
 
 // Mapbox.Platform.TilesetTileJSON.TileJSONResponse
 
@@ -5886,10 +5759,6 @@ struct Type_t_StaticFields
 
 // System.Action
 
-// UnityEngine.Behaviour
-
-// UnityEngine.Behaviour
-
 // Mapbox.Map.ClassicRasterTile
 
 // Mapbox.Map.ClassicRasterTile
@@ -5934,10 +5803,6 @@ struct ForwardGeocodeResource_t909A6E99962365D891C9D803C6F9EAB22D597FB6_StaticFi
 // Mapbox.Map.ClassicRetinaRasterTile
 
 // Mapbox.Map.ClassicRetinaRasterTile
-
-// UnityEngine.MonoBehaviour
-
-// UnityEngine.MonoBehaviour
 
 // Mapbox.Unity.MeshGeneration.Data.UnityTile
 

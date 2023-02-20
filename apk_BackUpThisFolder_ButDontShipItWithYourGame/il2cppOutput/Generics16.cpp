@@ -1322,10 +1322,6 @@ struct EqualityComparer_1_tA9E82A9B0B7E927E3CA47986D133F8C8AC81C355_StaticFields
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<Mapbox.Map.UnwrappedTileId,System.Object>
 
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Runtime.Serialization.SerializationInfo
 
 // System.Runtime.Serialization.SerializationInfo
@@ -1338,10 +1334,6 @@ struct String_t_StaticFields
 };
 
 // System.String
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Collections.Generic.Dictionary`2/Entry<System.UInt32,System.Int32>
 
@@ -1382,22 +1374,9 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 
 // System.Collections.DictionaryEntry
 
-// UnityEngine.TextCore.LowLevel.GlyphValueRecord
-
-// UnityEngine.TextCore.LowLevel.GlyphValueRecord
-
 // System.Int32
 
 // System.Int32
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Runtime.Serialization.StreamingContext
 
@@ -1459,19 +1438,6 @@ struct IntPtr_t_StaticFields
 
 // System.Collections.Generic.KeyValuePair`2<Mapbox.Map.UnwrappedTileId,System.Object>
 
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
-// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-
-// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-
 // System.RuntimeTypeHandle
 
 // System.RuntimeTypeHandle
@@ -1491,10 +1457,6 @@ struct Exception_t_StaticFields
 // UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
 
 // UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

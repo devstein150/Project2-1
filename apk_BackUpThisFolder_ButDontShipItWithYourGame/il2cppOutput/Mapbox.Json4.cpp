@@ -3691,10 +3691,6 @@ struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : 
 
 // System.Collections.ObjectModel.Collection`1<Mapbox.Json.Linq.JToken>
 
-// System.Collections.ObjectModel.Collection`1<Mapbox.Json.JsonConverter>
-
-// System.Collections.ObjectModel.Collection`1<Mapbox.Json.JsonConverter>
-
 // System.Collections.ObjectModel.Collection`1<Mapbox.Json.Serialization.JsonProperty>
 
 // System.Collections.ObjectModel.Collection`1<Mapbox.Json.Serialization.JsonProperty>
@@ -3762,10 +3758,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 
 // System.Security.CodeAccessPermission
 
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 {
@@ -3790,15 +3782,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 };
 
 // System.Globalization.CultureInfo
-
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
 
 // Mapbox.Json.Linq.Extensions
 
@@ -3881,10 +3864,6 @@ struct JsonConvert_t36E88EEF2CFCEAC0D0E66E464FF7E54552AFCE22_StaticFields
 // Mapbox.Json.Serialization.JsonSerializerInternalBase
 
 // Mapbox.Json.Serialization.JsonSerializerInternalBase
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.Reflection.MemberInfo
 
@@ -4001,10 +3980,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 };
 
 // System.Uri
-
-// System.ValueType
-
-// System.ValueType
 
 // Mapbox.Json.Linq.Extensions/<>c
 struct U3CU3Ec_tAA94E8044F8918B31F0973E42650BF702865D050_StaticFields
@@ -4130,18 +4105,6 @@ struct JEnumerable_1_t97ADA6C55321DDFC8137CD8CC11056A8CC1E83EE_StaticFields
 
 // System.Nullable`1<System.Char>
 
-// System.Nullable`1<Mapbox.Json.DateFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.DateFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.DateParseHandling>
-
-// System.Nullable`1<Mapbox.Json.DateParseHandling>
-
-// System.Nullable`1<Mapbox.Json.DateTimeZoneHandling>
-
-// System.Nullable`1<Mapbox.Json.DateTimeZoneHandling>
-
 // System.Nullable`1<Mapbox.Json.DefaultValueHandling>
 
 // System.Nullable`1<Mapbox.Json.DefaultValueHandling>
@@ -4149,18 +4112,6 @@ struct JEnumerable_1_t97ADA6C55321DDFC8137CD8CC11056A8CC1E83EE_StaticFields
 // System.Nullable`1<System.Double>
 
 // System.Nullable`1<System.Double>
-
-// System.Nullable`1<Mapbox.Json.FloatFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatParseHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatParseHandling>
-
-// System.Nullable`1<Mapbox.Json.Formatting>
-
-// System.Nullable`1<Mapbox.Json.Formatting>
 
 // System.Nullable`1<System.Int16>
 
@@ -4186,10 +4137,6 @@ struct JEnumerable_1_t97ADA6C55321DDFC8137CD8CC11056A8CC1E83EE_StaticFields
 
 // System.Nullable`1<Mapbox.Json.NullValueHandling>
 
-// System.Nullable`1<Mapbox.Json.ObjectCreationHandling>
-
-// System.Nullable`1<Mapbox.Json.ObjectCreationHandling>
-
 // System.Nullable`1<Mapbox.Json.ReferenceLoopHandling>
 
 // System.Nullable`1<Mapbox.Json.ReferenceLoopHandling>
@@ -4206,10 +4153,6 @@ struct JEnumerable_1_t97ADA6C55321DDFC8137CD8CC11056A8CC1E83EE_StaticFields
 
 // System.Nullable`1<System.Single>
 
-// System.Nullable`1<Mapbox.Json.StringEscapeHandling>
-
-// System.Nullable`1<Mapbox.Json.StringEscapeHandling>
-
 // System.Nullable`1<Mapbox.Json.TypeNameHandling>
 
 // System.Nullable`1<Mapbox.Json.TypeNameHandling>
@@ -4225,10 +4168,6 @@ struct JEnumerable_1_t97ADA6C55321DDFC8137CD8CC11056A8CC1E83EE_StaticFields
 // System.Nullable`1<System.UInt64>
 
 // System.Nullable`1<System.UInt64>
-
-// System.Nullable`1<Mapbox.Json.Serialization.JsonSerializerInternalReader/PropertyPresence>
-
-// System.Nullable`1<Mapbox.Json.Serialization.JsonSerializerInternalReader/PropertyPresence>
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -4393,10 +4332,6 @@ struct JsonPosition_t0D64A24195A4953E327757BFBC8F0E897D5CBEE9_StaticFields
 
 // Mapbox.Json.Serialization.OnErrorAttribute
 
-// System.OrdinalComparer
-
-// System.OrdinalComparer
-
 // System.ComponentModel.PropertyChangedEventArgs
 
 // System.ComponentModel.PropertyChangedEventArgs
@@ -4432,14 +4367,6 @@ struct JsonPosition_t0D64A24195A4953E327757BFBC8F0E897D5CBEE9_StaticFields
 // System.Runtime.Serialization.StreamingContext
 
 // System.Runtime.Serialization.StreamingContext
-
-// Mapbox.Json.Utilities.StringBuffer
-
-// Mapbox.Json.Utilities.StringBuffer
-
-// Mapbox.Json.Utilities.StringReference
-
-// Mapbox.Json.Utilities.StringReference
 
 // System.IO.TextReader
 struct TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7_StaticFields
@@ -4728,14 +4655,6 @@ struct JsonPrimitiveContract_t50EF32419E49A4CD5E44BD3733BA8269A9CAD87A_StaticFie
 // Mapbox.Json.JsonTextWriter
 
 // Mapbox.Json.JsonTextWriter
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

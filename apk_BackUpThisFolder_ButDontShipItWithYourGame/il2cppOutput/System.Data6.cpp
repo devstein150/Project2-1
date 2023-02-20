@@ -2471,10 +2471,6 @@ struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
 
 // System.Collections.ArrayList
 
-// System.Attribute
-
-// System.Attribute
-
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 {
@@ -2536,23 +2532,6 @@ struct InternalDataCollectionBase_tDBDE593FD7AB64DA7E3C512E49C0E0B396D3DDB2_Stat
 
 // System.Data.InternalDataCollectionBase
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.ComponentModel.MarshalByValueComponent
-struct MarshalByValueComponent_t19E5966D1CE2F9ED341EB16C060BA573F63AEDAA_StaticFields
-{
-	// System.Object System.ComponentModel.MarshalByValueComponent::s_eventDisposed
-	RuntimeObject* ___s_eventDisposed_0;
-};
-
-// System.ComponentModel.MarshalByValueComponent
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Data.SqlTypes.SQLResource
 
 // System.Data.SqlTypes.SQLResource
@@ -2581,10 +2560,6 @@ struct String_t_StaticFields
 };
 
 // System.String
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Data.XmlDataTreeWriter
 
@@ -2618,10 +2593,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 
 // System.Xml.XmlReader
 
-// System.Xml.Schema.XmlSchemaObject
-
-// System.Xml.Schema.XmlSchemaObject
-
 // System.Xml.Schema.XmlSchemaSet
 
 // System.Xml.Schema.XmlSchemaSet
@@ -2633,10 +2604,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 // System.Xml.XmlWriter
 
 // System.Xml.XmlWriter
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -2674,10 +2641,6 @@ struct DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66_StaticFields
 // System.Data.DataColumnCollection
 
 // System.Data.DataColumnCollection
-
-// System.Data.DataKey
-
-// System.Data.DataKey
 
 // System.Data.DataRelationCollection
 struct DataRelationCollection_tA8655ADC9860DD89FDC0317E38C95CB740BC2956_StaticFields
@@ -2778,15 +2741,6 @@ struct Guid_t_StaticFields
 // System.Int64
 
 // System.Int64
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Single
 
@@ -3140,17 +3094,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 
 // System.Void
 
-// System.Xml.XmlCharType
-struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
-{
-	// System.Object System.Xml.XmlCharType::s_Lock
-	RuntimeObject* ___s_Lock_0;
-	// System.Byte[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.XmlCharType::s_CharProperties
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_CharProperties_1;
-};
-
-// System.Xml.XmlCharType
-
 // System.Xml.Serialization.XmlRootAttribute
 
 // System.Xml.Serialization.XmlRootAttribute
@@ -3282,10 +3225,6 @@ struct XmlTextWriter_t9CB64E379F8FE646DA31698A03CE6AF8A594A73B_StaticFields
 
 // System.Xml.XmlTextWriter
 
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -3307,21 +3246,9 @@ struct Type_t_StaticFields
 
 // System.Type
 
-// System.ArgumentException
-
-// System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
-
 // System.FormatException
 
 // System.FormatException
-
-// System.NotSupportedException
-
-// System.NotSupportedException
 
 // System.Data.SqlTypes.SqlTypeException
 

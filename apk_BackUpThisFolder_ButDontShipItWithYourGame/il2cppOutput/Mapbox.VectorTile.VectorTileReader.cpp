@@ -1037,10 +1037,6 @@ struct String_t_StaticFields
 
 // System.String
 
-// System.ValueType
-
-// System.ValueType
-
 // Mapbox.VectorTile.VectorTile
 
 // Mapbox.VectorTile.VectorTile
@@ -1132,10 +1128,6 @@ struct IntPtr_t_StaticFields
 
 // System.Void
 
-// System.Delegate
-
-// System.Delegate
-
 // System.Exception
 struct Exception_t_StaticFields
 {
@@ -1148,10 +1140,6 @@ struct Exception_t_StaticFields
 // Mapbox.VectorTile.VectorTileFeature
 
 // Mapbox.VectorTile.VectorTileFeature
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.Func`2<System.UInt32,System.Int32>
 

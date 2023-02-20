@@ -3072,14 +3072,6 @@ struct EncodingHelper_t550B821C2238175DED2DD6B1E4442FC553A227DE_StaticFields
 
 // System.Security.Cryptography.KeySizes
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Text.Normalization
 struct Normalization_t15B8C90D2AEC7D6D933322DBDF8850055BDD24AA_StaticFields
 {
@@ -3256,10 +3248,6 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
 
 // System.Security.Util.TokenizerStringBlock
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Security.Cryptography.CryptoStream/<>c
 struct U3CU3Ec_tF01DDB6A569BBD5CC38FA00845E95693FCC81D1C_StaticFields
 {
@@ -3345,10 +3333,6 @@ struct Aes_tC72E711D7751C8AEAF59C51CA0E61A3857068047_StaticFields
 
 // System.Security.Cryptography.Aes
 
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
-
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -3400,10 +3384,6 @@ struct DES_t4155628A71AAB12F38CF629C8CDDD21540E84315_StaticFields
 // System.Text.EncoderNLS
 
 // System.Text.EncoderNLS
-
-// System.Text.EncodingNLS
-
-// System.Text.EncodingNLS
 
 // System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
@@ -3583,15 +3563,6 @@ struct AsyncTaskMethodBuilder_1_tF0BDBC54D5EB433C1205550D0F9819F43C9D4019_Static
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32>
 
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
-struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC_StaticFields
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_defaultResultTask_0;
-};
-
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
-
 // System.ByReference`1<System.Byte>
 
 // System.ByReference`1<System.Byte>
@@ -3611,10 +3582,6 @@ struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC_Static
 // System.Security.Cryptography.DESCryptoServiceProvider
 
 // System.Security.Cryptography.DESCryptoServiceProvider
-
-// System.Delegate
-
-// System.Delegate
 
 // System.Exception
 struct Exception_t_StaticFields
@@ -3699,10 +3666,6 @@ struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFi
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.SystemException
 
 // System.SystemException
@@ -3760,10 +3723,6 @@ struct Type_t_StaticFields
 
 // System.InvalidOperationException
 
-// System.MemberAccessException
-
-// System.MemberAccessException
-
 // System.NotImplementedException
 
 // System.NotImplementedException
@@ -3816,10 +3775,6 @@ struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7_StaticFi
 // System.Security.Cryptography.CryptographicUnexpectedOperationException
 
 // System.Security.Cryptography.CryptographicUnexpectedOperationException
-
-// System.MissingMemberException
-
-// System.MissingMemberException
 
 // System.ObjectDisposedException
 

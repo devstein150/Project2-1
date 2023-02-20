@@ -4088,10 +4088,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 
 // System.Xml.Serialization.KeyHelper
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.Text.RegularExpressions.MatchCollection
 
 // System.Text.RegularExpressions.MatchCollection
@@ -4158,44 +4154,6 @@ struct String_t_StaticFields
 // System.Text.StringBuilder
 
 // System.Text.StringBuilder
-
-// System.Threading.Tasks.Task
-struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
-{
-	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
-	int32_t ___s_taskIdCounter_0;
-	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
-	RuntimeObject* ___s_taskCompletionSentinel_24;
-	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
-	bool ___s_asyncDebuggingEnabled_25;
-	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
-	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
-	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
-	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
-	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
-	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
-	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
-	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
-	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
-	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
-	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
-	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
-	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
-	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
-	RuntimeObject* ___s_activeTasksLock_37;
-};
-
-// System.Threading.Tasks.Task
-struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
-{
-	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
-	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
-	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
-};
 
 // System.Xml.Serialization.TypeData
 struct TypeData_t7337956773D9138116ADAB3E8CB50EDD106FA704_StaticFields
@@ -4276,10 +4234,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XPath.XPathDocument
 
 // System.Xml.XPath.XPathDocument
@@ -4303,10 +4257,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 // System.Xml.XmlDownloadManager
 
 // System.Xml.XmlDownloadManager
-
-// System.Xml.Serialization.XmlMapping
-
-// System.Xml.Serialization.XmlMapping
 
 // System.Xml.XmlNameTable
 
@@ -4338,10 +4288,6 @@ struct XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9_StaticFields
 // System.Xml.Schema.XmlSchemaDatatype
 
 // System.Xml.Schema.XmlSchemaDatatype
-
-// System.Xml.Schema.XmlSchemaObject
-
-// System.Xml.Schema.XmlSchemaObject
 
 // System.Xml.Serialization.XmlSerializerNamespaces
 
@@ -4410,10 +4356,6 @@ struct Task_1_t5E1291839AEFBDBE3699513D40515588EE167AB0_StaticFields
 
 // System.Threading.Tasks.Task`1<System.Net.WebResponse>
 
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
-
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -4432,15 +4374,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 // Microsoft.CSharp.CSharpCodeProvider
 
 // Microsoft.CSharp.CSharpCodeProvider
-
-// System.Threading.CancellationToken
-struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_StaticFields
-{
-	// System.Action`1<System.Object> System.Threading.CancellationToken::s_actionToActionObjShunt
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_actionToActionObjShunt_1;
-};
-
-// System.Threading.CancellationToken
 
 // System.Char
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
@@ -4501,15 +4434,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 };
 
 // System.Enum
-
-// System.Text.RegularExpressions.Group
-struct Group_t26371E9136D6F43782C487B63C67C5FC4F472881_StaticFields
-{
-	// System.Text.RegularExpressions.Group System.Text.RegularExpressions.Group::s_emptyGroup
-	Group_t26371E9136D6F43782C487B63C67C5FC4F472881* ___s_emptyGroup_3;
-};
-
-// System.Text.RegularExpressions.Group
 
 // System.Guid
 struct Guid_t_StaticFields
@@ -4681,71 +4605,6 @@ struct XPathNavigator_tC010C20907D6C6F1589A1BF1B5BE4C313C289E13_StaticFields
 
 // System.Xml.Serialization.XmlAttributeEventArgs
 
-// System.Xml.Schema.XmlBaseConverter
-struct XmlBaseConverter_tB935E170055CCB49F182D426AC09B2D4C0DA919D_StaticFields
-{
-	// System.Type System.Xml.Schema.XmlBaseConverter::ICollectionType
-	Type_t* ___ICollectionType_3;
-	// System.Type System.Xml.Schema.XmlBaseConverter::IEnumerableType
-	Type_t* ___IEnumerableType_4;
-	// System.Type System.Xml.Schema.XmlBaseConverter::IListType
-	Type_t* ___IListType_5;
-	// System.Type System.Xml.Schema.XmlBaseConverter::ObjectArrayType
-	Type_t* ___ObjectArrayType_6;
-	// System.Type System.Xml.Schema.XmlBaseConverter::StringArrayType
-	Type_t* ___StringArrayType_7;
-	// System.Type System.Xml.Schema.XmlBaseConverter::XmlAtomicValueArrayType
-	Type_t* ___XmlAtomicValueArrayType_8;
-	// System.Type System.Xml.Schema.XmlBaseConverter::DecimalType
-	Type_t* ___DecimalType_9;
-	// System.Type System.Xml.Schema.XmlBaseConverter::Int32Type
-	Type_t* ___Int32Type_10;
-	// System.Type System.Xml.Schema.XmlBaseConverter::Int64Type
-	Type_t* ___Int64Type_11;
-	// System.Type System.Xml.Schema.XmlBaseConverter::StringType
-	Type_t* ___StringType_12;
-	// System.Type System.Xml.Schema.XmlBaseConverter::XmlAtomicValueType
-	Type_t* ___XmlAtomicValueType_13;
-	// System.Type System.Xml.Schema.XmlBaseConverter::ObjectType
-	Type_t* ___ObjectType_14;
-	// System.Type System.Xml.Schema.XmlBaseConverter::ByteType
-	Type_t* ___ByteType_15;
-	// System.Type System.Xml.Schema.XmlBaseConverter::Int16Type
-	Type_t* ___Int16Type_16;
-	// System.Type System.Xml.Schema.XmlBaseConverter::SByteType
-	Type_t* ___SByteType_17;
-	// System.Type System.Xml.Schema.XmlBaseConverter::UInt16Type
-	Type_t* ___UInt16Type_18;
-	// System.Type System.Xml.Schema.XmlBaseConverter::UInt32Type
-	Type_t* ___UInt32Type_19;
-	// System.Type System.Xml.Schema.XmlBaseConverter::UInt64Type
-	Type_t* ___UInt64Type_20;
-	// System.Type System.Xml.Schema.XmlBaseConverter::XPathItemType
-	Type_t* ___XPathItemType_21;
-	// System.Type System.Xml.Schema.XmlBaseConverter::DoubleType
-	Type_t* ___DoubleType_22;
-	// System.Type System.Xml.Schema.XmlBaseConverter::SingleType
-	Type_t* ___SingleType_23;
-	// System.Type System.Xml.Schema.XmlBaseConverter::DateTimeType
-	Type_t* ___DateTimeType_24;
-	// System.Type System.Xml.Schema.XmlBaseConverter::DateTimeOffsetType
-	Type_t* ___DateTimeOffsetType_25;
-	// System.Type System.Xml.Schema.XmlBaseConverter::BooleanType
-	Type_t* ___BooleanType_26;
-	// System.Type System.Xml.Schema.XmlBaseConverter::ByteArrayType
-	Type_t* ___ByteArrayType_27;
-	// System.Type System.Xml.Schema.XmlBaseConverter::XmlQualifiedNameType
-	Type_t* ___XmlQualifiedNameType_28;
-	// System.Type System.Xml.Schema.XmlBaseConverter::UriType
-	Type_t* ___UriType_29;
-	// System.Type System.Xml.Schema.XmlBaseConverter::TimeSpanType
-	Type_t* ___TimeSpanType_30;
-	// System.Type System.Xml.Schema.XmlBaseConverter::XPathNavigatorType
-	Type_t* ___XPathNavigatorType_31;
-};
-
-// System.Xml.Schema.XmlBaseConverter
-
 // System.Xml.XmlCharType
 struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
 {
@@ -4761,10 +4620,6 @@ struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
 
 // System.Xml.Serialization.XmlElementEventArgs
 
-// System.Xml.XmlLinkedNode
-
-// System.Xml.XmlLinkedNode
-
 // System.Xml.Serialization.XmlNodeEventArgs
 
 // System.Xml.Serialization.XmlNodeEventArgs
@@ -4772,10 +4627,6 @@ struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
 // System.Xml.Serialization.XmlRootAttribute
 
 // System.Xml.Serialization.XmlRootAttribute
-
-// System.Xml.Schema.XmlSchemaAnnotated
-
-// System.Xml.Schema.XmlSchemaAnnotated
 
 // System.Xml.Serialization.XmlTypeConvertorAttribute
 
@@ -4801,10 +4652,6 @@ struct XmlUrlResolver_tD1DCA07B66A58F98930187AF17C9B31258C1008E_StaticFields
 // System.Xml.Schema.XsdDuration
 
 // System.Xml.Schema.XsdDuration
-
-// System.Net.HttpWebRequest/AuthorizationState
-
-// System.Net.HttpWebRequest/AuthorizationState
 
 // System.Xml.XPath.XPathNavigator/DebuggerDisplayProxy
 
@@ -5031,10 +4878,6 @@ struct XmlConvert_t5D100AFD62FF717BD4F8A6CABA9EDF7A5DF719EA_StaticFields
 
 // System.Xml.XmlElement
 
-// System.Xml.Schema.XmlListConverter
-
-// System.Xml.Schema.XmlListConverter
-
 // System.Xml.XmlRegisteredNonCachedStream
 
 // System.Xml.XmlRegisteredNonCachedStream
@@ -5099,10 +4942,6 @@ struct XsdDateTime_t232255D69CF1B25B380F0C9D87D0002844A1E8BB_StaticFields
 };
 
 // System.Xml.Schema.XsdDateTime
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.SystemException
 
@@ -5175,10 +5014,6 @@ struct XmlUntypedConverter_tB707BD09CB81865831777481D33D744A4E960703_StaticField
 // System.ArgumentException
 
 // System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.AsyncCallback
 

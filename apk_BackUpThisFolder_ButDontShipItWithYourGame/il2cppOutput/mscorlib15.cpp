@@ -4024,10 +4024,6 @@ struct ChannelServices_t7892AD29816C874462159101B299713604D1A637_StaticFields
 
 // System.Runtime.Remoting.Activation.ContextLevelActivator
 
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
 // System.Runtime.Remoting.Channels.CrossAppDomainSink
 struct CrossAppDomainSink_t857B6C94B9359293ED92A9BE989EDAB43B304740_StaticFields
 {
@@ -4325,10 +4321,6 @@ struct String_t_StaticFields
 // System.Runtime.Serialization.SurrogateForCyclicalReference
 
 // System.Runtime.Serialization.SurrogateForCyclicalReference
-
-// System.Runtime.Remoting.TypeEntry
-
-// System.Runtime.Remoting.TypeEntry
 
 // System.Runtime.Serialization.TypeLoadExceptionHolder
 
@@ -4631,15 +4623,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 
 // System.UInt64
 
-// System.UIntPtr
-struct UIntPtr_t_StaticFields
-{
-	// System.UIntPtr System.UIntPtr::Zero
-	uintptr_t ___Zero_0;
-};
-
-// System.UIntPtr
-
 // System.Void
 
 // System.Void
@@ -4816,10 +4799,6 @@ struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
 
 // System.Threading.EventWaitHandle
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.Reflection.RuntimeConstructorInfo
 
 // System.Reflection.RuntimeConstructorInfo
@@ -4929,10 +4908,6 @@ struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7_StaticFi
 // System.Threading.ThreadAbortException
 
 // System.Threading.ThreadAbortException
-
-// System.Reflection.TypeInfo
-
-// System.Reflection.TypeInfo
 
 // System.Threading.WaitCallback
 

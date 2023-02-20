@@ -3328,10 +3328,6 @@ struct List_1_t03551104C97124C9D83186EEB3F066B8BFFD87E3_StaticFields
 
 // System.Attribute
 
-// Mono.Security.Authenticode.AuthenticodeBase
-
-// Mono.Security.Authenticode.AuthenticodeBase
-
 // System.Globalization.Calendar
 
 // System.Globalization.Calendar
@@ -3358,10 +3354,6 @@ struct Console_t5EDF9498D011BD48287171978EDBBA6964829C3E_StaticFields
 };
 
 // System.Console
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
@@ -3464,10 +3456,6 @@ struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
 
 // System.MarshalByRefObject
 
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Security.Cryptography.Oid
 
 // System.Security.Cryptography.Oid
@@ -3528,10 +3516,6 @@ struct PublicKey_t489DEA83CED0412BF5E066D3BC4527361DCFC405_StaticFields
 };
 
 // System.Security.Cryptography.X509Certificates.PublicKey
-
-// System.Collections.ReadOnlyCollectionBase
-
-// System.Collections.ReadOnlyCollectionBase
 
 // System.Runtime.Serialization.SerializationInfo
 
@@ -3618,10 +3602,6 @@ struct TraceInternal_t0889A704B4CC74B9E3D62989BA6C67D2B3AB23CB_ThreadStaticField
 // System.Diagnostics.TraceListenerCollection
 
 // System.Diagnostics.TraceListenerCollection
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
 
@@ -3980,10 +3960,6 @@ struct X509ChainImplMono_t763E3B59A7689962856335623AC8C8590DD6EF7D_StaticFields
 
 // Internal.Cryptography.Pal.CertificateData/AlgorithmIdentifier
 
-// Interop/Sys/FileStatus
-
-// Interop/Sys/FileStatus
-
 // Mono.Security.Authenticode.AuthenticodeDeformatter
 
 // Mono.Security.Authenticode.AuthenticodeDeformatter
@@ -4026,10 +4002,6 @@ struct Exception_t_StaticFields
 };
 
 // System.Exception
-
-// System.IO.FileStatus
-
-// System.IO.FileStatus
 
 // System.IO.FileStream
 struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
@@ -4171,25 +4143,13 @@ struct X509Certificate2Collection_t703D5135E74BA606B564EF174E08964B9C3DADEB_Stat
 
 // Mono.Security.X509.X509Crl/X509CrlEntry
 
-// System.Threading.EventWaitHandle
-
-// System.Threading.EventWaitHandle
-
 // System.IO.FileSystemInfo
 
 // System.IO.FileSystemInfo
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.Diagnostics.ProcessWaitHandle
 
 // System.Diagnostics.ProcessWaitHandle
-
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
 
 // Microsoft.Win32.SafeHandles.SafePasswordHandle
 
@@ -4251,10 +4211,6 @@ struct Type_t_StaticFields
 // System.EventHandler
 
 // System.EventHandler
-
-// System.Runtime.InteropServices.ExternalException
-
-// System.Runtime.InteropServices.ExternalException
 
 // System.IO.FileInfo
 

@@ -3388,23 +3388,6 @@ struct DataTableCollection_t9F8C02B7597B3B56A0DBB3313545C0AC3A4FE997_StaticField
 
 // System.Data.DataTableCollection
 
-// System.Decimal
-struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
-{
-	// System.Decimal System.Decimal::Zero
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_3;
-	// System.Decimal System.Decimal::One
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_4;
-	// System.Decimal System.Decimal::MinusOne
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_5;
-	// System.Decimal System.Decimal::MaxValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_6;
-	// System.Decimal System.Decimal::MinValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_7;
-};
-
-// System.Decimal
-
 // System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 {
@@ -3455,10 +3438,6 @@ struct ListBindableAttribute_t9CEF5416BE8F70CE47130DA0897D2AC603BD3517_StaticFie
 };
 
 // System.ComponentModel.ListBindableAttribute
-
-// System.Reflection.MethodBase
-
-// System.Reflection.MethodBase
 
 // System.ComponentModel.PropertyChangedEventArgs
 
@@ -3610,10 +3589,6 @@ struct Exception_t_StaticFields
 // System.Data.UniqueConstraint
 
 // System.Data.UniqueConstraint
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.SystemException
 

@@ -172,6 +172,8 @@ struct PointerInputModule_tD71E11FA989C22D83883E120EAA4F05929907556;
 struct ReflectionMethodsCache_t711B47CE11EA2092B94127FF8D3361AE2E4859F5;
 // UnityEngine.Renderer
 struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+// UnityEngine.Rendering.SortingGroup
+struct SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759;
 // System.String
 struct String_t;
 // System.Text.StringBuilder
@@ -781,18 +783,22 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023
 	float ___index_3;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::depth
 	int32_t ___depth_4;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupID
+	int32_t ___sortingGroupID_5;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupOrder
+	int32_t ___sortingGroupOrder_6;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingLayer
-	int32_t ___sortingLayer_5;
+	int32_t ___sortingLayer_7;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
-	int32_t ___sortingOrder_6;
+	int32_t ___sortingOrder_8;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.RaycastResult::screenPosition
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::displayIndex
-	int32_t ___displayIndex_10;
+	int32_t ___displayIndex_12;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
@@ -802,12 +808,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 // Native definition for COM marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
@@ -817,12 +825,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 
 // UnityEngine.Touch
@@ -1042,6 +1052,11 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 {
 };
 
+// UnityEngine.Rendering.SortingGroup
+struct SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
 // UnityEngine.SpriteRenderer
 struct SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
 {
@@ -1193,10 +1208,6 @@ struct List_1_t8292C421BBB00D7661DC07462822936152BAB446_StaticFields
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
 
-// UnityEngine.EventSystems.AbstractEventData
-
-// UnityEngine.EventSystems.AbstractEventData
-
 // UnityEngine.EventSystems.RaycasterManager
 struct RaycasterManager_tE359EBDE4F0EF3681A6E3662B340AC4D53502074_StaticFields
 {
@@ -1227,10 +1238,6 @@ struct String_t_StaticFields
 // System.Text.StringBuilder
 
 // System.Text.StringBuilder
-
-// System.ValueType
-
-// System.ValueType
 
 // UnityEngine.EventSystems.PhysicsRaycaster/RaycastHitComparer
 struct RaycastHitComparer_t8EF6567C19BE9FB575E01A10941FBF7DE3D3DDF1_StaticFields
@@ -1283,15 +1290,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 // System.Int32
 
 // System.Int32
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // UnityEngine.LayerMask
 
@@ -1372,10 +1370,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
 
-// UnityEngine.EventSystems.EventSystem/UIToolkitOverrideConfig
-
-// UnityEngine.EventSystems.EventSystem/UIToolkitOverrideConfig
-
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
@@ -1392,10 +1386,6 @@ struct U3CPrivateImplementationDetailsU3E_t3A51899FBAA581553000230A6A0F928985532
 };
 
 // <PrivateImplementationDetails>
-
-// System.Delegate
-
-// System.Delegate
 
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
@@ -1433,10 +1423,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // UnityEngine.GameObject
 
 // UnityEngine.GameObject
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // UnityEngine.EventSystems.PointerEventData
 
@@ -1522,6 +1508,10 @@ struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
 // UnityEngine.MonoBehaviour
 
 // UnityEngine.MonoBehaviour
+
+// UnityEngine.Rendering.SortingGroup
+
+// UnityEngine.Rendering.SortingGroup
 
 // UnityEngine.SpriteRenderer
 
@@ -2108,10 +2098,24 @@ inline int32_t List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_inline
 {
 	return ((  int32_t (*) (List_1_t8292C421BBB00D7661DC07462822936152BAB446*, const RuntimeMethod*))List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_gshared_inline)(__this, method);
 }
+// System.Int32 UnityEngine.Rendering.SortingGroup::get_invalidSortingGroupID()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SortingGroup_get_invalidSortingGroupID_mEA453186185B225FA2410988959180BAEC604310 (const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Renderer::get_sortingGroupID()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Renderer_get_sortingGroupID_m1DEFE39027236FF31AB603993BBC13C072E52118 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Renderer::get_sortingGroupOrder()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Renderer_get_sortingGroupOrder_m40F058B3AFC92CCEF2475E0BD9A96464154E999E (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Renderer::get_sortingLayerID()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Renderer_get_sortingLayerID_m3D7AE74F1B87099810CF969CB4520C85F9AE5F92 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Renderer::get_sortingOrder()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Renderer_get_sortingOrder_m4CE7ADEEC8E2F28CC1D10B1D4091A10F8F1583FA (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
+// UnityEngine.Rendering.SortingGroup UnityEngine.Rendering.SortingGroup::GetSortingGroupByIndex(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759* SortingGroup_GetSortingGroupByIndex_mC4CFB06D8C4B0EA27FC4BDC60AA05F4E0B28426B (int32_t ___0_index, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Ray::get_origin()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Rendering.SortingGroup::get_sortingLayerID()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SortingGroup_get_sortingLayerID_m37C70CEA78DA6E28F405C67EDE95D5C2191F0055 (SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Rendering.SortingGroup::get_sortingOrder()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SortingGroup_get_sortingOrder_mC80606E6BB9A6D5E3AB61A0451C48203A0C1AB6A (SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Add(T)
 inline void List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_inline (List_1_t8292C421BBB00D7661DC07462822936152BAB446* __this, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___0_item, const RuntimeMethod* method)
 {
@@ -4096,13 +4100,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2DRaycaster_Raycast_m9F6AA9C9DC7A
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_13 = NULL;
 	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 V_14;
 	memset((&V_14), 0, sizeof(V_14));
-	bool V_15 = false;
+	SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759* V_15 = NULL;
 	bool V_16 = false;
 	bool V_17 = false;
 	bool V_18 = false;
-	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 V_19;
-	memset((&V_19), 0, sizeof(V_19));
-	bool V_20 = false;
+	bool V_19 = false;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 V_20;
+	memset((&V_20), 0, sizeof(V_20));
+	bool V_21 = false;
+	bool V_22 = false;
 	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B23_0 = NULL;
 	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B22_0 = NULL;
 	int32_t G_B24_0 = 0;
@@ -4111,6 +4117,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2DRaycaster_Raycast_m9F6AA9C9DC7A
 	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B25_0 = NULL;
 	int32_t G_B27_0 = 0;
 	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B27_1 = NULL;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B29_0 = NULL;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B28_0 = NULL;
+	int32_t G_B30_0 = 0;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B30_1 = NULL;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B32_0 = NULL;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B31_0 = NULL;
+	int32_t G_B33_0 = 0;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* G_B33_1 = NULL;
+	int32_t G_B36_0 = 0;
 	{
 		// Ray ray = new Ray();
 		il2cpp_codegen_initobj((&V_0), sizeof(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00));
@@ -4131,7 +4146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2DRaycaster_Raycast_m9F6AA9C9DC7A
 	}
 	{
 		// return;
-		goto IL_0295;
+		goto IL_0336;
 	}
 
 IL_002c:
@@ -4163,7 +4178,7 @@ IL_002c:
 	}
 	{
 		// return;
-		goto IL_0295;
+		goto IL_0336;
 	}
 
 IL_0056:
@@ -4205,7 +4220,7 @@ IL_007f:
 	}
 	{
 		// return;
-		goto IL_0295;
+		goto IL_0336;
 	}
 
 IL_0098:
@@ -4258,7 +4273,7 @@ IL_00ed:
 		bool L_32 = V_9;
 		if (!L_32)
 		{
-			goto IL_0295;
+			goto IL_0336;
 		}
 	}
 	{
@@ -4267,7 +4282,7 @@ IL_00ed:
 		// for (int b = 0, bmax = hitCount; b < bmax; ++b)
 		int32_t L_33 = V_3;
 		V_11 = L_33;
-		goto IL_0285;
+		goto IL_0326;
 	}
 
 IL_0106:
@@ -4292,8 +4307,8 @@ IL_0106:
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_40;
 		L_40 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_39, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		V_15 = L_40;
-		bool L_41 = V_15;
+		V_16 = L_40;
+		bool L_41 = V_16;
 		if (!L_41)
 		{
 			goto IL_017a;
@@ -4302,8 +4317,8 @@ IL_0106:
 	{
 		// if (rendererResult is SpriteRenderer)
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_42 = V_13;
-		V_16 = (bool)((!(((RuntimeObject*)(SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)((SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)IsInstSealed((RuntimeObject*)L_42, SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_43 = V_16;
+		V_17 = (bool)((!(((RuntimeObject*)(SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)((SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)IsInstSealed((RuntimeObject*)L_42, SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_43 = V_17;
 		if (!L_43)
 		{
 			goto IL_014d;
@@ -4319,8 +4334,8 @@ IL_014d:
 	{
 		// if (rendererResult is TilemapRenderer)
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_45 = V_13;
-		V_17 = (bool)((!(((RuntimeObject*)(TilemapRenderer_t1A45FD335E86172CFBB77D657E1D6705A477A6CB*)((TilemapRenderer_t1A45FD335E86172CFBB77D657E1D6705A477A6CB*)IsInstSealed((RuntimeObject*)L_45, TilemapRenderer_t1A45FD335E86172CFBB77D657E1D6705A477A6CB_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_46 = V_17;
+		V_18 = (bool)((!(((RuntimeObject*)(TilemapRenderer_t1A45FD335E86172CFBB77D657E1D6705A477A6CB*)((TilemapRenderer_t1A45FD335E86172CFBB77D657E1D6705A477A6CB*)IsInstSealed((RuntimeObject*)L_45, TilemapRenderer_t1A45FD335E86172CFBB77D657E1D6705A477A6CB_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_46 = V_18;
 		if (!L_46)
 		{
 			goto IL_0163;
@@ -4336,8 +4351,8 @@ IL_0163:
 	{
 		// if (rendererResult is SpriteShapeRenderer)
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_48 = V_13;
-		V_18 = (bool)((!(((RuntimeObject*)(SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC*)((SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC*)IsInstClass((RuntimeObject*)L_48, SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_49 = V_18;
+		V_19 = (bool)((!(((RuntimeObject*)(SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC*)((SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC*)IsInstClass((RuntimeObject*)L_48, SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_49 = V_19;
 		if (!L_49)
 		{
 			goto IL_0179;
@@ -4365,10 +4380,12 @@ IL_017a:
 		//     screenPosition = eventData.position,
 		//     displayIndex = displayIndex,
 		//     index = resultAppendList.Count,
-		//     sortingLayer =  r2d != null ? r2d.sortingLayerID : 0,
+		//     sortingGroupID = r2d != null ? r2d.sortingGroupID : SortingGroup.invalidSortingGroupID,
+		//     sortingGroupOrder = r2d != null ? r2d.sortingGroupOrder : 0,
+		//     sortingLayer = r2d != null ? r2d.sortingLayerID : 0,
 		//     sortingOrder = r2d != null ? r2d.sortingOrder : 0
 		// };
-		il2cpp_codegen_initobj((&V_19), sizeof(RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023));
+		il2cpp_codegen_initobj((&V_20), sizeof(RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023));
 		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_51 = __this->___m_Hits_11;
 		int32_t L_52 = V_10;
 		NullCheck(L_51);
@@ -4377,9 +4394,9 @@ IL_017a:
 		NullCheck(L_53);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54;
 		L_54 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_53, NULL);
-		RaycastResult_set_gameObject_mCFEB66C0E3F01AC5E55040FE8BEB16E40427BD9E((&V_19), L_54, NULL);
-		(&V_19)->___module_1 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_19)->___module_1), (void*)__this);
+		RaycastResult_set_gameObject_mCFEB66C0E3F01AC5E55040FE8BEB16E40427BD9E((&V_20), L_54, NULL);
+		(&V_20)->___module_1 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_20)->___module_1), (void*)__this);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_55;
 		L_55 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
 		NullCheck(L_55);
@@ -4397,7 +4414,7 @@ IL_017a:
 		L_61 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_60, NULL);
 		float L_62;
 		L_62 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_57, L_61, NULL);
-		(&V_19)->___distance_2 = L_62;
+		(&V_20)->___distance_2 = L_62;
 		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_63 = __this->___m_Hits_11;
 		int32_t L_64 = V_10;
 		NullCheck(L_63);
@@ -4405,7 +4422,7 @@ IL_017a:
 		L_65 = RaycastHit2D_get_point_mB35E988E9E04328EFE926228A18334326721A36B(((L_63)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_64))), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66;
 		L_66 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_65, NULL);
-		(&V_19)->___worldPosition_7 = L_66;
+		(&V_20)->___worldPosition_9 = L_66;
 		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_67 = __this->___m_Hits_11;
 		int32_t L_68 = V_10;
 		NullCheck(L_67);
@@ -4413,99 +4430,229 @@ IL_017a:
 		L_69 = RaycastHit2D_get_normal_m75F1EBDE347BACEB5A6A6AA72543C740806AB5F2(((L_67)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_68))), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70;
 		L_70 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_69, NULL);
-		(&V_19)->___worldNormal_8 = L_70;
+		(&V_20)->___worldNormal_10 = L_70;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_71 = ___0_eventData;
 		NullCheck(L_71);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_72;
 		L_72 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_71, NULL);
-		(&V_19)->___screenPosition_9 = L_72;
+		(&V_20)->___screenPosition_11 = L_72;
 		int32_t L_73 = V_2;
-		(&V_19)->___displayIndex_10 = L_73;
+		(&V_20)->___displayIndex_12 = L_73;
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_74 = ___1_resultAppendList;
 		NullCheck(L_74);
 		int32_t L_75;
 		L_75 = List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_inline(L_74, List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_RuntimeMethod_var);
-		(&V_19)->___index_3 = ((float)L_75);
+		(&V_20)->___index_3 = ((float)L_75);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_76 = V_12;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_77;
 		L_77 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_76, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		G_B22_0 = (&V_19);
+		G_B22_0 = (&V_20);
 		if (L_77)
 		{
-			G_B23_0 = (&V_19);
-			goto IL_024a;
+			G_B23_0 = (&V_20);
+			goto IL_024e;
 		}
 	}
 	{
-		G_B24_0 = 0;
+		int32_t L_78;
+		L_78 = SortingGroup_get_invalidSortingGroupID_mEA453186185B225FA2410988959180BAEC604310(NULL);
+		G_B24_0 = L_78;
 		G_B24_1 = G_B22_0;
-		goto IL_0251;
+		goto IL_0255;
 	}
 
-IL_024a:
+IL_024e:
 	{
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_78 = V_12;
-		NullCheck(L_78);
-		int32_t L_79;
-		L_79 = Renderer_get_sortingLayerID_m3D7AE74F1B87099810CF969CB4520C85F9AE5F92(L_78, NULL);
-		G_B24_0 = L_79;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_79 = V_12;
+		NullCheck(L_79);
+		int32_t L_80;
+		L_80 = Renderer_get_sortingGroupID_m1DEFE39027236FF31AB603993BBC13C072E52118(L_79, NULL);
+		G_B24_0 = L_80;
 		G_B24_1 = G_B23_0;
 	}
 
-IL_0251:
+IL_0255:
 	{
-		G_B24_1->___sortingLayer_5 = G_B24_0;
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_80 = V_12;
+		G_B24_1->___sortingGroupID_5 = G_B24_0;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_81 = V_12;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_81;
-		L_81 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_80, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		G_B25_0 = (&V_19);
-		if (L_81)
+		bool L_82;
+		L_82 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_81, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		G_B25_0 = (&V_20);
+		if (L_82)
 		{
-			G_B26_0 = (&V_19);
-			goto IL_0265;
+			G_B26_0 = (&V_20);
+			goto IL_0269;
 		}
 	}
 	{
 		G_B27_0 = 0;
 		G_B27_1 = G_B25_0;
-		goto IL_026c;
+		goto IL_0270;
 	}
 
-IL_0265:
+IL_0269:
 	{
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_82 = V_12;
-		NullCheck(L_82);
-		int32_t L_83;
-		L_83 = Renderer_get_sortingOrder_m4CE7ADEEC8E2F28CC1D10B1D4091A10F8F1583FA(L_82, NULL);
-		G_B27_0 = L_83;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_83 = V_12;
+		NullCheck(L_83);
+		int32_t L_84;
+		L_84 = Renderer_get_sortingGroupOrder_m40F058B3AFC92CCEF2475E0BD9A96464154E999E(L_83, NULL);
+		G_B27_0 = L_84;
 		G_B27_1 = G_B26_0;
 	}
 
-IL_026c:
+IL_0270:
 	{
-		G_B27_1->___sortingOrder_6 = G_B27_0;
-		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_84 = V_19;
-		V_14 = L_84;
-		// resultAppendList.Add(result);
-		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_85 = ___1_resultAppendList;
-		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_86 = V_14;
-		NullCheck(L_85);
-		List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_inline(L_85, L_86, List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_RuntimeMethod_var);
-		// for (int b = 0, bmax = hitCount; b < bmax; ++b)
-		int32_t L_87 = V_10;
-		V_10 = ((int32_t)il2cpp_codegen_add(L_87, 1));
+		G_B27_1->___sortingGroupOrder_6 = G_B27_0;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_85 = V_12;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_86;
+		L_86 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_85, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		G_B28_0 = (&V_20);
+		if (L_86)
+		{
+			G_B29_0 = (&V_20);
+			goto IL_0284;
+		}
+	}
+	{
+		G_B30_0 = 0;
+		G_B30_1 = G_B28_0;
+		goto IL_028b;
 	}
 
-IL_0285:
+IL_0284:
+	{
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_87 = V_12;
+		NullCheck(L_87);
+		int32_t L_88;
+		L_88 = Renderer_get_sortingLayerID_m3D7AE74F1B87099810CF969CB4520C85F9AE5F92(L_87, NULL);
+		G_B30_0 = L_88;
+		G_B30_1 = G_B29_0;
+	}
+
+IL_028b:
+	{
+		G_B30_1->___sortingLayer_7 = G_B30_0;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_89 = V_12;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_90;
+		L_90 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_89, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		G_B31_0 = (&V_20);
+		if (L_90)
+		{
+			G_B32_0 = (&V_20);
+			goto IL_029f;
+		}
+	}
+	{
+		G_B33_0 = 0;
+		G_B33_1 = G_B31_0;
+		goto IL_02a6;
+	}
+
+IL_029f:
+	{
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_91 = V_12;
+		NullCheck(L_91);
+		int32_t L_92;
+		L_92 = Renderer_get_sortingOrder_m4CE7ADEEC8E2F28CC1D10B1D4091A10F8F1583FA(L_91, NULL);
+		G_B33_0 = L_92;
+		G_B33_1 = G_B32_0;
+	}
+
+IL_02a6:
+	{
+		G_B33_1->___sortingOrder_8 = G_B33_0;
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_93 = V_20;
+		V_14 = L_93;
+		// if (result.sortingGroupID != SortingGroup.invalidSortingGroupID &&
+		//     SortingGroup.GetSortingGroupByIndex(r2d.sortingGroupID) is SortingGroup sortingGroup)
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_94 = V_14;
+		int32_t L_95 = L_94.___sortingGroupID_5;
+		int32_t L_96;
+		L_96 = SortingGroup_get_invalidSortingGroupID_mEA453186185B225FA2410988959180BAEC604310(NULL);
+		if ((((int32_t)L_95) == ((int32_t)L_96)))
+		{
+			goto IL_02d2;
+		}
+	}
+	{
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_97 = V_12;
+		NullCheck(L_97);
+		int32_t L_98;
+		L_98 = Renderer_get_sortingGroupID_m1DEFE39027236FF31AB603993BBC13C072E52118(L_97, NULL);
+		SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759* L_99;
+		L_99 = SortingGroup_GetSortingGroupByIndex_mC4CFB06D8C4B0EA27FC4BDC60AA05F4E0B28426B(L_98, NULL);
+		V_15 = L_99;
+		SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759* L_100 = V_15;
+		G_B36_0 = ((!(((RuntimeObject*)(SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759*)L_100) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		goto IL_02d3;
+	}
+
+IL_02d2:
+	{
+		G_B36_0 = 0;
+	}
+
+IL_02d3:
+	{
+		V_21 = (bool)G_B36_0;
+		bool L_101 = V_21;
+		if (!L_101)
+		{
+			goto IL_0316;
+		}
+	}
+	{
+		// result.distance = Vector3.Distance(sortingGroup.transform.position, ray.origin);
+		SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759* L_102 = V_15;
+		NullCheck(L_102);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_103;
+		L_103 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_102, NULL);
+		NullCheck(L_103);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_104;
+		L_104 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_103, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_105;
+		L_105 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6((&V_0), NULL);
+		float L_106;
+		L_106 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_104, L_105, NULL);
+		(&V_14)->___distance_2 = L_106;
+		// result.sortingLayer = sortingGroup.sortingLayerID;
+		SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759* L_107 = V_15;
+		NullCheck(L_107);
+		int32_t L_108;
+		L_108 = SortingGroup_get_sortingLayerID_m37C70CEA78DA6E28F405C67EDE95D5C2191F0055(L_107, NULL);
+		(&V_14)->___sortingLayer_7 = L_108;
+		// result.sortingOrder = sortingGroup.sortingOrder;
+		SortingGroup_tA8DA95BF22F76688DAF54122EB3EEA35C70E9759* L_109 = V_15;
+		NullCheck(L_109);
+		int32_t L_110;
+		L_110 = SortingGroup_get_sortingOrder_mC80606E6BB9A6D5E3AB61A0451C48203A0C1AB6A(L_109, NULL);
+		(&V_14)->___sortingOrder_8 = L_110;
+	}
+
+IL_0316:
+	{
+		// resultAppendList.Add(result);
+		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_111 = ___1_resultAppendList;
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_112 = V_14;
+		NullCheck(L_111);
+		List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_inline(L_111, L_112, List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_RuntimeMethod_var);
+		// for (int b = 0, bmax = hitCount; b < bmax; ++b)
+		int32_t L_113 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_113, 1));
+	}
+
+IL_0326:
 	{
 		// for (int b = 0, bmax = hitCount; b < bmax; ++b)
-		int32_t L_88 = V_10;
-		int32_t L_89 = V_11;
-		V_20 = (bool)((((int32_t)L_88) < ((int32_t)L_89))? 1 : 0);
-		bool L_90 = V_20;
-		if (L_90)
+		int32_t L_114 = V_10;
+		int32_t L_115 = V_11;
+		V_22 = (bool)((((int32_t)L_114) < ((int32_t)L_115))? 1 : 0);
+		bool L_116 = V_22;
+		if (L_116)
 		{
 			goto IL_0106;
 		}
@@ -4513,7 +4660,7 @@ IL_0285:
 	{
 	}
 
-IL_0295:
+IL_0336:
 	{
 		// }
 		return;
@@ -5228,27 +5375,27 @@ IL_0123:
 		NullCheck(L_46);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48;
 		L_48 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39(((L_46)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_47))), NULL);
-		(&V_14)->___worldPosition_7 = L_48;
+		(&V_14)->___worldPosition_9 = L_48;
 		RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* L_49 = __this->___m_Hits_10;
 		int32_t L_50 = V_11;
 		NullCheck(L_49);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
 		L_51 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5(((L_49)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_50))), NULL);
-		(&V_14)->___worldNormal_8 = L_51;
+		(&V_14)->___worldNormal_10 = L_51;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_52 = ___0_eventData;
 		NullCheck(L_52);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_53;
 		L_53 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_52, NULL);
-		(&V_14)->___screenPosition_9 = L_53;
+		(&V_14)->___screenPosition_11 = L_53;
 		int32_t L_54 = V_1;
-		(&V_14)->___displayIndex_10 = L_54;
+		(&V_14)->___displayIndex_12 = L_54;
 		List_1_t8292C421BBB00D7661DC07462822936152BAB446* L_55 = ___1_resultAppendList;
 		NullCheck(L_55);
 		int32_t L_56;
 		L_56 = List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_inline(L_55, List_1_get_Count_mE2EBEDC861C1EC398EDBE6CF2C9FB604AA71523E_RuntimeMethod_var);
 		(&V_14)->___index_3 = ((float)L_56);
-		(&V_14)->___sortingLayer_5 = 0;
-		(&V_14)->___sortingOrder_6 = 0;
+		(&V_14)->___sortingLayer_7 = 0;
+		(&V_14)->___sortingOrder_8 = 0;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_57 = V_14;
 		V_13 = L_57;
 		// resultAppendList.Add(result);
@@ -5501,23 +5648,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RaycastResult_Clear_m0E9DA70AC69CF143CEA
 		// depth = 0;
 		__this->___depth_4 = 0;
 		// sortingLayer = 0;
-		__this->___sortingLayer_5 = 0;
+		__this->___sortingLayer_7 = 0;
 		// sortingOrder = 0;
-		__this->___sortingOrder_6 = 0;
+		__this->___sortingOrder_8 = 0;
 		// worldNormal = Vector3.up;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
-		__this->___worldNormal_8 = L_0;
+		__this->___worldNormal_10 = L_0;
 		// worldPosition = Vector3.zero;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		__this->___worldPosition_7 = L_1;
+		__this->___worldPosition_9 = L_1;
 		// screenPosition = Vector3.zero;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_2, NULL);
-		__this->___screenPosition_9 = L_3;
+		__this->___screenPosition_11 = L_3;
 		// }
 		return;
 	}
@@ -5741,7 +5888,7 @@ IL_0059:
 		ArrayElementTypeCheck (L_25, _stringLiteral62105F6FE34556E3D1EE1FB639ABDA34F249420F);
 		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (String_t*)_stringLiteral62105F6FE34556E3D1EE1FB639ABDA34F249420F);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = L_25;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = __this->___worldNormal_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = __this->___worldNormal_10;
 		V_2 = L_27;
 		String_t* L_28;
 		L_28 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE((&V_2), NULL);
@@ -5753,7 +5900,7 @@ IL_0059:
 		ArrayElementTypeCheck (L_29, _stringLiteral30A589687C1FFF9D1706D115A0C664F2A49D9CEF);
 		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (String_t*)_stringLiteral30A589687C1FFF9D1706D115A0C664F2A49D9CEF);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_30 = L_29;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = __this->___worldPosition_7;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = __this->___worldPosition_9;
 		V_2 = L_31;
 		String_t* L_32;
 		L_32 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE((&V_2), NULL);
@@ -5765,7 +5912,7 @@ IL_0059:
 		ArrayElementTypeCheck (L_33, _stringLiteralED69593F1852661D74AD04003C30B937EE7310BF);
 		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (String_t*)_stringLiteralED69593F1852661D74AD04003C30B937EE7310BF);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = L_33;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35 = __this->___screenPosition_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35 = __this->___screenPosition_11;
 		V_3 = L_35;
 		String_t* L_36;
 		L_36 = Vector2_ToString_mB47B29ECB21FA3A4ACEABEFA18077A5A6BBCCB27((&V_3), NULL);
@@ -5807,7 +5954,7 @@ IL_0059:
 		ArrayElementTypeCheck (L_47, _stringLiteral2A98949D28301C3B04EAD557512780C8D89A9607);
 		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)20)), (String_t*)_stringLiteral2A98949D28301C3B04EAD557512780C8D89A9607);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_48 = L_47;
-		int32_t* L_49 = (&__this->___sortingLayer_5);
+		int32_t* L_49 = (&__this->___sortingLayer_7);
 		String_t* L_50;
 		L_50 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_49, NULL);
 		NullCheck(L_48);
@@ -5818,7 +5965,7 @@ IL_0059:
 		ArrayElementTypeCheck (L_51, _stringLiteral2B2D9FCF87BC5B281C797365D6EE6332266A0B63);
 		(L_51)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)22)), (String_t*)_stringLiteral2B2D9FCF87BC5B281C797365D6EE6332266A0B63);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_52 = L_51;
-		int32_t* L_53 = (&__this->___sortingOrder_6);
+		int32_t* L_53 = (&__this->___sortingOrder_8);
 		String_t* L_54;
 		L_54 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_53, NULL);
 		NullCheck(L_52);

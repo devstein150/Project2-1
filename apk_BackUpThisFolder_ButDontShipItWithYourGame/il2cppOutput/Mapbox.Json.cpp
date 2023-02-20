@@ -2873,15 +2873,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 
 // System.Globalization.CultureInfo
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // Mapbox.Json.Linq.JToken
 struct JToken_t8AFBDF667286C4F39C9B1DD43FC995EB96B42948_StaticFields
 {
@@ -2943,14 +2934,6 @@ struct JsonConvert_t36E88EEF2CFCEAC0D0E66E464FF7E54552AFCE22_StaticFields
 // Mapbox.Json.Schema.JsonSchemaModelBuilder
 
 // Mapbox.Json.Schema.JsonSchemaModelBuilder
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // Mapbox.Json.Serialization.NamingStrategy
 
@@ -3040,10 +3023,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 };
 
 // System.Uri
-
-// System.ValueType
-
-// System.ValueType
 
 // Mapbox.Json.JsonSerializerSettings/<>c__DisplayClass93_0
 
@@ -3492,10 +3471,6 @@ struct JsonWriter_t9234CB10B45B32FE36E8B357F5646AAB98473CEF_StaticFields
 
 // System.RuntimeFieldHandle
 
-// System.RuntimeTypeHandle
-
-// System.RuntimeTypeHandle
-
 // System.IO.StringWriter
 struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D_StaticFields
 {
@@ -3556,14 +3531,6 @@ struct JsonValidatingReader_tBC9CC28F1B9BA392123F2F02EC358C6A34F0A92E_StaticFiel
 };
 
 // Mapbox.Json.JsonValidatingReader
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

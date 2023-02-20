@@ -2728,10 +2728,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XmlChildEnumerator
 
 // System.Xml.XmlChildEnumerator
@@ -2783,10 +2779,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 // System.Xml.Schema.XmlSchemaDatatype
 
 // System.Xml.Schema.XmlSchemaDatatype
-
-// System.Xml.Schema.XmlSchemaObject
-
-// System.Xml.Schema.XmlSchemaObject
 
 // System.Xml.XmlWriter
 
@@ -2843,23 +2835,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 // System.Xml.DebuggerDisplayXmlNodeProxy
 
 // System.Xml.DebuggerDisplayXmlNodeProxy
-
-// System.Decimal
-struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
-{
-	// System.Decimal System.Decimal::Zero
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_3;
-	// System.Decimal System.Decimal::One
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_4;
-	// System.Decimal System.Decimal::MinusOne
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_5;
-	// System.Decimal System.Decimal::MaxValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_6;
-	// System.Decimal System.Decimal::MinValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_7;
-};
-
-// System.Decimal
 
 // System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
@@ -2975,10 +2950,6 @@ struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 
 // System.Xml.XmlNotation
 
-// System.Xml.Schema.XmlSchemaAnnotated
-
-// System.Xml.Schema.XmlSchemaAnnotated
-
 // System.Xml.XmlNamedNodeMap/SmallXmlNodeList
 
 // System.Xml.XmlNamedNodeMap/SmallXmlNodeList
@@ -3036,15 +3007,6 @@ struct Exception_t_StaticFields
 
 // System.Xml.Schema.XmlSchemaAttribute
 
-// System.Xml.Schema.XmlSchemaParticle
-struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
-{
-	// System.Xml.Schema.XmlSchemaParticle System.Xml.Schema.XmlSchemaParticle::Empty
-	XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE* ___Empty_12;
-};
-
-// System.Xml.Schema.XmlSchemaParticle
-
 // System.Xml.Schema.XmlSchemaType
 
 // System.Xml.Schema.XmlSchemaType
@@ -3052,14 +3014,6 @@ struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
 // System.Xml.XmlUnspecifiedAttribute
 
 // System.Xml.XmlUnspecifiedAttribute
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Xml.XmlAttributeCollection
 

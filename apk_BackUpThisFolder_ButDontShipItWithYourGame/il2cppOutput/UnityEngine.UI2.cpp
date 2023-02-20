@@ -1527,18 +1527,22 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023
 	float ___index_3;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::depth
 	int32_t ___depth_4;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupID
+	int32_t ___sortingGroupID_5;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupOrder
+	int32_t ___sortingGroupOrder_6;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingLayer
-	int32_t ___sortingLayer_5;
+	int32_t ___sortingLayer_7;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
-	int32_t ___sortingOrder_6;
+	int32_t ___sortingOrder_8;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.RaycastResult::screenPosition
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::displayIndex
-	int32_t ___displayIndex_10;
+	int32_t ___displayIndex_12;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
@@ -1548,12 +1552,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 // Native definition for COM marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
@@ -1563,12 +1569,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 
 // System.RuntimeTypeHandle
@@ -2354,10 +2362,6 @@ struct List_1_tA380DB6397EE7B8952C8CC74CB98E64CE62E9F2E_StaticFields
 
 // UnityEngine.Pool.ObjectPool`1<UnityEngine.UI.LayoutRebuilder>
 
-// UnityEngine.EventSystems.AbstractEventData
-
-// UnityEngine.EventSystems.AbstractEventData
-
 // UnityEngine.UI.AnimationTriggers
 
 // UnityEngine.UI.AnimationTriggers
@@ -2378,10 +2382,6 @@ struct LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_StaticFields
 // UnityEngine.UI.MaskUtilities
 
 // UnityEngine.UI.MaskUtilities
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // UnityEngine.UI.Misc
 
@@ -2407,18 +2407,6 @@ struct String_t_StaticFields
 };
 
 // System.String
-
-// UnityEngine.Events.UnityEventBase
-
-// UnityEngine.Events.UnityEventBase
-
-// System.ValueType
-
-// System.ValueType
-
-// UnityEngine.YieldInstruction
-
-// UnityEngine.YieldInstruction
 
 // UnityEngine.UI.LayoutGroup/<DelayedSetDirty>d__56
 
@@ -2677,10 +2665,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.WaitForEndOfFrame
 
-// UnityEngine.EventSystems.EventSystem/UIToolkitOverrideConfig
-
-// UnityEngine.EventSystems.EventSystem/UIToolkitOverrideConfig
-
 // UnityEngine.EventSystems.AxisEventData
 
 // UnityEngine.EventSystems.AxisEventData
@@ -2702,10 +2686,6 @@ struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_StaticFields
 
 // UnityEngine.Coroutine
 
-// System.Delegate
-
-// System.Delegate
-
 // UnityEngine.Display
 struct Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_StaticFields
 {
@@ -2720,15 +2700,6 @@ struct Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_StaticFields
 };
 
 // UnityEngine.Display
-
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
 
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
@@ -2790,10 +2761,6 @@ struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE_StaticFields
 
 // UnityEngine.Material
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // UnityEngine.EventSystems.PointerEventData
 
 // UnityEngine.EventSystems.PointerEventData
@@ -2801,10 +2768,6 @@ struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE_StaticFields
 // UnityEngine.Sprite
 
 // UnityEngine.Sprite
-
-// System.SystemException
-
-// System.SystemException
 
 // UnityEngine.Texture
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
@@ -10925,7 +10888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MultipleDisplayUtilities_GetRelativeMous
 		NullCheck(L_0);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_1;
 		L_1 = PointerEventData_get_pointerPressRaycast_mEB1B974F5543F78162984E2924EF908E18CE3B5D_inline(L_0, NULL);
-		int32_t L_2 = L_1.___displayIndex_10;
+		int32_t L_2 = L_1.___displayIndex_12;
 		V_0 = L_2;
 		// var relativePosition = RelativeMouseAtScaled(eventData.position);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_3 = ___0_eventData;
@@ -15114,7 +15077,7 @@ IL_002d:
 		NullCheck(L_8);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_9;
 		L_9 = PointerEventData_get_pointerPressRaycast_mEB1B974F5543F78162984E2924EF908E18CE3B5D_inline(L_8, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = L_9.___screenPosition_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = L_9.___screenPosition_11;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_11 = ___0_eventData;
 		NullCheck(L_11);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12;
@@ -15136,7 +15099,7 @@ IL_002d:
 		NullCheck(L_16);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_17;
 		L_17 = PointerEventData_get_pointerPressRaycast_mEB1B974F5543F78162984E2924EF908E18CE3B5D_inline(L_16, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = L_17.___screenPosition_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = L_17.___screenPosition_11;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_19 = ___0_eventData;
 		NullCheck(L_19);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_20;
@@ -15263,7 +15226,7 @@ IL_0011:
 		NullCheck(L_4);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_5;
 		L_5 = PointerEventData_get_pointerPressRaycast_mEB1B974F5543F78162984E2924EF908E18CE3B5D_inline(L_4, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5.___screenPosition_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5.___screenPosition_11;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_7 = ___0_eventData;
 		NullCheck(L_7);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8;
@@ -15292,7 +15255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Scrollbar_ClickRepeat_mB3CD100
 		NullCheck(L_0);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_1;
 		L_1 = PointerEventData_get_pointerPressRaycast_mEB1B974F5543F78162984E2924EF908E18CE3B5D_inline(L_0, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = L_1.___screenPosition_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = L_1.___screenPosition_11;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_3 = ___0_eventData;
 		NullCheck(L_3);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4;
@@ -27472,7 +27435,7 @@ IL_0014:
 		NullCheck(L_8);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_9;
 		L_9 = PointerEventData_get_pointerPressRaycast_mEB1B974F5543F78162984E2924EF908E18CE3B5D_inline(L_8, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = L_9.___screenPosition_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = L_9.___screenPosition_11;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_11 = ___0_eventData;
 		NullCheck(L_11);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12;
@@ -27505,7 +27468,7 @@ IL_0054:
 		NullCheck(L_16);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_17;
 		L_17 = PointerEventData_get_pointerPressRaycast_mEB1B974F5543F78162984E2924EF908E18CE3B5D_inline(L_16, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = L_17.___screenPosition_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = L_17.___screenPosition_11;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_19 = ___0_eventData;
 		NullCheck(L_19);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_20;

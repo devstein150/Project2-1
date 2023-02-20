@@ -834,10 +834,6 @@ struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t0
 
 // <Module>
 
-// System.Attribute
-
-// System.Attribute
-
 // System.String
 struct String_t_StaticFields
 {
@@ -955,15 +951,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // System.Delegate
 
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
 // UnityEngine.HumanLimit
 
 // UnityEngine.HumanLimit
@@ -986,22 +973,9 @@ struct PlayableHandle_t5D6A01EF94382EFEDC047202F71DF882769654D4_StaticFields
 
 // UnityEngine.Playables.PlayableHandle
 
-// UnityEngine.Playables.PlayableOutputHandle
-struct PlayableOutputHandle_tEB217645A8C0356A3AC6F964F283003B9740E883_StaticFields
-{
-	// UnityEngine.Playables.PlayableOutputHandle UnityEngine.Playables.PlayableOutputHandle::m_Null
-	PlayableOutputHandle_tEB217645A8C0356A3AC6F964F283003B9740E883 ___m_Null_2;
-};
-
-// UnityEngine.Playables.PlayableOutputHandle
-
 // UnityEngine.SkeletonBone
 
 // UnityEngine.SkeletonBone
-
-// UnityEngine.TrackedReference
-
-// UnityEngine.TrackedReference
 
 // UnityEngine.Animations.AnimationClipPlayable
 
@@ -1095,17 +1069,9 @@ struct AnimatorControllerPlayable_tADDCB301674D6243EFE1BD032E7D118FD091210A_Stat
 
 // UnityEngine.Avatar
 
-// UnityEngine.Component
-
-// UnityEngine.Component
-
 // UnityEngine.HumanBone
 
 // UnityEngine.HumanBone
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // UnityEngine.RuntimeAnimatorController
 
@@ -1115,17 +1081,9 @@ struct AnimatorControllerPlayable_tADDCB301674D6243EFE1BD032E7D118FD091210A_Stat
 
 // UnityEngine.ScriptableObject
 
-// System.SystemException
-
-// System.SystemException
-
 // UnityEngine.AnimatorOverrideController
 
 // UnityEngine.AnimatorOverrideController
-
-// UnityEngine.Behaviour
-
-// UnityEngine.Behaviour
 
 // System.InvalidCastException
 

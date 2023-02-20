@@ -566,10 +566,6 @@ struct String_t_StaticFields
 
 // System.String
 
-// System.ValueType
-
-// System.ValueType
-
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/ClipperBase
 
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/ClipperBase
@@ -608,15 +604,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 // System.Int64
 
 // System.Int64
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Void
 

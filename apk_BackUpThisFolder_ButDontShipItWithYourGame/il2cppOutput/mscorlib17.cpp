@@ -4987,15 +4987,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 
 // System.Runtime.InteropServices.ErrorWrapper
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // System.Runtime.ExceptionServices.ExceptionDispatchInfo
 
 // System.Runtime.ExceptionServices.ExceptionDispatchInfo
@@ -5079,10 +5070,6 @@ struct Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_StaticFields
 };
 
 // System.Runtime.InteropServices.Marshal
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.Reflection.MemberInfo
 
@@ -5346,10 +5333,6 @@ struct ValueFixup_t66027E8BD30FD7C9AA2B1F1F2A7B92B124EE4E8B_StaticFields
 };
 
 // System.Runtime.Serialization.Formatters.Binary.ValueFixup
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Runtime.Serialization.Formatters.Binary.__BinaryParser
 struct __BinaryParser_tE382865BF0321CE908A1DB1929A8148FB63FD059_StaticFields
@@ -5759,10 +5742,6 @@ struct IntPtr_t_StaticFields
 
 // System.Runtime.InteropServices.OptionalAttribute
 
-// System.OrdinalComparer
-
-// System.OrdinalComparer
-
 // System.Runtime.InteropServices.OutAttribute
 
 // System.Runtime.InteropServices.OutAttribute
@@ -5917,10 +5896,6 @@ struct ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F_StaticFields
 // System.Void
 
 // System.Void
-
-// System.Threading.Tasks.VoidTaskResult
-
-// System.Threading.Tasks.VoidTaskResult
 
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
 
@@ -6111,10 +6086,6 @@ struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFi
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.IO.PinnedBufferMemoryStream
 
 // System.IO.PinnedBufferMemoryStream
@@ -6126,10 +6097,6 @@ struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFi
 // System.Runtime.CompilerServices.RuntimeWrappedException
 
 // System.Runtime.CompilerServices.RuntimeWrappedException
-
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
 
 // System.SystemException
 
@@ -6200,10 +6167,6 @@ struct Type_t_StaticFields
 
 // System.FormatException
 
-// System.IO.IOException
-
-// System.IO.IOException
-
 // System.IndexOutOfRangeException
 
 // System.IndexOutOfRangeException
@@ -6235,10 +6198,6 @@ struct Type_t_StaticFields
 // System.NotSupportedException
 
 // System.NotSupportedException
-
-// System.OperationCanceledException
-
-// System.OperationCanceledException
 
 // System.Runtime.InteropServices.SafeBuffer
 struct SafeBuffer_t75FD9565BE645665AB242CA8C8BB22E1A933DFCE_StaticFields

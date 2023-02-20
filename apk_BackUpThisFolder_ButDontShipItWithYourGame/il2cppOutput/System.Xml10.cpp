@@ -3189,14 +3189,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 
 // System.Collections.Hashtable
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Xml.Schema.NamespaceList
 
 // System.Xml.Schema.NamespaceList
@@ -3296,10 +3288,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 };
 
 // System.Uri
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.XmlNameTable
 
@@ -3422,10 +3410,6 @@ struct XmlSchemaInference_t875BAFD8A1ECEA427C795C1EED540F4341CC0CCC_StaticFields
 
 // System.Xml.Schema.XmlValueConverter
 
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
-
 // System.Xml.Schema.BinaryFacetsChecker
 
 // System.Xml.Schema.BinaryFacetsChecker
@@ -3503,15 +3487,6 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 // System.Int64
 
 // System.Int64
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Xml.Schema.ListFacetsChecker
 
@@ -3670,10 +3645,6 @@ struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 
 // System.Xml.XmlDocument
 
-// System.Xml.XmlLinkedNode
-
-// System.Xml.XmlLinkedNode
-
 // System.Xml.Schema.XmlSchema
 struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 {
@@ -3828,14 +3799,6 @@ struct XsdBuilder_t8B36A7D7B0B11B33510A548BBA3331FFAF863794_StaticFields
 
 // System.Xml.Schema.XsdBuilder
 
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
-
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
-
-// System.Delegate
-
-// System.Delegate
-
 // System.Exception
 struct Exception_t_StaticFields
 {
@@ -3853,10 +3816,6 @@ struct Exception_t_StaticFields
 
 // System.RuntimeTypeHandle
 
-// System.Xml.XmlCharacterData
-
-// System.Xml.XmlCharacterData
-
 // System.Xml.XmlElement
 
 // System.Xml.XmlElement
@@ -3864,10 +3823,6 @@ struct Exception_t_StaticFields
 // System.Xml.XmlEntityReference
 
 // System.Xml.XmlEntityReference
-
-// System.Xml.XmlNamedNodeMap
-
-// System.Xml.XmlNamedNodeMap
 
 // System.Xml.XmlProcessingInstruction
 
@@ -3950,14 +3905,6 @@ struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
 // System.Xml.Schema.XmlSchemaXPath
 
 // System.Xml.Schema.XmlSchemaXPath
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -4080,10 +4027,6 @@ struct XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0_StaticFiel
 // System.ArgumentException
 
 // System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.FormatException
 

@@ -1153,10 +1153,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 
 // System.Globalization.FormatProvider
 
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Globalization.NumberFormatInfo
 struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472_StaticFields
 {
@@ -1186,10 +1182,6 @@ struct String_t_StaticFields
 // System.Text.StringBuilder
 
 // System.Text.StringBuilder
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Globalization.FormatProvider/Number
 struct Number_t006CBC9914386BB171582F4C3A3EEB2EE404D461_StaticFields
@@ -1288,15 +1280,6 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 
 // System.Int64
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // System.SByte
 
 // System.SByte
@@ -1378,10 +1361,6 @@ struct Exception_t_StaticFields
 
 // System.Span`1<System.Int32>
 
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -1406,10 +1385,6 @@ struct Type_t_StaticFields
 // System.ArgumentException
 
 // System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.FormatException
 

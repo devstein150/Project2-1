@@ -2701,26 +2701,9 @@ struct InternalDataCollectionBase_tDBDE593FD7AB64DA7E3C512E49C0E0B396D3DDB2_Stat
 
 // System.Data.InternalDataCollectionBase
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.ComponentModel.MarshalByValueComponent
-struct MarshalByValueComponent_t19E5966D1CE2F9ED341EB16C060BA573F63AEDAA_StaticFields
-{
-	// System.Object System.ComponentModel.MarshalByValueComponent::s_eventDisposed
-	RuntimeObject* ___s_eventDisposed_0;
-};
-
-// System.ComponentModel.MarshalByValueComponent
-
 // System.ComponentModel.MemberDescriptor
 
 // System.ComponentModel.MemberDescriptor
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // System.Data.NewDiffgramGen
 
@@ -2764,10 +2747,6 @@ struct TypeConverter_t5257E1653EB845D0044BBEDEB7B8AED7A061592C_StaticFields
 };
 
 // System.ComponentModel.TypeConverter
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Data.XmlDataLoader
 
@@ -2981,15 +2960,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 
 // System.Int64
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // System.Data.PropertyCollection
 
 // System.Data.PropertyCollection
@@ -3015,17 +2985,6 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 
 // System.Xml.XmlAttribute
 
-// System.Xml.XmlCharType
-struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
-{
-	// System.Object System.Xml.XmlCharType::s_Lock
-	RuntimeObject* ___s_Lock_0;
-	// System.Byte[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.XmlCharType::s_CharProperties
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_CharProperties_1;
-};
-
-// System.Xml.XmlCharType
-
 // System.Xml.XmlDocument
 struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 {
@@ -3041,10 +3000,6 @@ struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 
 // System.Xml.XmlDocument
 
-// System.Xml.XmlLinkedNode
-
-// System.Xml.XmlLinkedNode
-
 // System.Xml.XmlNodeReader
 
 // System.Xml.XmlNodeReader
@@ -3052,10 +3007,6 @@ struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 // System.Xml.Serialization.XmlRootAttribute
 
 // System.Xml.Serialization.XmlRootAttribute
-
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
-
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
 
 // System.Data.XmlToDatasetMap/XmlNodeIdHashtable
 
@@ -3078,10 +3029,6 @@ struct DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07_StaticFields
 };
 
 // System.Data.DataTable
-
-// System.Delegate
-
-// System.Delegate
 
 // System.Exception
 struct Exception_t_StaticFields
@@ -3115,10 +3062,6 @@ struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
 
 // System.Data.UniqueConstraint
 
-// System.Xml.XmlCharacterData
-
-// System.Xml.XmlCharacterData
-
 // System.Xml.XmlElement
 
 // System.Xml.XmlElement
@@ -3145,10 +3088,6 @@ struct XmlTextWriter_t9CB64E379F8FE646DA31698A03CE6AF8A594A73B_StaticFields
 };
 
 // System.Xml.XmlTextWriter
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.Type
 struct Type_t_StaticFields

@@ -1543,10 +1543,6 @@ struct Inflater_t6926CB5817A3D37202B3C399933FF8CEF99BD623_StaticFields
 
 // Mapbox.IO.Compression.InputBuffer
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // Mapbox.IO.Compression.Match
 
 // Mapbox.IO.Compression.Match
@@ -1586,10 +1582,6 @@ struct Switch_t9C3FB6E0121B928798EA7C18AAB5DFC8F3A09412_StaticFields
 };
 
 // System.Diagnostics.Switch
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Nullable`1<Mapbox.IO.Compression.CompressionLevel>
 
@@ -1791,10 +1783,6 @@ struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
 // System.Threading.EventWaitHandle
 
 // System.Threading.EventWaitHandle
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.SystemException
 

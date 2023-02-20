@@ -1957,10 +1957,6 @@ struct Math_tEB65DE7CA8B083C412C969C92981C030865486CE_StaticFields
 
 // System.Math
 
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.MemoryExtensions
 
 // System.MemoryExtensions
@@ -2018,10 +2014,6 @@ struct String_t_StaticFields
 
 // System.String
 
-// System.ValueType
-
-// System.ValueType
-
 // System.DateTimeParse/<>c
 struct U3CU3Ec_tB0A34C258E2060CAC08DEAD81BC8AC722F2C11C9_StaticFields
 {
@@ -2032,10 +2024,6 @@ struct U3CU3Ec_tB0A34C258E2060CAC08DEAD81BC8AC722F2C11C9_StaticFields
 };
 
 // System.DateTimeParse/<>c
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -2186,10 +2174,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 
 // System.Void
 
-// System.Number/NumberBuffer/DigitsAndNullTerminator
-
-// System.Number/NumberBuffer/DigitsAndNullTerminator
-
 // System.ByReference`1<System.Byte>
 
 // System.ByReference`1<System.Byte>
@@ -2267,10 +2251,6 @@ struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4_StaticFields
 // System.InvalidTimeZoneException
 
 // System.InvalidTimeZoneException
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.SystemException
 

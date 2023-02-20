@@ -2970,14 +2970,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 
 // System.Collections.Hashtable
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Xml.Schema.NamespaceList
 
 // System.Xml.Schema.NamespaceList
@@ -3065,10 +3057,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 };
 
 // System.Uri
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.XmlNameTable
 
@@ -3345,15 +3333,6 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 
 // System.Int32
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // System.Xml.Schema.ParticleContentValidator
 
 // System.Xml.Schema.ParticleContentValidator
@@ -3401,17 +3380,6 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 
 // System.Void
 
-// System.Xml.XmlCharType
-struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
-{
-	// System.Object System.Xml.XmlCharType::s_Lock
-	RuntimeObject* ___s_Lock_0;
-	// System.Byte[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.XmlCharType::s_CharProperties
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_CharProperties_1;
-};
-
-// System.Xml.XmlCharType
-
 // System.Xml.Schema.XmlSchema
 struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 {
@@ -3444,21 +3412,6 @@ struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 // System.Xml.XmlTextReader
 
 // System.Xml.XmlTextReader
-
-// System.Xml.Schema.Datatype_anySimpleType
-struct Datatype_anySimpleType_tD47DC683977E05254522AF9947F51E0D0E4261DA_StaticFields
-{
-	// System.Type System.Xml.Schema.Datatype_anySimpleType::atomicValueType
-	Type_t* ___atomicValueType_91;
-	// System.Type System.Xml.Schema.Datatype_anySimpleType::listValueType
-	Type_t* ___listValueType_92;
-};
-
-// System.Xml.Schema.Datatype_anySimpleType
-
-// System.Delegate
-
-// System.Delegate
 
 // System.Exception
 struct Exception_t_StaticFields
@@ -3560,14 +3513,6 @@ struct Datatype_union_t22C688740C641369128CF9524F387AE2B28C3FAC_StaticFields
 };
 
 // System.Xml.Schema.Datatype_union
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

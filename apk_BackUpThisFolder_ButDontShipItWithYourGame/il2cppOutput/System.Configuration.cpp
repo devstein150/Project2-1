@@ -316,10 +316,6 @@ struct ThrowStub_t9161280E38728A40D9B1A975AEE62E89C379E400  : public ObjectDispo
 
 // <Module>
 
-// System.Attribute
-
-// System.Attribute
-
 // System.Configuration.ConfigurationElement
 
 // System.Configuration.ConfigurationElement
@@ -331,10 +327,6 @@ struct ThrowStub_t9161280E38728A40D9B1A975AEE62E89C379E400  : public ObjectDispo
 // System.Configuration.ConfigurationSectionGroup
 
 // System.Configuration.ConfigurationSectionGroup
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // System.String
 struct String_t_StaticFields
@@ -344,10 +336,6 @@ struct String_t_StaticFields
 };
 
 // System.String
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.XmlReader
 struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
@@ -389,39 +377,13 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 
 // System.Int32
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // System.Void
 
 // System.Void
 
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
 // System.Configuration.IgnoreSection
 
 // System.Configuration.IgnoreSection
-
-// System.RuntimeTypeHandle
-
-// System.RuntimeTypeHandle
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -443,18 +405,6 @@ struct Type_t_StaticFields
 };
 
 // System.Type
-
-// System.InvalidOperationException
-
-// System.InvalidOperationException
-
-// System.NotSupportedException
-
-// System.NotSupportedException
-
-// System.ObjectDisposedException
-
-// System.ObjectDisposedException
 
 // System.PlatformNotSupportedException
 

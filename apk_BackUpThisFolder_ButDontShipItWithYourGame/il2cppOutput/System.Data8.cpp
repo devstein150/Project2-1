@@ -1989,10 +1989,6 @@ struct ConcurrentDictionary_2_t01EC89866F72177CED9A0249F17948367F151834_StaticFi
 
 // System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,System.Object>
 
-// System.Attribute
-
-// System.Attribute
-
 // System.Collections.BitArray
 
 // System.Collections.BitArray
@@ -2019,23 +2015,6 @@ struct DataStorage_t862E6C556F9F1FB0BA5A4F51D926C40944A1EC7A_StaticFields
 
 // System.Data.Common.DataStorage
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.ComponentModel.MarshalByValueComponent
-struct MarshalByValueComponent_t19E5966D1CE2F9ED341EB16C060BA573F63AEDAA_StaticFields
-{
-	// System.Object System.ComponentModel.MarshalByValueComponent::s_eventDisposed
-	RuntimeObject* ___s_eventDisposed_0;
-};
-
-// System.ComponentModel.MarshalByValueComponent
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Data.SqlTypes.SqlBytes
 
 // System.Data.SqlTypes.SqlBytes
@@ -2052,10 +2031,6 @@ struct String_t_StaticFields
 };
 
 // System.String
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.XmlReader
 struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
@@ -2118,23 +2093,6 @@ struct DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66_StaticFields
 };
 
 // System.Data.DataColumn
-
-// System.DateTime
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
-};
-
-// System.DateTime
 
 // System.Decimal
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
@@ -2653,17 +2611,6 @@ struct UInt64Storage_t68ED94D155B4DC8ED4AB06F0018867A3A1B0709B_StaticFields
 
 // System.Void
 
-// System.Xml.XmlCharType
-struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
-{
-	// System.Object System.Xml.XmlCharType::s_Lock
-	RuntimeObject* ___s_Lock_0;
-	// System.Byte[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.XmlCharType::s_CharProperties
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_CharProperties_1;
-};
-
-// System.Xml.XmlCharType
-
 // System.Xml.Serialization.XmlRootAttribute
 
 // System.Xml.Serialization.XmlRootAttribute
@@ -2731,10 +2678,6 @@ struct DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07_StaticFields
 };
 
 // System.Data.DataTable
-
-// System.Delegate
-
-// System.Delegate
 
 // System.Exception
 struct Exception_t_StaticFields
@@ -2845,14 +2788,6 @@ struct XmlTextWriter_t9CB64E379F8FE646DA31698A03CE6AF8A594A73B_StaticFields
 
 // System.Xml.XmlTextWriter
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -2877,10 +2812,6 @@ struct Type_t_StaticFields
 // System.Func`2<System.Type,System.Object>
 
 // System.Func`2<System.Type,System.Object>
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.OverflowException
 

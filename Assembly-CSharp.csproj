@@ -285,6 +285,7 @@
     <Compile Include="Assets\other\Mapbox\Unity\Map\TileProviders\QuadTreeTileProvider.cs" />
     <Compile Include="Assets\other\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Step.cs" />
     <Compile Include="Assets\other\Mapbox\Core\mapbox-sdk-cs\Map\MapUtils.cs" />
+    <Compile Include="Assets\InventorySystem.cs" />
     <Compile Include="Assets\other\Mapbox\Examples\1_DataExplorer\Scripts\TextMeshOutline.cs" />
     <Compile Include="Assets\other\Mapbox\Core\mapbox-sdk-cs\Tokens\MapboxTokenApi.cs" />
     <Compile Include="Assets\other\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Waypoint.cs" />
@@ -345,8 +346,8 @@
     <Compile Include="Assets\other\Mapbox\Unity\Location\UnityLocationWrappers\MapboxLocationInfoMock.cs" />
     <Compile Include="Assets\other\Mapbox\Core\mapbox-sdk-cs\Geocoding\Response\Geometry.cs" />
     <Compile Include="Assets\other\Mapbox\Examples\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\other\Mapbox\Unity\SourceLayers\SubLayerFantasyStyle.cs" />
     <Compile Include="Assets\other\Mapbox\Unity\LayerProperties\VectorLayerProperties.cs" />
+    <Compile Include="Assets\other\Mapbox\Unity\SourceLayers\SubLayerFantasyStyle.cs" />
     <Compile Include="Assets\other\Mapbox\Unity\SourceLayers\MapboxDefaultStyles.cs" />
     <Compile Include="Assets\other\Mapbox\Core\mapbox-sdk-cs\Platform\FileSource.cs" />
     <Compile Include="Assets\other\Mapbox\Unity\MeshGeneration\Modifiers\MeshModifiers\UvModifier.cs" />
@@ -431,7 +432,9 @@
     <Compile Include="Assets\other\Mapbox\Examples\1_DataExplorer\HighlightBuildings.cs" />
     <Compile Include="Assets\other\Mapbox\Unity\Location\DeviceLocationProviderAndroidNative.cs" />
     <Compile Include="Assets\other\Mapbox\Unity\MeshGeneration\Factories\ImageDataFetcher.cs" />
-    <Compile Include="Assets\LatLongPosition.cs" />
+    <Compile Include="Assets\TreeDataManager.cs" />
+    <Compile Include="Assets\LatLongPositionT.cs" />
+    <Compile Include="Assets\SpawnTrees.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\other\TextMesh Pro\Shaders\TMPro.cginc" />

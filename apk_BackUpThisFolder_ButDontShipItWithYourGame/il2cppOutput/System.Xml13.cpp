@@ -4340,10 +4340,6 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
 
 // System.Collections.ArrayList
 
-// System.Xml.Schema.BaseProcessor
-
-// System.Xml.Schema.BaseProcessor
-
 // System.Xml.Schema.BaseValidator
 
 // System.Xml.Schema.BaseValidator
@@ -4379,10 +4375,6 @@ struct ContentValidator_t42EB1802005FF0D871EE98A34ADB69091CCE48FE_StaticFields
 };
 
 // System.Xml.Schema.ContentValidator
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
@@ -4434,14 +4426,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 // System.Xml.Schema.IdRefNode
 
 // System.Xml.Schema.IdRefNode
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // System.Xml.Schema.NamespaceList
 
@@ -4547,10 +4531,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 };
 
 // System.Uri
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.XPath.XPathItem
 
@@ -5056,17 +5036,6 @@ struct XdrBuilder_tFAD5028958B5F432AD022248915D66CC6F61C921_StaticFields
 
 // System.Xml.XmlAttribute
 
-// System.Xml.XmlCharType
-struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
-{
-	// System.Object System.Xml.XmlCharType::s_Lock
-	RuntimeObject* ___s_Lock_0;
-	// System.Byte[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.XmlCharType::s_CharProperties
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_CharProperties_1;
-};
-
-// System.Xml.XmlCharType
-
 // System.Xml.XmlDocument
 struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 {
@@ -5231,10 +5200,6 @@ struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
 
 // System.Xml.Schema.XmlAtomicValue/Union
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.SystemException
 
 // System.SystemException
@@ -5364,10 +5329,6 @@ struct XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0_StaticFiel
 // System.Xml.Schema.XmlSchemaWhiteSpaceFacet
 
 // System.Xml.Schema.XmlSchemaWhiteSpaceFacet
-
-// System.ArgumentException
-
-// System.ArgumentException
 
 // System.InvalidOperationException
 

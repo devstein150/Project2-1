@@ -5044,10 +5044,6 @@ struct List_1_t03551104C97124C9D83186EEB3F066B8BFFD87E3_StaticFields
 
 // System.Attribute
 
-// Mono.Security.Authenticode.AuthenticodeBase
-
-// Mono.Security.Authenticode.AuthenticodeBase
-
 // System.Net.Authorization
 
 // System.Net.Authorization
@@ -5071,10 +5067,6 @@ struct List_1_t03551104C97124C9D83186EEB3F066B8BFFD87E3_StaticFields
 // System.Collections.CollectionBase
 
 // System.Collections.CollectionBase
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 
 // Mono.Unity.Debug
 
@@ -5131,10 +5123,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 // System.IPv4AddressHelper
 
 // System.IPv4AddressHelper
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.Reflection.MemberInfo
 
@@ -5489,10 +5477,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Net.WebConnectionTunnel
 
 // System.Net.WebConnectionTunnel
@@ -5626,10 +5610,6 @@ struct U3CU3Ec_t90F8CB10B454B45A81BE65AA841DD85FE08EA21A_StaticFields
 
 // System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors>
 
-// System.Nullable`1<Mono.Security.Interface.TlsProtocols>
-
-// System.Nullable`1<Mono.Security.Interface.TlsProtocols>
-
 // System.Threading.Tasks.Task`1<Mono.Net.Security.AsyncProtocolResult>
 struct Task_1_t7B91A92D06E8BCB69911B6822DD99220DDB735EE_StaticFields
 {
@@ -5664,10 +5644,6 @@ struct Task_1_t06484715029D51A4420723456D165BAC63798F8D_StaticFields
 // Mono.Net.Security.AsyncHandshakeRequest
 
 // Mono.Net.Security.AsyncHandshakeRequest
-
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
-
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
 
 // Mono.Net.Security.AsyncReadOrWriteRequest
 
@@ -5774,10 +5750,6 @@ struct IntPtr_t_StaticFields
 
 // Mono.Net.Security.MonoSslClientAuthenticationOptions
 
-// System.OrdinalComparer
-
-// System.OrdinalComparer
-
 // System.IO.Stream
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 {
@@ -5786,19 +5758,6 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 };
 
 // System.IO.Stream
-
-// System.TimeSpan
-struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
-{
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
-};
-
-// System.TimeSpan
 
 // Mono.Security.Protocol.Ntlm.Type1Message
 
@@ -5874,10 +5833,6 @@ struct WebRequest_t89050438AE9A5AA9221ECAE223584127F7C1294B_StaticFields
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
 
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
-
-// System.Net.HttpWebRequest/AuthorizationState
-
-// System.Net.HttpWebRequest/AuthorizationState
 
 // Mono.Unity.UnityTls/unitytls_errorstate
 
@@ -5964,15 +5919,6 @@ struct AsyncTaskMethodBuilder_1_t923DC16ADFF754593B125800F38ED37C920B14C1_Static
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.IO.Stream>
 
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
-struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC_StaticFields
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_defaultResultTask_0;
-};
-
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
-
 // System.ByReference`1<System.Char>
 
 // System.ByReference`1<System.Char>
@@ -5992,10 +5938,6 @@ struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC_Static
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Object>
 
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Object>
-
-// System.Nullable`1<System.DateTime>
-
-// System.Nullable`1<System.DateTime>
 
 // System.Threading.Tasks.Task`1<System.Nullable`1<System.Int32>>
 struct Task_1_t75694119DBB4B68675BB4BAB3E446BA4EE5C91C7_StaticFields
@@ -6196,10 +6138,6 @@ struct MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0_StaticFields
 
 // Mono.Security.Interface.MonoTlsSettings
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
 
 // Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
@@ -6211,10 +6149,6 @@ struct MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0_StaticFields
 // System.Net.Security.SslStream
 
 // System.Net.Security.SslStream
-
-// System.SystemException
-
-// System.SystemException
 
 // Mono.Security.Interface.TlsException
 
@@ -6248,10 +6182,6 @@ struct Type_t_StaticFields
 // System.Security.Cryptography.X509Certificates.X509Certificate2
 
 // System.Security.Cryptography.X509Certificates.X509Certificate2
-
-// System.Security.Cryptography.X509Certificates.X509Certificate2ImplUnix
-
-// System.Security.Cryptography.X509Certificates.X509Certificate2ImplUnix
 
 // Mono.Net.Security.AsyncProtocolRequest/<InnerRead>d__25
 

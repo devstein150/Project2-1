@@ -1681,14 +1681,6 @@ struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
 
 // System.Xml.Linq.LineInfoAnnotation
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // SR
 
 // SR
@@ -1718,10 +1710,6 @@ struct StringBuilderCache_t79A8C09B300F15741A46DA2E76213B7A763A40CB_ThreadStatic
 	// System.Text.StringBuilder System.Text.StringBuilderCache::t_cachedInstance
 	StringBuilder_t* ___t_cachedInstance_0;
 };
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.Linq.XDeclaration
 
@@ -1770,10 +1758,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 };
 
 // System.Xml.XmlReader
-
-// System.Xml.Schema.XmlSchemaObject
-
-// System.Xml.Schema.XmlSchemaObject
 
 // System.Xml.XmlWriter
 
@@ -1959,26 +1943,9 @@ struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_StaticFields
 
 // System.DateTimeOffset
 
-// System.Delegate
-
-// System.Delegate
-
 // System.Xml.Linq.ElementWriter
 
 // System.Xml.Linq.ElementWriter
-
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
-// System.Runtime.InteropServices.GCHandle
-
-// System.Runtime.InteropServices.GCHandle
 
 // System.RuntimeTypeHandle
 
@@ -2016,14 +1983,6 @@ struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D_StaticFields
 // System.Xml.Linq.XContainer/ContentReader
 
 // System.Xml.Linq.XContainer/ContentReader
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -2093,10 +2052,6 @@ struct Type_t_StaticFields
 // System.ArgumentNullException
 
 // System.ArgumentNullException
-
-// System.ObjectDisposedException
-
-// System.ObjectDisposedException
 
 // System.PlatformNotSupportedException
 

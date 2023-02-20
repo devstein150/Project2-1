@@ -3438,10 +3438,6 @@ struct String_t_StaticFields
 
 // System.Buffers.Utilities
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Collections.ArrayList/ArrayListDebugView
 
 // System.Collections.ArrayList/ArrayListDebugView
@@ -4293,10 +4289,6 @@ struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7_StaticFi
 // System.ArgumentOutOfRangeException
 
 // System.ArgumentOutOfRangeException
-
-// System.ObjectDisposedException
-
-// System.ObjectDisposedException
 
 // System.PlatformNotSupportedException
 

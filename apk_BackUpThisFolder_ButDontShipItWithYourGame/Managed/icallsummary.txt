@@ -385,6 +385,7 @@ UnityEngine.GameObject::CreatePrimitive
 UnityEngine.GameObject::Find
 UnityEngine.GameObject::get_transform
 UnityEngine.Gizmos::DrawCube_Injected
+UnityEngine.Gizmos::DrawLine_Injected
 UnityEngine.Gizmos::set_color_Injected
 UnityEngine.Gizmos::set_matrix_Injected
 UnityEngine.GL::Begin
@@ -751,6 +752,8 @@ UnityEngine.ReflectionProbe::set_mode
 UnityEngine.ReflectionProbe::set_size_Injected
 UnityEngine.ReflectionProbe::get_customBakedTexture
 UnityEngine.Renderer::get_enabled
+UnityEngine.Renderer::get_sortingGroupID
+UnityEngine.Renderer::get_sortingGroupOrder
 UnityEngine.Renderer::get_sortingLayerID
 UnityEngine.Renderer::get_sortingOrder
 UnityEngine.Renderer::get_sortingLayerName
@@ -780,6 +783,10 @@ UnityEngine.Rendering.CommandBuffer::set_name
 UnityEngine.Rendering.GraphicsSettings::get_lightsUseLinearIntensity
 UnityEngine.Rendering.GraphicsSettings::get_INTERNAL_currentRenderPipeline
 UnityEngine.Rendering.ScriptableRenderContext::GetCameras_Internal_Injected
+UnityEngine.Rendering.SortingGroup::get_invalidSortingGroupID
+UnityEngine.Rendering.SortingGroup::get_sortingLayerID
+UnityEngine.Rendering.SortingGroup::get_sortingOrder
+UnityEngine.Rendering.SortingGroup::GetSortingGroupByIndex
 UnityEngine.RenderTexture::get_height
 UnityEngine.RenderTexture::get_width
 UnityEngine.RenderTexture::GetColorBuffer_Injected
@@ -802,7 +809,9 @@ UnityEngine.Resources::GetBuiltinResource
 UnityEngine.ResourcesAPIInternal::Load
 UnityEngine.ResourcesAPIInternal::FindObjectsOfTypeAll
 UnityEngine.ResourcesAPIInternal::FindShaderByName
+UnityEngine.SceneManagement.Scene::GetNameInternal
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
+UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
 UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
 UnityEngine.Screen::get_fullScreen
@@ -832,6 +841,7 @@ UnityEngine.Sprite::get_border_Injected
 UnityEngine.Sprite::get_bounds_Injected
 UnityEngine.Sprite::get_pivot_Injected
 UnityEngine.Sprite::get_rect_Injected
+UnityEngine.Sprite::CreateSprite_Injected
 UnityEngine.Sprite::get_associatedAlphaSplitTexture
 UnityEngine.Sprite::get_texture
 UnityEngine.Sprite::get_uv

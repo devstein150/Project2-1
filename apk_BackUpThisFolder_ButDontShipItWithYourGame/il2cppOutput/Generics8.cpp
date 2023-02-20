@@ -1756,29 +1756,6 @@ struct Buffer_1_t010B93F06F4A1FA135F197F010527BF17B19167A
 	int32_t ___count_1;
 };
 
-// UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color>
-struct CustomStyleProperty_1_tE4B20CAB5BCFEE711EB4A26F077DC700987C0C2D 
-{
-	// System.String UnityEngine.UIElements.CustomStyleProperty`1::<name>k__BackingField
-	String_t* ___U3CnameU3Ek__BackingField_0;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.UIElements.CustomStyleProperty`1
-#ifndef CustomStyleProperty_1_t8315EF5D1C5F5FB5F920B77E40695C07DAAB349A_marshaled_pinvoke_define
-#define CustomStyleProperty_1_t8315EF5D1C5F5FB5F920B77E40695C07DAAB349A_marshaled_pinvoke_define
-struct CustomStyleProperty_1_t8315EF5D1C5F5FB5F920B77E40695C07DAAB349A_marshaled_pinvoke
-{
-	char* ___U3CnameU3Ek__BackingField_0;
-};
-#endif
-// Native definition for COM marshalling of UnityEngine.UIElements.CustomStyleProperty`1
-#ifndef CustomStyleProperty_1_t8315EF5D1C5F5FB5F920B77E40695C07DAAB349A_marshaled_com_define
-#define CustomStyleProperty_1_t8315EF5D1C5F5FB5F920B77E40695C07DAAB349A_marshaled_com_define
-struct CustomStyleProperty_1_t8315EF5D1C5F5FB5F920B77E40695C07DAAB349A_marshaled_com
-{
-	Il2CppChar* ___U3CnameU3Ek__BackingField_0;
-};
-#endif
-
 // UnityEngine.UIElements.CustomStyleProperty`1<System.Single>
 struct CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 
 {
@@ -6290,10 +6267,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 
 // Mapbox.Json.Utilities.ThreadSafeStore`2<System.Object,System.Object>
 
-// UnityEngine.Events.BaseInvokableCall
-
-// UnityEngine.Events.BaseInvokableCall
-
 // UnityEngine.UIElements.CallbackEventHandler
 
 // UnityEngine.UIElements.CallbackEventHandler
@@ -6322,14 +6295,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 };
 
 // System.Globalization.CultureInfo
-
-// UnityEngine.UIElements.Manipulator
-
-// UnityEngine.UIElements.Manipulator
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // UnityEngine.UIElements.PointerId
 struct PointerId_tE48DCDC5C36DD1F5595C28EE48C0243BA8BEF35C_StaticFields
@@ -6363,10 +6328,6 @@ struct String_t_StaticFields
 
 // System.String
 
-// System.ValueType
-
-// System.ValueType
-
 // UnityEngine.UIElements.UIR.BasicNodePool`1<System.Object>
 
 // UnityEngine.UIElements.UIR.BasicNodePool`1<System.Object>
@@ -6423,14 +6384,6 @@ struct String_t_StaticFields
 
 // System.Linq.Buffer`1<SQLite4Unity3d.SQLiteConnection/IndexedColumn>
 
-// UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color>
-
-// UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color>
-
-// UnityEngine.UIElements.CustomStyleProperty`1<System.Single>
-
-// UnityEngine.UIElements.CustomStyleProperty`1<System.Single>
-
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Object>
 
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Object>
@@ -6470,14 +6423,6 @@ struct String_t_StaticFields
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>
 
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Double>
-
-// System.Nullable`1<System.Double>
 
 // System.Collections.Generic.ObjectComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>>
 
@@ -6683,34 +6628,6 @@ struct String_t_StaticFields
 
 // UnityEngine.Pool.PooledObject`1<System.Object>
 
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue>
-
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.InheritedData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.InheritedData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.LayoutData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.LayoutData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.RareData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.RareData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransformData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransformData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransitionData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransitionData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.VisualData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.VisualData>
-
 // UnityEngine.UIElements.StyleEnum`1<System.Int32Enum>
 
 // UnityEngine.UIElements.StyleEnum`1<System.Int32Enum>
@@ -6722,15 +6639,6 @@ struct String_t_StaticFields
 // System.ValueTuple`1<System.Boolean>
 
 // System.ValueTuple`1<System.Boolean>
-
-// UnityEngine.UIElements.UIR.BMPAlloc
-struct BMPAlloc_t29DA9D09157B8BAD2D5643711A53A5F11D216D30_StaticFields
-{
-	// UnityEngine.UIElements.UIR.BMPAlloc UnityEngine.UIElements.UIR.BMPAlloc::Invalid
-	BMPAlloc_t29DA9D09157B8BAD2D5643711A53A5F11D216D30 ___Invalid_0;
-};
-
-// UnityEngine.UIElements.UIR.BMPAlloc
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -6755,10 +6663,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 };
 
 // System.Char
-
-// UnityEngine.Color
-
-// UnityEngine.Color
 
 // UnityEngine.Color32
 
@@ -6814,14 +6718,6 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 
 // UnityEngine.UIElements.EasingFunction
 
-// UnityEngine.UIElements.Focusable
-
-// UnityEngine.UIElements.Focusable
-
-// UnityEngine.UIElements.FontDefinition
-
-// UnityEngine.UIElements.FontDefinition
-
 // UnityEngine.TextCore.GlyphRect
 struct GlyphRect_tB6D225B9318A527A1CBC1B4078EB923398EB808D_StaticFields
 {
@@ -6830,10 +6726,6 @@ struct GlyphRect_tB6D225B9318A527A1CBC1B4078EB923398EB808D_StaticFields
 };
 
 // UnityEngine.TextCore.GlyphRect
-
-// UnityEngine.TextCore.LowLevel.GlyphValueRecord
-
-// UnityEngine.TextCore.LowLevel.GlyphValueRecord
 
 // UnityEngine.InputSystem.InputBinding
 
@@ -6894,10 +6786,6 @@ struct JsonPosition_t0D64A24195A4953E327757BFBC8F0E897D5CBEE9_StaticFields
 
 // Mapbox.VectorTile.Geometry.LatLng
 
-// UnityEngine.UIElements.Length
-
-// UnityEngine.UIElements.Length
-
 // UnityEngine.UIElements.ManipulatorActivationFilter
 
 // UnityEngine.UIElements.ManipulatorActivationFilter
@@ -6911,50 +6799,9 @@ struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields
 
 // UnityEngine.Mathf
 
-// UnityEngine.Matrix4x4
-struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
-{
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::zeroMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix_16;
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::identityMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix_17;
-};
-
-// UnityEngine.Matrix4x4
-
-// UnityEngine.XR.MeshId
-struct MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_StaticFields
-{
-	// UnityEngine.XR.MeshId UnityEngine.XR.MeshId::s_InvalidId
-	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC ___s_InvalidId_0;
-};
-
-// UnityEngine.XR.MeshId
-
-// System.Reflection.MethodBase
-
-// System.Reflection.MethodBase
-
-// UnityEngine.InputSystem.Utilities.PrimitiveValue
-
-// UnityEngine.InputSystem.Utilities.PrimitiveValue
-
 // Mapbox.ProbeExtractorCs.Probe
 
 // Mapbox.ProbeExtractorCs.Probe
-
-// UnityEngine.PropertyName
-
-// UnityEngine.PropertyName
-
-// UnityEngine.Quaternion
-struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
-{
-	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
-};
-
-// UnityEngine.Quaternion
 
 // System.Xml.Schema.RangePositionInfo
 
@@ -6971,30 +6818,6 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 // UnityEngine.UIElements.StyleFloat
 
 // UnityEngine.UIElements.StyleFloat
-
-// UnityEngine.InputSystem.Utilities.Substring
-
-// UnityEngine.InputSystem.Utilities.Substring
-
-// UnityEngine.UIElements.TextureId
-struct TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58_StaticFields
-{
-	// UnityEngine.UIElements.TextureId UnityEngine.UIElements.TextureId::invalid
-	TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 ___invalid_1;
-};
-
-// UnityEngine.UIElements.TextureId
-
-// UnityEngine.XR.ARSubsystems.TrackableId
-struct TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_StaticFields
-{
-	// System.Text.RegularExpressions.Regex UnityEngine.XR.ARSubsystems.TrackableId::s_TrackableIdRegex
-	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___s_TrackableIdRegex_0;
-	// UnityEngine.XR.ARSubsystems.TrackableId UnityEngine.XR.ARSubsystems.TrackableId::s_InvalidId
-	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___s_InvalidId_1;
-};
-
-// UnityEngine.XR.ARSubsystems.TrackableId
 
 // System.UInt16
 
@@ -7070,10 +6893,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // SQLite4Unity3d.SQLiteConnection/IndexedColumn
 
-// UnityEngine.UIElements.VisualElement/Hierarchy
-
-// UnityEngine.UIElements.VisualElement/Hierarchy
-
 // Mapbox.Utils.CircularBuffer`1/<GetEnumerable>d__14<Mapbox.Utils.Vector2d>
 
 // Mapbox.Utils.CircularBuffer`1/<GetEnumerable>d__14<Mapbox.Utils.Vector2d>
@@ -7137,10 +6956,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 // Mapbox.Utils.BearingFilter
 
 // Mapbox.Utils.BearingFilter
-
-// UnityEngine.UIElements.ComputedStyle
-
-// UnityEngine.UIElements.ComputedStyle
 
 // System.DateTimeOffset
 struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_StaticFields
@@ -7181,19 +6996,6 @@ struct EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C_StaticFields
 
 // UnityEngine.UIElements.EventBase
 
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
-// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-
-// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-
 // Mapbox.Json.Serialization.JsonTypeReflector
 struct JsonTypeReflector_tD3A051C51FBB166C691F908DB4CE9026CC89BD41_StaticFields
 {
@@ -7219,10 +7021,6 @@ struct JsonTypeReflector_tD3A051C51FBB166C691F908DB4CE9026CC89BD41_StaticFields
 
 // System.Reflection.MethodInfo
 
-// UnityEngine.UIElements.MouseManipulator
-
-// UnityEngine.UIElements.MouseManipulator
-
 // UnityEngine.InputSystem.Utilities.NameAndParameters
 
 // UnityEngine.InputSystem.Utilities.NameAndParameters
@@ -7240,30 +7038,9 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // UnityEngine.Object
 
-// UnityEngine.UIElements.PanelClearSettings
-
-// UnityEngine.UIElements.PanelClearSettings
-
-// UnityEngine.Pose
-struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
-{
-	// UnityEngine.Pose UnityEngine.Pose::k_Identity
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___k_Identity_2;
-};
-
-// UnityEngine.Pose
-
-// Unity.Profiling.ProfilerMarker
-
-// Unity.Profiling.ProfilerMarker
-
 // UnityEngine.RaycastHit
 
 // UnityEngine.RaycastHit
-
-// UnityEngine.UIElements.UIR.RenderChainVEData
-
-// UnityEngine.UIElements.UIR.RenderChainVEData
 
 // System.RuntimeTypeHandle
 
@@ -7277,21 +7054,9 @@ struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
 
 // UnityEngine.UIElements.UIR.TextureEntry
 
-// UnityEngine.XR.ARSubsystems.XRTextureDescriptor
-
-// UnityEngine.XR.ARSubsystems.XRTextureDescriptor
-
 // UnityEngine.InputSystem.InputManager/AvailableDevice
 
 // UnityEngine.InputSystem.InputManager/AvailableDevice
-
-// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
-
-// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
-
-// UnityEngine.UIElements.MeshGenerationContextUtils/TextParams
-
-// UnityEngine.UIElements.MeshGenerationContextUtils/TextParams
 
 // UnityEngine.UIElements.UIR.BasicNode`1<UnityEngine.UIElements.UIR.TextureEntry>
 
@@ -7341,17 +7106,6 @@ struct EventBase_1_tFD2814ACBD849EFC6EA7F16B7E12945AD1904ACD_StaticFields
 
 // UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.ChangeEvent`1<System.Single>>
 
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.ChangeEvent`1<System.String>>
-struct EventBase_1_t33D6716E83BF17EA5138727C96B99E25AAC8C67D_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t4B6FA9735BC5BF40624419B712D9493C7EF11802* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.ChangeEvent`1<System.String>>
-
 // UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.ChangeEvent`1<UnityEngine.Vector2>>
 struct EventBase_1_tAF8E4E68BAC456C068572427A378CB8AEFFC1FF5_StaticFields
 {
@@ -7362,39 +7116,6 @@ struct EventBase_1_tAF8E4E68BAC456C068572427A378CB8AEFFC1FF5_StaticFields
 };
 
 // UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.ChangeEvent`1<UnityEngine.Vector2>>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.FocusOutEvent>
-struct EventBase_1_tB1ABC1F6948DC48F8C711F9C36E4D0DC9F158F05_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t11916664A294D85084603B0F15FA2E810B2BC5FF* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.FocusOutEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.GeometryChangedEvent>
-struct EventBase_1_tCDEFDAD598AAC8D3B106EB41834C9619E903374E_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_tC6626AC387E62EDBD0EA56924280D44E6476EC67* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.GeometryChangedEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.KeyDownEvent>
-struct EventBase_1_t730BB171C1C7F183359949BD5F4BA81AFE9A35CE_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t37080504ECCFF986BCF1E7D4C1D26BB929DEC7E9* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.KeyDownEvent>
 
 // UnityEngine.UIElements.EventBase`1<System.Object>
 struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1_StaticFields
@@ -7407,17 +7128,6 @@ struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1_StaticFields
 
 // UnityEngine.UIElements.EventBase`1<System.Object>
 
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerMoveEvent>
-struct EventBase_1_t4941B5AE834AA028696C83756491CE8884F30DDE_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t8AFFCB7DAAEE40E4043E3A85360B759A778B3F5B* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerMoveEvent>
-
 // UnityEngine.XR.ARFoundation.ARTextureInfo
 
 // UnityEngine.XR.ARFoundation.ARTextureInfo
@@ -7429,18 +7139,6 @@ struct EventBase_1_t4941B5AE834AA028696C83756491CE8884F30DDE_StaticFields
 // UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
 
 // UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// UnityEngine.UIElements.PointerManipulator
-
-// UnityEngine.UIElements.PointerManipulator
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -7492,19 +7190,6 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 
 // UnityEngine.UIElements.VisualElement
 
-// UnityEngine.XR.ARSubsystems.XRRaycastHit
-struct XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_StaticFields
-{
-	// UnityEngine.XR.ARSubsystems.XRRaycastHit UnityEngine.XR.ARSubsystems.XRRaycastHit::s_Default
-	XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 ___s_Default_0;
-};
-
-// UnityEngine.XR.ARSubsystems.XRRaycastHit
-
-// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
-
-// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
-
 // System.Action`1<UnityEngine.UIElements.UIR.BasicNode`1<System.Object>>
 
 // System.Action`1<UnityEngine.UIElements.UIR.BasicNode`1<System.Object>>
@@ -7561,10 +7246,6 @@ struct XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_StaticFields
 
 // UnityEngine.UIElements.EventCallback`1<UnityEngine.UIElements.KeyDownEvent>
 
-// UnityEngine.UIElements.FocusEventBase`1<UnityEngine.UIElements.FocusOutEvent>
-
-// UnityEngine.UIElements.FocusEventBase`1<UnityEngine.UIElements.FocusOutEvent>
-
 // System.Func`1<UnityEngine.UIElements.UIR.BasicNode`1<System.Object>>
 
 // System.Func`1<UnityEngine.UIElements.UIR.BasicNode`1<System.Object>>
@@ -7617,10 +7298,6 @@ struct XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_StaticFields
 
 // System.ArrayTypeMismatchException
 
-// UnityEngine.UIElements.BindableElement
-
-// UnityEngine.UIElements.BindableElement
-
 // UnityEngine.UIElements.Clickable
 
 // UnityEngine.UIElements.Clickable
@@ -7640,76 +7317,6 @@ struct XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_StaticFields
 // System.NotSupportedException
 
 // System.NotSupportedException
-
-// System.Reflection.TypeInfo
-
-// System.Reflection.TypeInfo
-
-// UnityEngine.UIElements.BaseField`1<System.Int32>
-struct BaseField_1_tB351B262306464787F5A31B33CDC431E89796615_StaticFields
-{
-	// System.String UnityEngine.UIElements.BaseField`1::ussClassName
-	String_t* ___ussClassName_67;
-	// System.String UnityEngine.UIElements.BaseField`1::labelUssClassName
-	String_t* ___labelUssClassName_68;
-	// System.String UnityEngine.UIElements.BaseField`1::inputUssClassName
-	String_t* ___inputUssClassName_69;
-	// System.String UnityEngine.UIElements.BaseField`1::noLabelVariantUssClassName
-	String_t* ___noLabelVariantUssClassName_70;
-	// System.String UnityEngine.UIElements.BaseField`1::labelDraggerVariantUssClassName
-	String_t* ___labelDraggerVariantUssClassName_71;
-	// System.String UnityEngine.UIElements.BaseField`1::mixedValueLabelUssClassName
-	String_t* ___mixedValueLabelUssClassName_72;
-	// System.String UnityEngine.UIElements.BaseField`1::alignedFieldUssClassName
-	String_t* ___alignedFieldUssClassName_73;
-	// System.String UnityEngine.UIElements.BaseField`1::inspectorFieldUssClassName
-	String_t* ___inspectorFieldUssClassName_74;
-	// System.String UnityEngine.UIElements.BaseField`1::mixedValueString
-	String_t* ___mixedValueString_75;
-	// UnityEngine.PropertyName UnityEngine.UIElements.BaseField`1::serializedPropertyCopyName
-	PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2 ___serializedPropertyCopyName_76;
-	// UnityEngine.UIElements.CustomStyleProperty`1<System.Single> UnityEngine.UIElements.BaseField`1::s_LabelWidthRatioProperty
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty_77;
-	// UnityEngine.UIElements.CustomStyleProperty`1<System.Single> UnityEngine.UIElements.BaseField`1::s_LabelExtraPaddingProperty
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty_78;
-	// UnityEngine.UIElements.CustomStyleProperty`1<System.Single> UnityEngine.UIElements.BaseField`1::s_LabelBaseMinWidthProperty
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty_79;
-};
-
-// UnityEngine.UIElements.BaseField`1<System.Int32>
-
-// UnityEngine.UIElements.BaseField`1<System.Object>
-struct BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B_StaticFields
-{
-	// System.String UnityEngine.UIElements.BaseField`1::ussClassName
-	String_t* ___ussClassName_67;
-	// System.String UnityEngine.UIElements.BaseField`1::labelUssClassName
-	String_t* ___labelUssClassName_68;
-	// System.String UnityEngine.UIElements.BaseField`1::inputUssClassName
-	String_t* ___inputUssClassName_69;
-	// System.String UnityEngine.UIElements.BaseField`1::noLabelVariantUssClassName
-	String_t* ___noLabelVariantUssClassName_70;
-	// System.String UnityEngine.UIElements.BaseField`1::labelDraggerVariantUssClassName
-	String_t* ___labelDraggerVariantUssClassName_71;
-	// System.String UnityEngine.UIElements.BaseField`1::mixedValueLabelUssClassName
-	String_t* ___mixedValueLabelUssClassName_72;
-	// System.String UnityEngine.UIElements.BaseField`1::alignedFieldUssClassName
-	String_t* ___alignedFieldUssClassName_73;
-	// System.String UnityEngine.UIElements.BaseField`1::inspectorFieldUssClassName
-	String_t* ___inspectorFieldUssClassName_74;
-	// System.String UnityEngine.UIElements.BaseField`1::mixedValueString
-	String_t* ___mixedValueString_75;
-	// UnityEngine.PropertyName UnityEngine.UIElements.BaseField`1::serializedPropertyCopyName
-	PropertyName_tE4B4AAA58AF3BF2C0CD95509EB7B786F096901C2 ___serializedPropertyCopyName_76;
-	// UnityEngine.UIElements.CustomStyleProperty`1<System.Single> UnityEngine.UIElements.BaseField`1::s_LabelWidthRatioProperty
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelWidthRatioProperty_77;
-	// UnityEngine.UIElements.CustomStyleProperty`1<System.Single> UnityEngine.UIElements.BaseField`1::s_LabelExtraPaddingProperty
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelExtraPaddingProperty_78;
-	// UnityEngine.UIElements.CustomStyleProperty`1<System.Single> UnityEngine.UIElements.BaseField`1::s_LabelBaseMinWidthProperty
-	CustomStyleProperty_1_t21332918528099194FD36C74FF0FA14696F39493 ___s_LabelBaseMinWidthProperty_79;
-};
-
-// UnityEngine.UIElements.BaseField`1<System.Object>
 
 // UnityEngine.UIElements.BaseField`1<System.Single>
 struct BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7_StaticFields
@@ -7832,19 +7439,6 @@ struct RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_StaticFields
 
 // System.RuntimeType
 
-// UnityEngine.UIElements.TextElement
-struct TextElement_tD56C5044CCC5552285DC8A9950CC60448C80FEE0_StaticFields
-{
-	// System.String UnityEngine.UIElements.TextElement::ussClassName
-	String_t* ___ussClassName_67;
-	// System.Int32 UnityEngine.UIElements.TextElement::maxTextVertices
-	int32_t ___maxTextVertices_69;
-	// System.String UnityEngine.UIElements.TextElement::k_EllipsisText
-	String_t* ___k_EllipsisText_74;
-};
-
-// UnityEngine.UIElements.TextElement
-
 // UnityEngine.UIElements.BaseSlider`1<System.Int32>
 struct BaseSlider_1_tCD357038DC0A12750F4E032D975E8D9F2AA6CD95_StaticFields
 {
@@ -7925,29 +7519,6 @@ struct BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA_StaticFields
 };
 
 // UnityEngine.UIElements.BaseSlider`1<System.Single>
-
-// UnityEngine.UIElements.TextInputBaseField`1<System.String>
-struct TextInputBaseField_1_tB92AF7223ADFB610C49A05AC45918DC385A4D840_StaticFields
-{
-	// UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> UnityEngine.UIElements.TextInputBaseField`1::s_SelectionColorProperty
-	CustomStyleProperty_1_tE4B20CAB5BCFEE711EB4A26F077DC700987C0C2D ___s_SelectionColorProperty_90;
-	// UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> UnityEngine.UIElements.TextInputBaseField`1::s_CursorColorProperty
-	CustomStyleProperty_1_tE4B20CAB5BCFEE711EB4A26F077DC700987C0C2D ___s_CursorColorProperty_91;
-	// System.String UnityEngine.UIElements.TextInputBaseField`1::ussClassName
-	String_t* ___ussClassName_95;
-	// System.String UnityEngine.UIElements.TextInputBaseField`1::labelUssClassName
-	String_t* ___labelUssClassName_96;
-	// System.String UnityEngine.UIElements.TextInputBaseField`1::inputUssClassName
-	String_t* ___inputUssClassName_97;
-	// System.String UnityEngine.UIElements.TextInputBaseField`1::singleLineInputUssClassName
-	String_t* ___singleLineInputUssClassName_98;
-	// System.String UnityEngine.UIElements.TextInputBaseField`1::multilineInputUssClassName
-	String_t* ___multilineInputUssClassName_99;
-	// System.String UnityEngine.UIElements.TextInputBaseField`1::textInputUssName
-	String_t* ___textInputUssName_100;
-};
-
-// UnityEngine.UIElements.TextInputBaseField`1<System.String>
 
 // UnityEngine.UIElements.Label
 struct Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70_StaticFields
@@ -9255,7 +8826,7 @@ IL_0024:
 		V_0 = G_B3_0;
 		float L_5 = V_0;
 		NullCheck((BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)__this);
-		VirtualActionInvoker1< float >::Invoke(105 /* System.Void UnityEngine.UIElements.BaseField`1<System.Single>::SetValueWithoutNotify(TValueType) */, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)__this, L_5);
+		VirtualActionInvoker1< float >::Invoke(106 /* System.Void UnityEngine.UIElements.BaseField`1<System.Single>::SetValueWithoutNotify(TValueType) */, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)__this, L_5);
 		((  void (*) (BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 		NullCheck((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this);
 		VisualElement_SaveViewData_m6F18758E27148CBC3B9E4FCB1F33798AAB427CD6((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, NULL);
@@ -9706,7 +9277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseSlider_1__ctor_mE602DADCF973601966CE
 		int32_t L_6 = ___3_direction;
 		((  void (*) (BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 25)))(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 25));
 		float L_7 = ___4_pageSize;
-		VirtualActionInvoker1< float >::Invoke(107 /* System.Void UnityEngine.UIElements.BaseSlider`1<System.Single>::set_pageSize(System.Single) */, __this, L_7);
+		VirtualActionInvoker1< float >::Invoke(108 /* System.Void UnityEngine.UIElements.BaseSlider`1<System.Single>::set_pageSize(System.Single) */, __this, L_7);
 		float L_8 = ___1_start;
 		((  void (*) (BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*, float, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 28)))(__this, L_8, il2cpp_rgctx_method(method->klass->rgctx_data, 28));
 		float L_9 = ___2_end;
@@ -9950,7 +9521,7 @@ IL_0014:
 		float L_6 = ___0_a;
 		float L_7 = V_0;
 		float L_8;
-		L_8 = VirtualFuncInvoker3< float, float, float, float >::Invoke(110 /* TValueType UnityEngine.UIElements.BaseSlider`1<System.Single>::SliderLerpUnclamped(TValueType,TValueType,System.Single) */, __this, L_5, L_6, L_7);
+		L_8 = VirtualFuncInvoker3< float, float, float, float >::Invoke(111 /* TValueType UnityEngine.UIElements.BaseSlider`1<System.Single>::SliderLerpUnclamped(TValueType,TValueType,System.Single) */, __this, L_5, L_6, L_7);
 		V_2 = L_8;
 		goto IL_0038;
 	}
@@ -9961,7 +9532,7 @@ IL_002c:
 		float L_10 = ___1_b;
 		float L_11 = V_0;
 		float L_12;
-		L_12 = VirtualFuncInvoker3< float, float, float, float >::Invoke(110 /* TValueType UnityEngine.UIElements.BaseSlider`1<System.Single>::SliderLerpUnclamped(TValueType,TValueType,System.Single) */, __this, L_9, L_10, L_11);
+		L_12 = VirtualFuncInvoker3< float, float, float, float >::Invoke(111 /* TValueType UnityEngine.UIElements.BaseSlider`1<System.Single>::SliderLerpUnclamped(TValueType,TValueType,System.Single) */, __this, L_9, L_10, L_11);
 		V_2 = L_12;
 		goto IL_0038;
 	}
@@ -10180,7 +9751,7 @@ IL_0018:
 	}
 	{
 		float L_6;
-		L_6 = VirtualFuncInvoker0< float >::Invoke(106 /* System.Single UnityEngine.UIElements.BaseSlider`1<System.Single>::get_pageSize() */, __this);
+		L_6 = VirtualFuncInvoker0< float >::Invoke(107 /* System.Single UnityEngine.UIElements.BaseSlider`1<System.Single>::get_pageSize() */, __this);
 		bool L_7;
 		L_7 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_6, (0.0f), NULL);
 		V_2 = L_7;
@@ -10469,7 +10040,7 @@ IL_0215:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95;
 		L_95 = Clickable_get_lastMousePosition_m44881B6F9DFBD98ECBA7DE638D4894220B61BCDF_inline((Clickable_tED3E313565F64BDF5DA9D3FE0FEFFD0E17E53834*)L_94, NULL);
 		float L_96 = (float)L_95.___x_0;
-		VirtualActionInvoker4< float, float, float, float >::Invoke(114 /* System.Void UnityEngine.UIElements.BaseSlider`1<System.Single>::ComputeValueAndDirectionFromClick(System.Single,System.Single,System.Single,System.Single) */, __this, L_86, L_89, L_93, L_96);
+		VirtualActionInvoker4< float, float, float, float >::Invoke(115 /* System.Void UnityEngine.UIElements.BaseSlider`1<System.Single>::ComputeValueAndDirectionFromClick(System.Single,System.Single,System.Single,System.Single) */, __this, L_86, L_89, L_93, L_96);
 		goto IL_02be;
 	}
 
@@ -10506,7 +10077,7 @@ IL_0272:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_108;
 		L_108 = Clickable_get_lastMousePosition_m44881B6F9DFBD98ECBA7DE638D4894220B61BCDF_inline((Clickable_tED3E313565F64BDF5DA9D3FE0FEFFD0E17E53834*)L_107, NULL);
 		float L_109 = (float)L_108.___y_1;
-		VirtualActionInvoker4< float, float, float, float >::Invoke(114 /* System.Void UnityEngine.UIElements.BaseSlider`1<System.Single>::ComputeValueAndDirectionFromClick(System.Single,System.Single,System.Single,System.Single) */, __this, L_99, L_102, L_106, L_109);
+		VirtualActionInvoker4< float, float, float, float >::Invoke(115 /* System.Void UnityEngine.UIElements.BaseSlider`1<System.Single>::ComputeValueAndDirectionFromClick(System.Single,System.Single,System.Single,System.Single) */, __this, L_99, L_102, L_106, L_109);
 	}
 
 IL_02be:
@@ -11084,7 +10655,7 @@ IL_017e:
 		NullCheck((KeyboardEventBase_1_t8A33E6EBB804F18BFE49BE0C38C5D0B8E233B6FA*)L_52);
 		bool L_53;
 		L_53 = KeyboardEventBase_1_get_shiftKey_m6F17812A43DB9076880B0ACA64DD5675FA30E418((KeyboardEventBase_1_t8A33E6EBB804F18BFE49BE0C38C5D0B8E233B6FA*)L_52, KeyboardEventBase_1_get_shiftKey_m6F17812A43DB9076880B0ACA64DD5675FA30E418_RuntimeMethod_var);
-		VirtualActionInvoker2< int32_t, bool >::Invoke(113 /* System.Void UnityEngine.UIElements.BaseSlider`1<System.Single>::ComputeValueFromKey(UnityEngine.UIElements.BaseSlider`1/SliderKey<TValueType>,System.Boolean) */, __this, L_51, L_53);
+		VirtualActionInvoker2< int32_t, bool >::Invoke(114 /* System.Void UnityEngine.UIElements.BaseSlider`1<System.Single>::ComputeValueFromKey(UnityEngine.UIElements.BaseSlider`1/SliderKey<TValueType>,System.Boolean) */, __this, L_51, L_53);
 		KeyDownEvent_t1971978254C8EE65CDDD992AF86B44E442CDD18C* L_54 = ___0_evt;
 		NullCheck((EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C*)L_54);
 		EventBase_StopPropagation_mEFC7E5AB7164157065FF19064A6ADCBB0D8AF6FB((EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C*)L_54, NULL);
@@ -11194,7 +10765,7 @@ IL_0044:
 	}
 	{
 		float L_17;
-		L_17 = VirtualFuncInvoker0< float >::Invoke(106 /* System.Single UnityEngine.UIElements.BaseSlider`1<System.Single>::get_pageSize() */, __this);
+		L_17 = VirtualFuncInvoker0< float >::Invoke(107 /* System.Single UnityEngine.UIElements.BaseSlider`1<System.Single>::get_pageSize() */, __this);
 		G_B11_0 = L_17;
 		goto IL_005d;
 	}
@@ -11202,7 +10773,7 @@ IL_0044:
 IL_0056:
 	{
 		float L_18;
-		L_18 = VirtualFuncInvoker0< float >::Invoke(106 /* System.Single UnityEngine.UIElements.BaseSlider`1<System.Single>::get_pageSize() */, __this);
+		L_18 = VirtualFuncInvoker0< float >::Invoke(107 /* System.Single UnityEngine.UIElements.BaseSlider`1<System.Single>::get_pageSize() */, __this);
 		G_B11_0 = ((-L_18));
 	}
 
@@ -11663,7 +11234,7 @@ IL_0013:
 		float L_4;
 		L_4 = ((  float (*) (BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 16)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
 		float L_5;
-		L_5 = VirtualFuncInvoker3< float, float, float, float >::Invoke(111 /* System.Single UnityEngine.UIElements.BaseSlider`1<System.Single>::SliderNormalizeValue(TValueType,TValueType,TValueType) */, __this, L_2, L_3, L_4);
+		L_5 = VirtualFuncInvoker3< float, float, float, float >::Invoke(112 /* System.Single UnityEngine.UIElements.BaseSlider`1<System.Single>::SliderNormalizeValue(TValueType,TValueType,TValueType) */, __this, L_2, L_3, L_4);
 		V_0 = L_5;
 		bool L_6;
 		L_6 = ((  bool (*) (BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 46)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 46));
@@ -11975,7 +11546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseSlider_1_UpdateTextFieldVisibility_m
 	int32_t G_B7_0 = 0;
 	{
 		bool L_0;
-		L_0 = VirtualFuncInvoker0< bool >::Invoke(108 /* System.Boolean UnityEngine.UIElements.BaseSlider`1<System.Single>::get_showInputField() */, __this);
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(109 /* System.Boolean UnityEngine.UIElements.BaseSlider`1<System.Single>::get_showInputField() */, __this);
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
@@ -12159,7 +11730,7 @@ IL_0010:
 		String_t* L_9;
 		L_9 = String_Format_m447B585713E5EB3EBF5D9D0710706D01E8A56D75((RuntimeObject*)L_3, _stringLiteral1660425A84D28CF416641D0BE690D8A44FF05026, L_5, NULL);
 		NullCheck((BaseField_1_tCFD0CD0290BAF33C363F8F2C2AC37320EBA86BE5*)L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(105 /* System.Void UnityEngine.UIElements.BaseField`1<System.String>::SetValueWithoutNotify(TValueType) */, (BaseField_1_tCFD0CD0290BAF33C363F8F2C2AC37320EBA86BE5*)L_2, L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(106 /* System.Void UnityEngine.UIElements.BaseField`1<System.String>::SetValueWithoutNotify(TValueType) */, (BaseField_1_tCFD0CD0290BAF33C363F8F2C2AC37320EBA86BE5*)L_2, L_9);
 	}
 
 IL_003f:
@@ -12193,7 +11764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseSlider_1_OnTextFieldValueChange_m7B4
 		String_t* L_1;
 		L_1 = ChangeEvent_1_get_newValue_m6437E6333E876EDE34EF3A7B7BBEF2919D4946F8_inline(L_0, ChangeEvent_1_get_newValue_m6437E6333E876EDE34EF3A7B7BBEF2919D4946F8_RuntimeMethod_var);
 		float L_2;
-		L_2 = VirtualFuncInvoker1< float, String_t* >::Invoke(112 /* TValueType UnityEngine.UIElements.BaseSlider`1<System.Single>::ParseStringToValue(System.String) */, __this, L_1);
+		L_2 = VirtualFuncInvoker1< float, String_t* >::Invoke(113 /* TValueType UnityEngine.UIElements.BaseSlider`1<System.Single>::ParseStringToValue(System.String) */, __this, L_1);
 		float L_3;
 		L_3 = ((  float (*) (BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*, float, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		V_0 = L_3;

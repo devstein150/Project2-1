@@ -4379,15 +4379,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 
 // System.Text.Encoding
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // System.Collections.Hashtable
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 {
@@ -4396,10 +4387,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 };
 
 // System.Collections.Hashtable
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.Reflection.MemberInfo
 
@@ -4507,10 +4494,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 // System.Xml.ValidatingReaderNodeData
 
 // System.Xml.ValidatingReaderNodeData
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.XmlChildEnumerator
 
@@ -4632,22 +4615,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity>
 
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
-
-// System.Collections.Generic.KeyValuePair`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaAttDef>
-
-// System.Collections.Generic.KeyValuePair`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaAttDef>
-
-// System.Collections.Generic.KeyValuePair`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl>
-
-// System.Collections.Generic.KeyValuePair`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl>
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -4672,23 +4639,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 
 // System.Char
 
-// System.Decimal
-struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
-{
-	// System.Decimal System.Decimal::Zero
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_3;
-	// System.Decimal System.Decimal::One
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_4;
-	// System.Decimal System.Decimal::MinusOne
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_5;
-	// System.Decimal System.Decimal::MaxValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_6;
-	// System.Decimal System.Decimal::MinValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_7;
-};
-
-// System.Decimal
-
 // System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 {
@@ -4710,10 +4660,6 @@ struct IntPtr_t_StaticFields
 };
 
 // System.IntPtr
-
-// System.Xml.LineInfo
-
-// System.Xml.LineInfo
 
 // System.Xml.NameTable
 
@@ -4845,10 +4791,6 @@ struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 
 // System.Xml.Schema.XmlSchema
 
-// System.Xml.Schema.XmlSchemaAnnotated
-
-// System.Xml.Schema.XmlSchemaAnnotated
-
 // System.Xml.XmlTextReader
 
 // System.Xml.XmlTextReader
@@ -4860,10 +4802,6 @@ struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 // System.Xml.XmlNamedNodeMap/SmallXmlNodeList
 
 // System.Xml.XmlNamedNodeMap/SmallXmlNodeList
-
-// System.Xml.XmlTextReaderImpl/ParsingState
-
-// System.Xml.XmlTextReaderImpl/ParsingState
 
 // System.Xml.XmlWellFormedWriter/AttrName
 
@@ -4893,10 +4831,6 @@ struct Exception_t_StaticFields
 };
 
 // System.Exception
-
-// System.Runtime.InteropServices.GCHandle
-
-// System.Runtime.InteropServices.GCHandle
 
 // System.Xml.Schema.Parser
 
@@ -4962,15 +4896,6 @@ struct XmlReaderSettings_t8D51BA3ED2A013EE1F44525C9861326CAFB44AEA_StaticFields
 // System.Xml.Schema.XmlSchemaAttribute
 
 // System.Xml.Schema.XmlSchemaAttribute
-
-// System.Xml.Schema.XmlSchemaParticle
-struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
-{
-	// System.Xml.Schema.XmlSchemaParticle System.Xml.Schema.XmlSchemaParticle::Empty
-	XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE* ___Empty_12;
-};
-
-// System.Xml.Schema.XmlSchemaParticle
 
 // System.Xml.Schema.XmlSchemaType
 
@@ -5056,14 +4981,6 @@ struct HtmlUtf8RawTextWriter_tBDA64D6572325D75C2E84DE787BC2D7C9A0AE850_StaticFie
 };
 
 // System.Xml.HtmlUtf8RawTextWriter
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Xml.TextEncodedRawTextWriter
 

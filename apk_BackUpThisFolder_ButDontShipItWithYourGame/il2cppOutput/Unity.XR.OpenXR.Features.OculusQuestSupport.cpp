@@ -143,10 +143,6 @@ struct OculusQuestFeature_tF5FA7128BB36F546D5CF7094A93B812DAC667810  : public Op
 
 // <Module>
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -158,31 +154,9 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 
 // System.Boolean
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // System.Void
 
 // System.Void
-
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
-
-// UnityEngine.Object
-
-// UnityEngine.ScriptableObject
-
-// UnityEngine.ScriptableObject
 
 // UnityEngine.XR.OpenXR.Features.OpenXRFeature
 struct OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143_StaticFields

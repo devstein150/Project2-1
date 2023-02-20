@@ -3221,15 +3221,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 
 // System.Globalization.CultureInfo
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // System.Collections.Hashtable
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 {
@@ -3238,10 +3229,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 };
 
 // System.Collections.Hashtable
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // System.Xml.Schema.NamespaceList
 
@@ -3293,10 +3280,6 @@ struct String_t_StaticFields
 
 // System.String
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XmlNameTable
 
 // System.Xml.XmlNameTable
@@ -3304,10 +3287,6 @@ struct String_t_StaticFields
 // System.Xml.XmlNamespaceManager
 
 // System.Xml.XmlNamespaceManager
-
-// System.Xml.XmlNode
-
-// System.Xml.XmlNode
 
 // System.Xml.XmlQualifiedName
 struct XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9_StaticFields
@@ -3611,15 +3590,6 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 
 // System.Int64
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // System.Xml.Schema.ParticleContentValidator
 
 // System.Xml.Schema.ParticleContentValidator
@@ -3686,30 +3656,6 @@ struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl>
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl>
-
-// System.Xml.Schema.Datatype_anySimpleType
-struct Datatype_anySimpleType_tD47DC683977E05254522AF9947F51E0D0E4261DA_StaticFields
-{
-	// System.Type System.Xml.Schema.Datatype_anySimpleType::atomicValueType
-	Type_t* ___atomicValueType_91;
-	// System.Type System.Xml.Schema.Datatype_anySimpleType::listValueType
-	Type_t* ___listValueType_92;
-};
-
-// System.Xml.Schema.Datatype_anySimpleType
-
-// System.Delegate
-
-// System.Delegate
-
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
 
 // System.RuntimeTypeHandle
 
@@ -3778,14 +3724,6 @@ struct Datatype_union_t22C688740C641369128CF9524F387AE2B28C3FAC_StaticFields
 };
 
 // System.Xml.Schema.Datatype_union
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

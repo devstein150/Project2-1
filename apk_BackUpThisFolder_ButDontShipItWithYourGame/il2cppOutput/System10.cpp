@@ -3109,14 +3109,6 @@ struct CompatibleComparer_t8D7ECAA82055FA1BAC99BA4139D4A818120EBA7E_StaticFields
 
 // System.Configuration.ConfigurationPropertyCollection
 
-// System.Configuration.ConfigurationSectionGroup
-
-// System.Configuration.ConfigurationSectionGroup
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 {
@@ -3155,15 +3147,6 @@ struct DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_StaticFields
 
 // System.Diagnostics.DiagnosticsConfigurationHandler
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // System.ComponentModel.EventDescriptorCollection
 struct EventDescriptorCollection_t5B373F7B3BB09FDD9287D4403AF4EC9283966E96_StaticFields
 {
@@ -3189,10 +3172,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 // System.ComponentModel.Design.Serialization.InstanceDescriptor
 
 // System.ComponentModel.Design.Serialization.InstanceDescriptor
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.ComponentModel.MemberDescriptor
 
@@ -3267,17 +3246,6 @@ struct StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06_StaticFields
 };
 
 // System.StringComparer
-
-// System.Diagnostics.Switch
-struct Switch_t9C3FB6E0121B928798EA7C18AAB5DFC8F3A09412_StaticFields
-{
-	// System.Collections.Generic.List`1<System.WeakReference> System.Diagnostics.Switch::switches
-	List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9* ___switches_9;
-	// System.Int32 System.Diagnostics.Switch::s_LastCollectionCount
-	int32_t ___s_LastCollectionCount_10;
-};
-
-// System.Diagnostics.Switch
 
 // System.Threading.Tasks.Task
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
@@ -3511,14 +3479,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 };
 
 // System.Char
-
-// System.Configuration.ConfigurationElementCollection
-
-// System.Configuration.ConfigurationElementCollection
-
-// System.Configuration.ConfigurationSection
-
-// System.Configuration.ConfigurationSection
 
 // System.Net.Configuration.ConnectionManagementElement
 
@@ -3898,15 +3858,6 @@ struct ReflectTypeDescriptionProvider_t23B368F67882890DA4935F979394FB9D9C45CD6A_
 
 // System.Net.Configuration.SettingsSection
 
-// System.Threading.WaitHandle
-struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
-{
-	// System.IntPtr System.Threading.WaitHandle::InvalidHandle
-	intptr_t ___InvalidHandle_11;
-};
-
-// System.Threading.WaitHandle
-
 // System.Net.Configuration.WebRequestModuleElementCollection
 
 // System.Net.Configuration.WebRequestModuleElementCollection
@@ -3938,14 +3889,6 @@ struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
 // System.IO.Compression.DeflateStreamNative
 
 // System.IO.Compression.DeflateStreamNative
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

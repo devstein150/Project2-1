@@ -985,10 +985,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 
 // System.Text.Encoding
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.String
 struct String_t_StaticFields
 {
@@ -1068,10 +1064,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // UnityEngine.WWWForm
 struct WWWForm_t0DAE123504AB1B2BC17C18714741B92AB3B3B045_StaticFields
 {
@@ -1129,10 +1121,6 @@ struct WebRequestUtils_t23F1FB533DBFDA3BE5624D901D535B4C6EFAD443_StaticFields
 
 // UnityEngineInternal.WebRequestUtils
 
-// UnityEngine.YieldInstruction
-
-// UnityEngine.YieldInstruction
-
 // Unity.Collections.NativeArray`1<System.Byte>
 
 // Unity.Collections.NativeArray`1<System.Byte>
@@ -1178,10 +1166,6 @@ struct IntPtr_t_StaticFields
 
 // System.IntPtr
 
-// System.OrdinalComparer
-
-// System.OrdinalComparer
-
 // System.IO.Stream
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 {
@@ -1191,19 +1175,6 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 
 // System.IO.Stream
 
-// System.TimeSpan
-struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
-{
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
-};
-
-// System.TimeSpan
-
 // System.UInt64
 
 // System.UInt64
@@ -1220,22 +1191,9 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 
 // UnityEngine.Networking.CertificateHandler
 
-// System.Delegate
-
-// System.Delegate
-
 // UnityEngine.Networking.DownloadHandler
 
 // UnityEngine.Networking.DownloadHandler
-
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
 
 // System.IO.MemoryStream
 
@@ -1275,14 +1233,6 @@ struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_StaticFields
 // UnityEngine.Networking.DownloadHandlerBuffer
 
 // UnityEngine.Networking.DownloadHandlerBuffer
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // UnityEngine.Networking.UnityWebRequest
 

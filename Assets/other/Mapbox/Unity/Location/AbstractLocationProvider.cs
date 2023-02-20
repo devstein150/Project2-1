@@ -5,7 +5,7 @@
 
 	public abstract class AbstractLocationProvider : MonoBehaviour, ILocationProvider
 	{
-		protected Location _currentLocation;
+		protected Location _currentLocation; //protected
 
 		/// <summary>
 		/// Gets the last known location.

@@ -3605,10 +3605,6 @@ struct ManualResetEventSlim_tF787FECBA03E587696EC89D5AF8CB9EA24701796_StaticFiel
 
 // System.MarshalByRefObject
 
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Threading.NativeEventCalls
 
 // System.Threading.NativeEventCalls
@@ -3800,10 +3796,6 @@ struct ThreadPoolWorkQueueThreadLocals_t640C55FD5FA6248616BCCE816926AB7F5816FCC3
 	ThreadPoolWorkQueueThreadLocals_t640C55FD5FA6248616BCCE816926AB7F5816FCC3* ___threadLocals_0;
 };
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Threading.Volatile
 
 // System.Threading.Volatile
@@ -3907,10 +3899,6 @@ struct U3CU3Ec_t4425B748E5D4F64D36701F0A21F219A68790B9C3_StaticFields
 // System.Collections.Generic.LowLevelListWithIList`1<System.Threading.Tasks.Task>
 
 // System.Collections.Generic.LowLevelListWithIList`1<System.Threading.Tasks.Task>
-
-// System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo>
-
-// System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo>
 
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>
 struct Task_1_t65B0CFA55427D8F65292A36D9BE1B7C5D949EE11_StaticFields
@@ -4079,15 +4067,6 @@ struct InternalEncoderBestFitFallbackBuffer_tF0ED6B7D8A937BD122562FDF5962A7B54CD
 
 // System.Single
 
-// System.Threading.SpinLock
-struct SpinLock_t0826FB2BDD25012485F35D6D33A1FE1E1752E816_StaticFields
-{
-	// System.Int32 System.Threading.SpinLock::MAXIMUM_WAITERS
-	int32_t ___MAXIMUM_WAITERS_1;
-};
-
-// System.Threading.SpinLock
-
 // System.Threading.SpinWait
 struct SpinWait_t51CFFA8FF70F1B430E075F96CFD936260D8CE675_StaticFields
 {
@@ -4166,15 +4145,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 // System.UInt64
 
 // System.UInt64
-
-// System.UIntPtr
-struct UIntPtr_t_StaticFields
-{
-	// System.UIntPtr System.UIntPtr::Zero
-	uintptr_t ___Zero_0;
-};
-
-// System.UIntPtr
 
 // System.Threading.Tasks.UnobservedTaskExceptionEventArgs
 
@@ -4370,21 +4340,9 @@ struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
 
 // System.Threading.EventWaitHandle
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.Threading.Mutex
 
 // System.Threading.Mutex
-
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Threading.Tasks.TaskSchedulerException
 

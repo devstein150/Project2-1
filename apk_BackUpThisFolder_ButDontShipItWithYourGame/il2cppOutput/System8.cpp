@@ -4424,14 +4424,6 @@ struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_StaticF
 
 // System.Threading.CancellationTokenSource
 
-// System.Collections.CollectionBase
-
-// System.Collections.CollectionBase
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
 // System.Net.Configuration.DefaultProxySectionInternal
 struct DefaultProxySectionInternal_t660B515577A92AE03B159B75AC172E4E34466EC2_StaticFields
 {
@@ -4552,14 +4544,6 @@ struct IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields
 
 // System.Net.Sockets.LingerOption
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // Mono.Security.Interface.MonoTlsProvider
 
 // Mono.Security.Interface.MonoTlsProvider
@@ -4567,15 +4551,6 @@ struct IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields
 // System.Net.Sockets.MulticastOption
 
 // System.Net.Sockets.MulticastOption
-
-// System.Collections.Specialized.NameObjectCollectionBase
-struct NameObjectCollectionBase_tB6400DF2FA3B64660D79586B79016B4A0BA645FC_StaticFields
-{
-	// System.StringComparer System.Collections.Specialized.NameObjectCollectionBase::defaultComparer
-	StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06* ___defaultComparer_8;
-};
-
-// System.Collections.Specialized.NameObjectCollectionBase
 
 // System.OperatingSystem
 
@@ -4814,10 +4789,6 @@ struct UnixIPGlobalPropertiesFactoryPal_t390E08FA747A9A14091FE09AE19450418151B5D
 
 // System.Net.NetworkInformation.UnixIPGlobalPropertiesFactoryPal
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Version
 
 // System.Version
@@ -4960,10 +4931,6 @@ struct ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_StaticFields
 
 // System.Nullable`1<System.Int32Enum>
 
-// System.Nullable`1<Mono.Security.Interface.TlsProtocols>
-
-// System.Nullable`1<Mono.Security.Interface.TlsProtocols>
-
 // System.ReadOnlyMemory`1<System.Byte>
 
 // System.ReadOnlyMemory`1<System.Byte>
@@ -5021,10 +4988,6 @@ struct ValueTask_1_t823DE87C36EA952D24C4E64F532E9D4425B72F21_StaticFields
 };
 
 // System.Threading.Tasks.ValueTask`1<System.Int32>
-
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
-
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -5088,23 +5051,6 @@ struct Component_t7DA251DAA9E59801CC5FE8E27F37027143BED083_StaticFields
 // System.ComponentModel.ComponentCollection
 
 // System.ComponentModel.ComponentCollection
-
-// System.DateTime
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
-};
-
-// System.DateTime
 
 // System.ComponentModel.DefaultValueAttribute
 
@@ -5305,10 +5251,6 @@ struct WebRequest_t89050438AE9A5AA9221ECAE223584127F7C1294B_StaticFields
 
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
 
-// System.Net.HttpWebRequest/AuthorizationState
-
-// System.Net.HttpWebRequest/AuthorizationState
-
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Byte[]>
 struct AsyncTaskMethodBuilder_1_tF4B144BF5EE52E8AC70FFD31FC2684642AC52B81_StaticFields
 {
@@ -5345,15 +5287,6 @@ struct AsyncTaskMethodBuilder_1_t80349F578B92358FF136535BF1BCE759FA15D19F_Static
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Net.Sockets.Socket>
 
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
-struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC_StaticFields
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_defaultResultTask_0;
-};
-
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
-
 // System.ByReference`1<System.Byte>
 
 // System.ByReference`1<System.Byte>
@@ -5373,10 +5306,6 @@ struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC_Static
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.Task>
 
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.Task>
-
-// System.Nullable`1<System.DateTime>
-
-// System.Nullable`1<System.DateTime>
 
 // System.Tuple`3<System.Threading.Tasks.TaskCompletionSource`1<System.Int32>,System.Memory`1<System.Byte>,System.Byte[]>
 
@@ -5547,10 +5476,6 @@ struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFi
 
 // System.Net.ContentDecodeStream
 
-// System.Threading.EventWaitHandle
-
-// System.Threading.EventWaitHandle
-
 // System.Net.FixedSizeReadStream
 
 // System.Net.FixedSizeReadStream
@@ -5592,10 +5517,6 @@ struct MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0_StaticFields
 
 // Mono.Security.Interface.MonoTlsSettings
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid
 
 // Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid
@@ -5603,10 +5524,6 @@ struct MonoTlsSettings_tD79AF4AE5C2CD533A3D7A08FED479B1EC1A031B0_StaticFields
 // System.Net.Security.SslStream
 
 // System.Net.Security.SslStream
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -5727,10 +5644,6 @@ struct AwaitableSocketAsyncEventArgs_tE71F60B994C14EFB1BBC5ECD4E8C09D468B04F56_S
 
 // System.Threading.ContextCallback
 
-// System.Runtime.InteropServices.ExternalException
-
-// System.Runtime.InteropServices.ExternalException
-
 // System.IOAsyncCallback
 
 // System.IOAsyncCallback
@@ -5811,10 +5724,6 @@ struct SafeSocketHandle_t5A597D30D951E736B750ED09D5B3AB72F98407EE_StaticFields
 // System.Threading.ThreadAbortException
 
 // System.Threading.ThreadAbortException
-
-// System.TypeLoadException
-
-// System.TypeLoadException
 
 // System.Threading.WaitCallback
 

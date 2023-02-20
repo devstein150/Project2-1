@@ -250,10 +250,6 @@ struct String_t_StaticFields
 
 // System.String
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -345,10 +341,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // System.Void
 
-// UnityEngine.XR.OpenXR.NativeTypes.XrQuaternionf
-
-// UnityEngine.XR.OpenXR.NativeTypes.XrQuaternionf
-
 // UnityEngine.XR.OpenXR.NativeTypes.XrVector2f
 
 // UnityEngine.XR.OpenXR.NativeTypes.XrVector2f
@@ -357,22 +349,9 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // UnityEngine.XR.OpenXR.NativeTypes.XrVector3f
 
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
-
-// UnityEngine.Object
-
 // UnityEngine.XR.OpenXR.NativeTypes.XrPosef
 
 // UnityEngine.XR.OpenXR.NativeTypes.XrPosef
-
-// UnityEngine.ScriptableObject
-
-// UnityEngine.ScriptableObject
 
 // UnityEngine.XR.OpenXR.Features.OpenXRFeature
 struct OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143_StaticFields

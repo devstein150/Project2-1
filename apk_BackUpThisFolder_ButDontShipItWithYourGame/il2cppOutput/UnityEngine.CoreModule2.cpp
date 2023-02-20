@@ -3457,10 +3457,6 @@ struct String_t_StaticFields
 
 // UnityEngine.Events.UnityEventTools
 
-// System.ValueType
-
-// System.ValueType
-
 // UnityEngine.Experimental.GlobalIllumination.Lightmapping/<>c
 struct U3CU3Ec_t480832E6E9C0D190B837CC90FB7A34286511D2E4_StaticFields
 {
@@ -3477,22 +3473,6 @@ struct U3CU3Ec_t480832E6E9C0D190B837CC90FB7A34286511D2E4_StaticFields
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>
-
-// UnityEngine.Events.InvokableCall`1<System.Boolean>
-
-// UnityEngine.Events.InvokableCall`1<System.Boolean>
-
-// UnityEngine.Events.InvokableCall`1<System.Int32>
-
-// UnityEngine.Events.InvokableCall`1<System.Int32>
-
-// UnityEngine.Events.InvokableCall`1<System.Single>
-
-// UnityEngine.Events.InvokableCall`1<System.Single>
-
-// UnityEngine.Events.InvokableCall`1<System.String>
-
-// UnityEngine.Events.InvokableCall`1<System.String>
 
 // Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI>
 
@@ -3520,15 +3500,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 // UnityEngine.PlayerLoop.EarlyUpdate
 
 // UnityEngine.PlayerLoop.EarlyUpdate
-
-// System.Enum
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
-};
-
-// System.Enum
 
 // UnityEngine.PlayerLoop.FixedUpdate
 
@@ -4209,15 +4180,6 @@ struct ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB_StaticFields
 
 // UnityEngine.Experimental.GlobalIllumination.DiscLight
 
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
 // UnityEngine.Experimental.Rendering.GraphicsFormat
 
 // UnityEngine.Experimental.Rendering.GraphicsFormat
@@ -4301,10 +4263,6 @@ struct PlayableOutputHandle_tEB217645A8C0356A3AC6F964F283003B9740E883_StaticFiel
 
 // UnityEngine.Experimental.Playables.MaterialEffectPlayable
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // UnityEngine.Playables.Playable
 struct Playable_t95C6B795846BA0C7D96E4DA14897CCCF2554334F_StaticFields
 {
@@ -4341,10 +4299,6 @@ struct PlayableOutput_t2F7C45A58DA3E788EEDDB439549E21CF3FCF3680_StaticFields
 // UnityEngine.ScriptableObject
 
 // UnityEngine.ScriptableObject
-
-// System.SystemException
-
-// System.SystemException
 
 // UnityEngine.Texture
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
@@ -4391,10 +4345,6 @@ struct Type_t_StaticFields
 // System.ArgumentException
 
 // System.ArgumentException
-
-// UnityEngine.Behaviour
-
-// UnityEngine.Behaviour
 
 // UnityEngine.Playables.FrameData
 

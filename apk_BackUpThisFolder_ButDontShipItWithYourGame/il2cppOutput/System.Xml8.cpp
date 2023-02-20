@@ -4810,15 +4810,6 @@ struct DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_StaticFields
 
 // System.DBNull
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // System.Xml.Schema.ForwardAxis
 
 // System.Xml.Schema.ForwardAxis
@@ -4839,10 +4830,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 // System.Xml.Schema.KeySequence
 
 // System.Xml.Schema.KeySequence
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.Reflection.MemberInfo
 
@@ -4876,10 +4863,6 @@ struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472_StaticFields
 // System.Collections.Queue
 
 // System.Collections.Queue
-
-// System.Xml.Schema.SchemaDeclBase
-
-// System.Xml.Schema.SchemaDeclBase
 
 // System.Xml.Schema.SchemaEntity
 
@@ -4986,10 +4969,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XPath.XPathItem
 
 // System.Xml.XPath.XPathItem
@@ -5089,10 +5068,6 @@ struct XmlReflectionImporter_t35377D35396A0B7AF610724CE3256E34C0D271E6_StaticFie
 
 // System.Xml.Schema.XmlSchemaSet
 
-// System.Xml.Serialization.XmlSerializationGeneratedCode
-
-// System.Xml.Serialization.XmlSerializationGeneratedCode
-
 // System.Xml.Serialization.XmlSerializer
 struct XmlSerializer_t08AD90724C0D9D82D4CC23611E5FBDEE50B2867B_StaticFields
 {
@@ -5190,202 +5165,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 };
 
 // System.Char
-
-// System.Xml.Schema.DatatypeImplementation
-struct DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF_StaticFields
-{
-	// System.Collections.Hashtable System.Xml.Schema.DatatypeImplementation::builtinTypes
-	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___builtinTypes_5;
-	// System.Xml.Schema.XmlSchemaSimpleType[] System.Xml.Schema.DatatypeImplementation::enumToTypeCode
-	XmlSchemaSimpleTypeU5BU5D_t987E2FF2001E0D13F88DA709E63EDCEDD38C4B43* ___enumToTypeCode_6;
-	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::anySimpleType
-	XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8* ___anySimpleType_7;
-	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::anyAtomicType
-	XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8* ___anyAtomicType_8;
-	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::untypedAtomicType
-	XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8* ___untypedAtomicType_9;
-	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::yearMonthDurationType
-	XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8* ___yearMonthDurationType_10;
-	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.DatatypeImplementation::dayTimeDurationType
-	XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8* ___dayTimeDurationType_11;
-	// System.Xml.Schema.XmlSchemaSimpleType modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.Schema.DatatypeImplementation::normalizedStringTypeV1Compat
-	XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8* ___normalizedStringTypeV1Compat_12;
-	// System.Xml.Schema.XmlSchemaSimpleType modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.Schema.DatatypeImplementation::tokenTypeV1Compat
-	XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8* ___tokenTypeV1Compat_13;
-	// System.Xml.XmlQualifiedName System.Xml.Schema.DatatypeImplementation::QnAnySimpleType
-	XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* ___QnAnySimpleType_14;
-	// System.Xml.XmlQualifiedName System.Xml.Schema.DatatypeImplementation::QnAnyType
-	XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* ___QnAnyType_15;
-	// System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::stringFacetsChecker
-	FacetsChecker_t1E1C22DA13A646441592D2B8C7DDB5A970B356D8* ___stringFacetsChecker_16;
-	// System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::miscFacetsChecker
-	FacetsChecker_t1E1C22DA13A646441592D2B8C7DDB5A970B356D8* ___miscFacetsChecker_17;
-	// System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::numeric2FacetsChecker
-	FacetsChecker_t1E1C22DA13A646441592D2B8C7DDB5A970B356D8* ___numeric2FacetsChecker_18;
-	// System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::binaryFacetsChecker
-	FacetsChecker_t1E1C22DA13A646441592D2B8C7DDB5A970B356D8* ___binaryFacetsChecker_19;
-	// System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::dateTimeFacetsChecker
-	FacetsChecker_t1E1C22DA13A646441592D2B8C7DDB5A970B356D8* ___dateTimeFacetsChecker_20;
-	// System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::durationFacetsChecker
-	FacetsChecker_t1E1C22DA13A646441592D2B8C7DDB5A970B356D8* ___durationFacetsChecker_21;
-	// System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::listFacetsChecker
-	FacetsChecker_t1E1C22DA13A646441592D2B8C7DDB5A970B356D8* ___listFacetsChecker_22;
-	// System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::qnameFacetsChecker
-	FacetsChecker_t1E1C22DA13A646441592D2B8C7DDB5A970B356D8* ___qnameFacetsChecker_23;
-	// System.Xml.Schema.FacetsChecker System.Xml.Schema.DatatypeImplementation::unionFacetsChecker
-	FacetsChecker_t1E1C22DA13A646441592D2B8C7DDB5A970B356D8* ___unionFacetsChecker_24;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_anySimpleType
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_anySimpleType_25;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_anyURI
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_anyURI_26;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_base64Binary
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_base64Binary_27;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_boolean
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_boolean_28;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_byte
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_byte_29;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_char
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_char_30;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_date
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_date_31;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_dateTime
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_dateTime_32;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_dateTimeNoTz
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_dateTimeNoTz_33;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_dateTimeTz
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_dateTimeTz_34;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_day
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_day_35;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_decimal
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_decimal_36;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_double
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_double_37;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_doubleXdr
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_doubleXdr_38;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_duration
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_duration_39;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_ENTITY
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_ENTITY_40;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_ENTITIES
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_ENTITIES_41;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_ENUMERATION
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_ENUMERATION_42;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_fixed
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_fixed_43;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_float
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_float_44;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_floatXdr
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_floatXdr_45;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_hexBinary
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_hexBinary_46;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_ID
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_ID_47;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_IDREF
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_IDREF_48;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_IDREFS
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_IDREFS_49;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_int
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_int_50;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_integer
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_integer_51;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_language
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_language_52;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_long
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_long_53;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_month
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_month_54;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_monthDay
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_monthDay_55;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_Name
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_Name_56;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_NCName
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_NCName_57;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_negativeInteger
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_negativeInteger_58;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_NMTOKEN
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_NMTOKEN_59;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_NMTOKENS
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_NMTOKENS_60;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_nonNegativeInteger
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_nonNegativeInteger_61;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_nonPositiveInteger
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_nonPositiveInteger_62;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_normalizedString
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_normalizedString_63;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_NOTATION
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_NOTATION_64;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_positiveInteger
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_positiveInteger_65;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_QName
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_QName_66;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_QNameXdr
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_QNameXdr_67;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_short
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_short_68;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_string
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_string_69;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_time
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_time_70;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_timeNoTz
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_timeNoTz_71;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_timeTz
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_timeTz_72;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_token
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_token_73;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_unsignedByte
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_unsignedByte_74;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_unsignedInt
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_unsignedInt_75;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_unsignedLong
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_unsignedLong_76;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_unsignedShort
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_unsignedShort_77;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_uuid
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_uuid_78;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_year
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_year_79;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_yearMonth
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_yearMonth_80;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_normalizedStringV1Compat
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_normalizedStringV1Compat_81;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_tokenV1Compat
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_tokenV1Compat_82;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_anyAtomicType
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_anyAtomicType_83;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_dayTimeDuration
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_dayTimeDuration_84;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_untypedAtomicType
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_untypedAtomicType_85;
-	// System.Xml.Schema.DatatypeImplementation System.Xml.Schema.DatatypeImplementation::c_yearMonthDuration
-	DatatypeImplementation_t5AA28FEB11B6F1548DBC17CBCEDDB7693EACC4BF* ___c_yearMonthDuration_86;
-	// System.Xml.Schema.DatatypeImplementation[] System.Xml.Schema.DatatypeImplementation::c_tokenizedTypes
-	DatatypeImplementationU5BU5D_tAF9278943E9D648383A753A80CE9B866F9684BAC* ___c_tokenizedTypes_87;
-	// System.Xml.Schema.DatatypeImplementation[] System.Xml.Schema.DatatypeImplementation::c_tokenizedTypesXsd
-	DatatypeImplementationU5BU5D_tAF9278943E9D648383A753A80CE9B866F9684BAC* ___c_tokenizedTypesXsd_88;
-	// System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap[] System.Xml.Schema.DatatypeImplementation::c_XdrTypes
-	SchemaDatatypeMapU5BU5D_tC07D9BC55A90232C5D6C99D101B115F1326F6466* ___c_XdrTypes_89;
-	// System.Xml.Schema.DatatypeImplementation/SchemaDatatypeMap[] System.Xml.Schema.DatatypeImplementation::c_XsdTypes
-	SchemaDatatypeMapU5BU5D_tC07D9BC55A90232C5D6C99D101B115F1326F6466* ___c_XsdTypes_90;
-};
-
-// System.Xml.Schema.DatatypeImplementation
-
-// System.DateTime
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
-};
-
-// System.DateTime
 
 // System.Decimal
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
@@ -5563,24 +5342,9 @@ struct TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3_StaticFields
 
 // System.Xml.Serialization.XmlAttributeEventArgs
 
-// System.Xml.XmlCharType
-struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
-{
-	// System.Object System.Xml.XmlCharType::s_Lock
-	RuntimeObject* ___s_Lock_0;
-	// System.Byte[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.XmlCharType::s_CharProperties
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_CharProperties_1;
-};
-
-// System.Xml.XmlCharType
-
 // System.Xml.Serialization.XmlElementEventArgs
 
 // System.Xml.Serialization.XmlElementEventArgs
-
-// System.Xml.XmlLinkedNode
-
-// System.Xml.XmlLinkedNode
 
 // System.Xml.Serialization.XmlMembersMapping
 
@@ -5602,10 +5366,6 @@ struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 };
 
 // System.Xml.Schema.XmlSchema
-
-// System.Xml.Schema.XmlSchemaAnnotated
-
-// System.Xml.Schema.XmlSchemaAnnotated
 
 // System.Xml.Schema.XmlSchemaObjectCollection
 
@@ -5709,21 +5469,6 @@ struct XsdValidator_tB19DA1D1C5635D0E92D22A2F152363C05AED13F6_StaticFields
 // System.Xml.Serialization.ClassMap
 
 // System.Xml.Serialization.ClassMap
-
-// System.Xml.Schema.Datatype_anySimpleType
-struct Datatype_anySimpleType_tD47DC683977E05254522AF9947F51E0D0E4261DA_StaticFields
-{
-	// System.Type System.Xml.Schema.Datatype_anySimpleType::atomicValueType
-	Type_t* ___atomicValueType_91;
-	// System.Type System.Xml.Schema.Datatype_anySimpleType::listValueType
-	Type_t* ___listValueType_92;
-};
-
-// System.Xml.Schema.Datatype_anySimpleType
-
-// System.Delegate
-
-// System.Delegate
 
 // System.Xml.Schema.DoubleLinkAxis
 
@@ -5853,14 +5598,6 @@ struct XmlTextWriter_t9CB64E379F8FE646DA31698A03CE6AF8A594A73B_StaticFields
 
 // System.Xml.Serialization.XmlTypeMapMemberList
 
-// System.Xml.Schema.XmlAtomicValue/Union
-
-// System.Xml.Schema.XmlAtomicValue/Union
-
-// System.ApplicationException
-
-// System.ApplicationException
-
 // System.Xml.Schema.Datatype_base64Binary
 struct Datatype_base64Binary_t5C6C76948C79288E3EF132F26962260ABBBD1FA4_StaticFields
 {
@@ -5882,14 +5619,6 @@ struct Datatype_hexBinary_tB75C3D93C24F99BDCB21267E16EB362E708CC2B7_StaticFields
 };
 
 // System.Xml.Schema.Datatype_hexBinary
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -5960,10 +5689,6 @@ struct XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0_StaticFiel
 // System.Xml.Serialization.XmlTypeMapMemberFlatList
 
 // System.Xml.Serialization.XmlTypeMapMemberFlatList
-
-// System.ArgumentException
-
-// System.ArgumentException
 
 // System.FormatException
 

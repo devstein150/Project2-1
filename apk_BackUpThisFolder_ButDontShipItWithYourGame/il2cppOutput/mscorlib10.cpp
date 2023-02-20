@@ -1360,10 +1360,6 @@ struct EncodingProvider_t3FDEB15BBA530A31E3E5B23F46600086C330CCA5_StaticFields
 
 // System.Text.EncodingProvider
 
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Runtime.Serialization.SerializationInfo
 
 // System.Runtime.Serialization.SerializationInfo
@@ -1393,10 +1389,6 @@ struct StringBuilderCache_t346AF256BEEDBE1015EE81E74CD279FBE10DD7C9_ThreadStatic
 	// System.Text.StringBuilder System.Text.StringBuilderCache::t_cachedInstance
 	StringBuilder_t* ___t_cachedInstance_0;
 };
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Text.Encoding/EncodingByteBuffer
 
@@ -1461,15 +1453,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 // System.Int64
 
 // System.Int64
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.ParamsArray
 struct ParamsArray_t2AE19F401652F4CBAB7A3CD4B0F195679FC16F1C_StaticFields
@@ -1564,22 +1547,9 @@ struct UnicodeEncoding_t2C90D9E1E55C16081FACA57B229053C1EF05DAF0_StaticFields
 
 // System.Text.UTF7Encoding/DecoderUTF7FallbackBuffer
 
-// System.ByReference`1<System.Byte>
-
-// System.ByReference`1<System.Byte>
-
 // System.ByReference`1<System.Char>
 
 // System.ByReference`1<System.Char>
-
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
 
 // System.Text.Latin1Encoding
 struct Latin1Encoding_tF5EC828C70CA7D1D145050935A933A7C2587967F_StaticFields
@@ -1647,10 +1617,6 @@ struct Latin1Encoding_tF5EC828C70CA7D1D145050935A933A7C2587967F_StaticFields
 // System.Span`1<System.Char>
 
 // System.Span`1<System.Char>
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

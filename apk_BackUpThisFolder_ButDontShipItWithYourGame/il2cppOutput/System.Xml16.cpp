@@ -3894,21 +3894,9 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 
 // System.Xml.Schema.KeySequence
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Xml.PositionInfo
 
 // System.Xml.PositionInfo
-
-// System.Xml.Schema.SchemaBuilder
-
-// System.Xml.Schema.SchemaBuilder
 
 // System.Xml.Schema.SchemaDeclBase
 
@@ -3990,17 +3978,9 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XPath.XPathDocument
 
 // System.Xml.XPath.XPathDocument
-
-// System.Xml.XPath.XPathItem
-
-// System.Xml.XPath.XPathItem
 
 // MS.Internal.Xml.Cache.XPathNodeHelper
 
@@ -4087,10 +4067,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 
 // System.Xml.Schema.XmlSchemaDatatype
 
-// System.Xml.Schema.XmlSchemaObject
-
-// System.Xml.Schema.XmlSchemaObject
-
 // System.Xml.Schema.XmlSchemaSet
 
 // System.Xml.Schema.XmlSchemaSet
@@ -4152,35 +4128,9 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
 
 // System.DateTime
 
-// System.Decimal
-struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
-{
-	// System.Decimal System.Decimal::Zero
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_3;
-	// System.Decimal System.Decimal::One
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_4;
-	// System.Decimal System.Decimal::MinusOne
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_5;
-	// System.Decimal System.Decimal::MaxValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_6;
-	// System.Decimal System.Decimal::MinValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_7;
-};
-
-// System.Decimal
-
 // System.Double
 
 // System.Double
-
-// System.Enum
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
-};
-
-// System.Enum
 
 // MS.Internal.Xml.XPath.Filter
 
@@ -4258,10 +4208,6 @@ struct SchemaElementDecl_t985EC0AC51DF3E0339341916D061539CF41846AD_StaticFields
 // System.Xml.Schema.SelectorActiveAxis
 
 // System.Xml.Schema.SelectorActiveAxis
-
-// System.Xml.Schema.StateUnion
-
-// System.Xml.Schema.StateUnion
 
 // System.IO.Stream
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
@@ -4347,10 +4293,6 @@ struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 };
 
 // System.Xml.Schema.XmlSchema
-
-// System.Xml.Schema.XmlSchemaAnnotated
-
-// System.Xml.Schema.XmlSchemaAnnotated
 
 // System.Xml.XmlTextReader
 
@@ -4727,10 +4669,6 @@ struct Exception_t_StaticFields
 
 // System.RuntimeFieldHandle
 
-// System.RuntimeTypeHandle
-
-// System.RuntimeTypeHandle
-
 // System.TimeZoneInfo
 struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8_StaticFields
 {
@@ -4765,15 +4703,6 @@ struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8_StaticFields
 // MS.Internal.Xml.XPath.XPathScanner
 
 // MS.Internal.Xml.XPath.XPathScanner
-
-// System.Xml.Schema.XmlSchemaParticle
-struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
-{
-	// System.Xml.Schema.XmlSchemaParticle System.Xml.Schema.XmlSchemaParticle::Empty
-	XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE* ___Empty_12;
-};
-
-// System.Xml.Schema.XmlSchemaParticle
 
 // System.Xml.Schema.XmlSchemaType
 
@@ -4844,14 +4773,6 @@ struct XsdDateTime_t232255D69CF1B25B380F0C9D87D0002844A1E8BB_StaticFields
 
 // System.Xml.Schema.XsdBuilder/State
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -4884,14 +4805,6 @@ struct Type_t_StaticFields
 // System.Xml.Schema.XmlSchemaSimpleType
 
 // System.Xml.Schema.XmlSchemaSimpleType
-
-// System.ArgumentException
-
-// System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.FormatException
 

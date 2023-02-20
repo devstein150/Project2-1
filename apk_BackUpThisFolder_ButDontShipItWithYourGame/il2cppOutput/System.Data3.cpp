@@ -2476,15 +2476,6 @@ struct InternalDataCollectionBase_tDBDE593FD7AB64DA7E3C512E49C0E0B396D3DDB2_Stat
 
 // System.Data.InternalDataCollectionBase
 
-// System.ComponentModel.MarshalByValueComponent
-struct MarshalByValueComponent_t19E5966D1CE2F9ED341EB16C060BA573F63AEDAA_StaticFields
-{
-	// System.Object System.ComponentModel.MarshalByValueComponent::s_eventDisposed
-	RuntimeObject* ___s_eventDisposed_0;
-};
-
-// System.ComponentModel.MarshalByValueComponent
-
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
@@ -2535,10 +2526,6 @@ struct TypeConverter_t5257E1653EB845D0044BBEDEB7B8AED7A061592C_StaticFields
 
 // System.ComponentModel.TypeConverter
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Data.AggregateNode
 
 // System.Data.AggregateNode
@@ -2587,10 +2574,6 @@ struct DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66_StaticFields
 // System.Data.DataColumnCollection
 
 // System.Data.DataColumnCollection
-
-// System.Data.DataKey
-
-// System.Data.DataKey
 
 // System.Data.DataRelationCollection
 struct DataRelationCollection_tA8655ADC9860DD89FDC0317E38C95CB740BC2956_StaticFields
@@ -2690,15 +2673,6 @@ struct Guid_t_StaticFields
 // System.Int64
 
 // System.Int64
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Data.LookupNode
 
@@ -3190,10 +3164,6 @@ struct SqlDateTime_tFB5902479382E8A61934E274E7BBF3280A3D25B2_StaticFields
 
 // System.Data.SqlTypes.SqlDateTime
 
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -3218,10 +3188,6 @@ struct Type_t_StaticFields
 // System.ArgumentException
 
 // System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.Data.DataException
 

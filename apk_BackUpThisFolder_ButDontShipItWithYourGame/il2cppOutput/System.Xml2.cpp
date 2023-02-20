@@ -3564,10 +3564,6 @@ struct LocalAppContextSwitches_tD4691F88F847A5F076065A6FEF10BBB5DB039434_StaticF
 
 // System.LocalAppContextSwitches
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
@@ -3704,10 +3700,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Xml.ValidatingReaderNodeData
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XmlNameTable
 
 // System.Xml.XmlNameTable
@@ -3747,10 +3739,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 // System.Xml.XmlResolver
 
 // System.Xml.XmlResolver
-
-// System.Xml.Schema.XmlSchemaObject
-
-// System.Xml.Schema.XmlSchemaObject
 
 // System.Xml.Schema.XmlSchemaSet
 
@@ -3816,23 +3804,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 
 // System.Xml.CharEntityEncoderFallback
 
-// System.Decimal
-struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
-{
-	// System.Decimal System.Decimal::Zero
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___Zero_3;
-	// System.Decimal System.Decimal::One
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___One_4;
-	// System.Decimal System.Decimal::MinusOne
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinusOne_5;
-	// System.Decimal System.Decimal::MaxValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MaxValue_6;
-	// System.Decimal System.Decimal::MinValue
-	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___MinValue_7;
-};
-
-// System.Decimal
-
 // System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 {
@@ -3866,10 +3837,6 @@ struct IntPtr_t_StaticFields
 // System.Xml.LineInfo
 
 // System.Xml.LineInfo
-
-// System.Reflection.MethodBase
-
-// System.Reflection.MethodBase
 
 // System.IO.Stream
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
@@ -3939,10 +3906,6 @@ struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
 
 // System.Xml.XmlRawWriterBase64Encoder
 
-// System.Xml.Schema.XmlSchemaAnnotated
-
-// System.Xml.Schema.XmlSchemaAnnotated
-
 // System.Xml.XmlTextReader
 
 // System.Xml.XmlTextReader
@@ -3976,14 +3939,6 @@ struct XmlValidatingReaderImpl_t5E1938148F73C4871F4B28C234B1EEF586998EA8_StaticF
 // System.Xml.XmlReader/XmlReaderDebuggerDisplayProxy
 
 // System.Xml.XmlReader/XmlReaderDebuggerDisplayProxy
-
-// System.Xml.XmlSqlBinaryReader/QName
-
-// System.Xml.XmlSqlBinaryReader/QName
-
-// System.Xml.XmlSqlBinaryReader/SymbolTables
-
-// System.Xml.XmlSqlBinaryReader/SymbolTables
 
 // System.Xml.XmlTextReaderImpl/NoNamespaceManager
 
@@ -4059,15 +4014,6 @@ struct XmlReaderSettings_t8D51BA3ED2A013EE1F44525C9861326CAFB44AEA_StaticFields
 // System.Xml.Schema.XmlSchemaAttribute
 
 // System.Xml.Schema.XmlSchemaAttribute
-
-// System.Xml.Schema.XmlSchemaParticle
-struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
-{
-	// System.Xml.Schema.XmlSchemaParticle System.Xml.Schema.XmlSchemaParticle::Empty
-	XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE* ___Empty_12;
-};
-
-// System.Xml.Schema.XmlSchemaParticle
 
 // System.Xml.Schema.XmlSchemaType
 
@@ -4162,14 +4108,6 @@ struct HtmlUtf8RawTextWriter_tBDA64D6572325D75C2E84DE787BC2D7C9A0AE850_StaticFie
 };
 
 // System.Xml.HtmlUtf8RawTextWriter
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Xml.TextEncodedRawTextWriter
 

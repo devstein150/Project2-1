@@ -3912,10 +3912,6 @@ struct BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_StaticFields
 
 // System.BitConverter
 
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 {
@@ -4036,10 +4032,6 @@ struct HashHelpers_t285C6E63B4A4E8D837BDBC63DE4E2D23C85467D4_StaticFields
 // System.MarshalByRefObject
 
 // System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // System.IO.Path
 struct Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_StaticFields
@@ -4176,10 +4168,6 @@ struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E_StaticFields
 
 // System.Threading.Tasks.TaskScheduler
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Numerics.Vector
 
 // System.Numerics.Vector
@@ -4270,10 +4258,6 @@ struct ValueTask_1_t823DE87C36EA952D24C4E64F532E9D4425B72F21_StaticFields
 };
 
 // System.Threading.Tasks.ValueTask`1<System.Int32>
-
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
-
-// System.Runtime.CompilerServices.AsyncMethodBuilderCore
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -4420,15 +4404,6 @@ struct TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3_StaticFields
 
 // System.UInt64
 
-// System.UIntPtr
-struct UIntPtr_t_StaticFields
-{
-	// System.UIntPtr System.UIntPtr::Zero
-	uintptr_t ___Zero_0;
-};
-
-// System.UIntPtr
-
 // System.Text.UTF32Encoding
 struct UTF32Encoding_t2516B0B4156BAE85C9D13711375816550842BA4B_StaticFields
 {
@@ -4514,15 +4489,6 @@ struct AsyncTaskMethodBuilder_1_tF0BDBC54D5EB433C1205550D0F9819F43C9D4019_Static
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32>
 
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
-struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC_StaticFields
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_defaultResultTask_0;
-};
-
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
-
 // System.ByReference`1<System.Byte>
 
 // System.ByReference`1<System.Byte>
@@ -4547,10 +4513,6 @@ struct Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17_StaticFields
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
 
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
-
-// System.Delegate
-
-// System.Delegate
 
 // System.Exception
 struct Exception_t_StaticFields
@@ -4718,25 +4680,13 @@ struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFi
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
 
-// System.Threading.EventWaitHandle
-
-// System.Threading.EventWaitHandle
-
 // System.IO.FileSystemInfo
 
 // System.IO.FileSystemInfo
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.IO.PinnedBufferMemoryStream
 
 // System.IO.PinnedBufferMemoryStream
-
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
 
 // System.SystemException
 

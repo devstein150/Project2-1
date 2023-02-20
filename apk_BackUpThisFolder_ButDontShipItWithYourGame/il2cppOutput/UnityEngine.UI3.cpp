@@ -2792,18 +2792,22 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023
 	float ___index_3;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::depth
 	int32_t ___depth_4;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupID
+	int32_t ___sortingGroupID_5;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupOrder
+	int32_t ___sortingGroupOrder_6;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingLayer
-	int32_t ___sortingLayer_5;
+	int32_t ___sortingLayer_7;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
-	int32_t ___sortingOrder_6;
+	int32_t ___sortingOrder_8;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.RaycastResult::screenPosition
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::displayIndex
-	int32_t ___displayIndex_10;
+	int32_t ___displayIndex_12;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
@@ -2813,12 +2817,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 // Native definition for COM marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
@@ -2828,12 +2834,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 
 // UnityEngine.UIElements.UIR.RenderChainVEData
@@ -4900,10 +4908,6 @@ struct ExecuteEvents_t74DCF8B83743EE2773ACF182344612A048E2CC59_StaticFields
 
 // UnityEngine.UI.FontData
 
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // UnityEngine.UIElements.PointerId
 struct PointerId_tE48DCDC5C36DD1F5595C28EE48C0243BA8BEF35C_StaticFields
 {
@@ -4973,14 +4977,6 @@ struct String_t_StaticFields
 
 // System.Text.StringBuilder
 
-// UnityEngine.Events.UnityEventBase
-
-// UnityEngine.Events.UnityEventBase
-
-// System.ValueType
-
-// System.ValueType
-
 // UnityEngine.EventSystems.EventSystem/<>c__DisplayClass52_0
 
 // UnityEngine.EventSystems.EventSystem/<>c__DisplayClass52_0
@@ -5042,30 +5038,6 @@ struct U3CU3Ec_tA35DB2FB45F5681443581EE922D10BC5C693F2A0_StaticFields
 
 // System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
 
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.InheritedData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.InheritedData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.LayoutData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.LayoutData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.RareData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.RareData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransformData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransformData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransitionData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransitionData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.VisualData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.VisualData>
-
 // UnityEngine.Events.UnityEvent`1<UnityEngine.EventSystems.BaseEventData>
 
 // UnityEngine.Events.UnityEvent`1<UnityEngine.EventSystems.BaseEventData>
@@ -5081,15 +5053,6 @@ struct U3CU3Ec_tA35DB2FB45F5681443581EE922D10BC5C693F2A0_StaticFields
 // UnityEngine.Events.UnityEvent`1<System.Single>
 
 // UnityEngine.Events.UnityEvent`1<System.Single>
-
-// UnityEngine.UIElements.UIR.BMPAlloc
-struct BMPAlloc_t29DA9D09157B8BAD2D5643711A53A5F11D216D30_StaticFields
-{
-	// UnityEngine.UIElements.UIR.BMPAlloc UnityEngine.UIElements.UIR.BMPAlloc::Invalid
-	BMPAlloc_t29DA9D09157B8BAD2D5643711A53A5F11D216D30 ___Invalid_0;
-};
-
-// UnityEngine.UIElements.UIR.BMPAlloc
 
 // UnityEngine.EventSystems.BaseEventData
 
@@ -5127,17 +5090,9 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 
 // UnityEngine.Color32
 
-// UnityEngine.EventInterests
-
-// UnityEngine.EventInterests
-
 // UnityEngine.UI.CoroutineTween.FloatTween
 
 // UnityEngine.UI.CoroutineTween.FloatTween
-
-// UnityEngine.UIElements.Focusable
-
-// UnityEngine.UIElements.Focusable
 
 // System.Int32
 
@@ -5160,29 +5115,6 @@ struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields
 };
 
 // UnityEngine.Mathf
-
-// UnityEngine.Matrix4x4
-struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
-{
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::zeroMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix_16;
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::identityMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix_17;
-};
-
-// UnityEngine.Matrix4x4
-
-// System.Reflection.MethodBase
-
-// System.Reflection.MethodBase
-
-// UnityEngine.UI.Navigation
-
-// UnityEngine.UI.Navigation
-
-// UnityEngine.PropertyName
-
-// UnityEngine.PropertyName
 
 // UnityEngine.Rect
 
@@ -5273,10 +5205,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.UIElements.PanelRaycaster/FloatIntBits
 
-// UnityEngine.UIElements.VisualElement/Hierarchy
-
-// UnityEngine.UIElements.VisualElement/Hierarchy
-
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
@@ -5289,22 +5217,9 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.EventSystems.AxisEventData
 
-// UnityEngine.UI.ColorBlock
-struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_StaticFields
-{
-	// UnityEngine.UI.ColorBlock UnityEngine.UI.ColorBlock::defaultColorBlock
-	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___defaultColorBlock_7;
-};
-
-// UnityEngine.UI.ColorBlock
-
 // UnityEngine.UI.CoroutineTween.ColorTween
 
 // UnityEngine.UI.CoroutineTween.ColorTween
-
-// UnityEngine.UIElements.ComputedStyle
-
-// UnityEngine.UIElements.ComputedStyle
 
 // System.Delegate
 
@@ -5347,15 +5262,6 @@ struct EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C_StaticFields
 
 // UnityEngine.UIElements.EventBase
 
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
 // System.Reflection.MethodInfo
 
 // System.Reflection.MethodInfo
@@ -5369,14 +5275,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // UnityEngine.Object
 
-// UnityEngine.UIElements.PanelClearSettings
-
-// UnityEngine.UIElements.PanelClearSettings
-
-// Unity.Profiling.ProfilerMarker
-
-// Unity.Profiling.ProfilerMarker
-
 // UnityEngine.Ray
 
 // UnityEngine.Ray
@@ -5392,10 +5290,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // UnityEngine.EventSystems.RaycastResult
 
 // UnityEngine.EventSystems.RaycastResult
-
-// UnityEngine.UIElements.UIR.RenderChainVEData
-
-// UnityEngine.UIElements.UIR.RenderChainVEData
 
 // System.RuntimeTypeHandle
 
@@ -5457,160 +5351,6 @@ struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE_StaticFields
 
 // UnityEngine.UI.Toggle/ToggleEvent
 
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.BlurEvent>
-struct EventBase_1_t5C41C2E79AD8FCCF88671F3DBD081F10EFD3F846_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t2BAC247346D1A30E6F98C5C633CA4A8A94FC170A* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.BlurEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.FocusEvent>
-struct EventBase_1_t7187CB27405B98ED004503ABE606225C50E656A0_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t10DF1D7B915FABBA839F55B1C8F8A53EF636E395* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.FocusEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.KeyDownEvent>
-struct EventBase_1_t730BB171C1C7F183359949BD5F4BA81AFE9A35CE_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t37080504ECCFF986BCF1E7D4C1D26BB929DEC7E9* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.KeyDownEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.KeyUpEvent>
-struct EventBase_1_t056EE42AB4A3D8793585737CC6974771FF692BED_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t1E06F490DDD84FA5A692D737BD9F030BF209D3E2* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.KeyUpEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.NavigationCancelEvent>
-struct EventBase_1_t06692607D03E5B5F275B33C5EACCE075D1C2AB05_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t4CCB307C788F662AC27F4884CC938F63B3E4836C* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.NavigationCancelEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.NavigationMoveEvent>
-struct EventBase_1_tD898F1A47C14556B2F1F500078B600221F5D887E_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t197544EA692A3B4CA53A6C415A61333162073672* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.NavigationMoveEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.NavigationSubmitEvent>
-struct EventBase_1_tF3176CA51B64DBB3010435BA1986B05039647C37_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t2E11CDAC72859A812629F64CB88669487FD5F0B5* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.NavigationSubmitEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.NavigationTabEvent>
-struct EventBase_1_t3003145BEE9FE8F5AE8C9E13FC4C7D6453201D80_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t698CF6F533F80BD21C029130598B886F6FEB42E4* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.NavigationTabEvent>
-
-// UnityEngine.UIElements.EventBase`1<System.Object>
-struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_tC06B45D8A0C7CBBDAE418090727D1DF1F2FCB9F6* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<System.Object>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerCancelEvent>
-struct EventBase_1_tB8AF17419B0E6B39E32F8925FCA535F5CF5C79D2_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_tDF51BF8B537DAD012AFE10CFC541363835B64992* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerCancelEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerDownEvent>
-struct EventBase_1_t7D3D212E8AD9C53105AAC51DBD4FA5F700586F68_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_tD9D36AAF97C27AAA8F8C10396B70EE8016C3DB39* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerDownEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerMoveEvent>
-struct EventBase_1_t4941B5AE834AA028696C83756491CE8884F30DDE_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t8AFFCB7DAAEE40E4043E3A85360B759A778B3F5B* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerMoveEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerUpEvent>
-struct EventBase_1_t2637736704939772A86A2904BCFD1B314097DD1E_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_tEA9E5136DCE87BF5FDC7E117132869969F52A700* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.PointerUpEvent>
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.WheelEvent>
-struct EventBase_1_tD5612D4D9A3CAD26CDB27B9D024C6D018D72FBC9_StaticFields
-{
-	// System.Int64 UnityEngine.UIElements.EventBase`1::s_TypeId
-	int64_t ___s_TypeId_15;
-	// UnityEngine.UIElements.ObjectPool`1<T> UnityEngine.UIElements.EventBase`1::s_Pool
-	ObjectPool_1_t625CC081156CCA83AF28F9AC872DA35BC4C19D8B* ___s_Pool_16;
-};
-
-// UnityEngine.UIElements.EventBase`1<UnityEngine.UIElements.WheelEvent>
-
 // UnityEngine.UIElements.BaseVisualElementPanel
 
 // UnityEngine.UIElements.BaseVisualElementPanel
@@ -5640,10 +5380,6 @@ struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6_StaticFields
 
 // UnityEngine.Mesh
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // UnityEngine.EventSystems.PointerEventData
 
 // UnityEngine.EventSystems.PointerEventData
@@ -5651,10 +5387,6 @@ struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6_StaticFields
 // UnityEngine.Sprite
 
 // UnityEngine.Sprite
-
-// System.SystemException
-
-// System.SystemException
 
 // UnityEngine.TextGenerator
 
@@ -5834,61 +5566,17 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IUpdateSelectedHandler>
 
-// UnityEngine.UIElements.FocusEventBase`1<UnityEngine.UIElements.BlurEvent>
-
-// UnityEngine.UIElements.FocusEventBase`1<UnityEngine.UIElements.BlurEvent>
-
-// UnityEngine.UIElements.FocusEventBase`1<UnityEngine.UIElements.FocusEvent>
-
-// UnityEngine.UIElements.FocusEventBase`1<UnityEngine.UIElements.FocusEvent>
-
 // System.Func`2<UnityEngine.UI.Toggle,System.Boolean>
 
 // System.Func`2<UnityEngine.UI.Toggle,System.Boolean>
-
-// UnityEngine.UIElements.KeyboardEventBase`1<UnityEngine.UIElements.KeyDownEvent>
-
-// UnityEngine.UIElements.KeyboardEventBase`1<UnityEngine.UIElements.KeyDownEvent>
-
-// UnityEngine.UIElements.KeyboardEventBase`1<UnityEngine.UIElements.KeyUpEvent>
-
-// UnityEngine.UIElements.KeyboardEventBase`1<UnityEngine.UIElements.KeyUpEvent>
-
-// UnityEngine.UIElements.MouseEventBase`1<UnityEngine.UIElements.WheelEvent>
-
-// UnityEngine.UIElements.MouseEventBase`1<UnityEngine.UIElements.WheelEvent>
-
-// UnityEngine.UIElements.NavigationEventBase`1<UnityEngine.UIElements.NavigationCancelEvent>
-
-// UnityEngine.UIElements.NavigationEventBase`1<UnityEngine.UIElements.NavigationCancelEvent>
-
-// UnityEngine.UIElements.NavigationEventBase`1<UnityEngine.UIElements.NavigationMoveEvent>
-
-// UnityEngine.UIElements.NavigationEventBase`1<UnityEngine.UIElements.NavigationMoveEvent>
-
-// UnityEngine.UIElements.NavigationEventBase`1<UnityEngine.UIElements.NavigationSubmitEvent>
-
-// UnityEngine.UIElements.NavigationEventBase`1<UnityEngine.UIElements.NavigationSubmitEvent>
-
-// UnityEngine.UIElements.NavigationEventBase`1<UnityEngine.UIElements.NavigationTabEvent>
-
-// UnityEngine.UIElements.NavigationEventBase`1<UnityEngine.UIElements.NavigationTabEvent>
 
 // UnityEngine.UIElements.PointerEventBase`1<System.Object>
 
 // UnityEngine.UIElements.PointerEventBase`1<System.Object>
 
-// UnityEngine.UIElements.PointerEventBase`1<UnityEngine.UIElements.PointerCancelEvent>
-
-// UnityEngine.UIElements.PointerEventBase`1<UnityEngine.UIElements.PointerCancelEvent>
-
 // UnityEngine.UIElements.PointerEventBase`1<UnityEngine.UIElements.PointerDownEvent>
 
 // UnityEngine.UIElements.PointerEventBase`1<UnityEngine.UIElements.PointerDownEvent>
-
-// UnityEngine.UIElements.PointerEventBase`1<UnityEngine.UIElements.PointerMoveEvent>
-
-// UnityEngine.UIElements.PointerEventBase`1<UnityEngine.UIElements.PointerMoveEvent>
 
 // UnityEngine.UIElements.PointerEventBase`1<UnityEngine.UIElements.PointerUpEvent>
 
@@ -8096,6 +7784,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SortingLayer_GetLayerValueFromID_mEB8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* BaseRaycaster_get_rootRaycaster_m63E20D85A8B9867AC196768924F8BE579668BF28 (BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Single::CompareTo(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F (float* __this, float ___0_value, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Rendering.SortingGroup::get_invalidSortingGroupID()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SortingGroup_get_invalidSortingGroupID_mEA453186185B225FA2410988959180BAEC604310 (const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Clear()
 inline void List_1_Clear_m88ECE219176F771E4C5F913CC01FFCF91E93E3D0_inline (List_1_t8292C421BBB00D7661DC07462822936152BAB446* __this, const RuntimeMethod* method)
 {
@@ -22779,12 +22469,12 @@ IL_01aa:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_78;
 		L_78 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_77, NULL);
-		(&V_24)->___screenPosition_9 = L_78;
+		(&V_24)->___screenPosition_11 = L_78;
 		BaseRuntimePanel_tEDFA512CC6692082EBBB87E5DC446A88D2E75DC4* L_79 = __this->___m_Panel_5;
 		NullCheck(L_79);
 		int32_t L_80;
 		L_80 = BaseRuntimePanel_get_targetDisplay_mF2B0D9BB8A234F9273185DFAA4EC014E86CEDFD3_inline(L_79, NULL);
-		(&V_24)->___displayIndex_10 = L_80;
+		(&V_24)->___displayIndex_12 = L_80;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_81 = V_24;
 		NullCheck(L_75);
 		List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_inline(L_75, L_81, List_1_Add_mEB6DFEA132B5B7BF540D34177054003185D250E7_RuntimeMethod_var);
@@ -25018,8 +24708,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EventSystem_RaycastComparer_mBF2582FB
 	bool V_13 = false;
 	bool V_14 = false;
 	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
 	int32_t G_B5_0 = 0;
 	int32_t G_B23_0 = 0;
+	int32_t G_B30_0 = 0;
 	{
 		// if (lhs.module != rhs.module)
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_0 = ___0_lhs;
@@ -25118,7 +24812,7 @@ IL_0058:
 	{
 		// return 1;
 		V_5 = 1;
-		goto IL_0229;
+		goto IL_02b1;
 	}
 
 IL_0079:
@@ -25142,14 +24836,14 @@ IL_0079:
 	{
 		// return 0;
 		V_5 = 0;
-		goto IL_0229;
+		goto IL_02b1;
 	}
 
 IL_0095:
 	{
 		// return -1;
 		V_5 = (-1);
-		goto IL_0229;
+		goto IL_02b1;
 	}
 
 IL_009d:
@@ -25188,7 +24882,7 @@ IL_009d:
 		int32_t L_44;
 		L_44 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586((&V_8), L_43, NULL);
 		V_5 = L_44;
-		goto IL_0229;
+		goto IL_02b1;
 	}
 
 IL_00e4:
@@ -25227,7 +24921,7 @@ IL_00e4:
 		int32_t L_58;
 		L_58 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586((&V_8), L_57, NULL);
 		V_5 = L_58;
-		goto IL_0229;
+		goto IL_02b1;
 	}
 
 IL_012b:
@@ -25238,9 +24932,9 @@ IL_012c:
 	{
 		// if (lhs.sortingLayer != rhs.sortingLayer)
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_59 = ___0_lhs;
-		int32_t L_60 = L_59.___sortingLayer_5;
+		int32_t L_60 = L_59.___sortingLayer_7;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_61 = ___1_rhs;
-		int32_t L_62 = L_61.___sortingLayer_5;
+		int32_t L_62 = L_61.___sortingLayer_7;
 		V_10 = (bool)((((int32_t)((((int32_t)L_60) == ((int32_t)L_62))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_63 = V_10;
 		if (!L_63)
@@ -25251,13 +24945,13 @@ IL_012c:
 	{
 		// var rid = SortingLayer.GetLayerValueFromID(rhs.sortingLayer);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_64 = ___1_rhs;
-		int32_t L_65 = L_64.___sortingLayer_5;
+		int32_t L_65 = L_64.___sortingLayer_7;
 		int32_t L_66;
 		L_66 = SortingLayer_GetLayerValueFromID_mEB8A5234102CD7B2C6158661A931EA120A38707C(L_65, NULL);
 		V_11 = L_66;
 		// var lid = SortingLayer.GetLayerValueFromID(lhs.sortingLayer);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_67 = ___0_lhs;
-		int32_t L_68 = L_67.___sortingLayer_5;
+		int32_t L_68 = L_67.___sortingLayer_7;
 		int32_t L_69;
 		L_69 = SortingLayer_GetLayerValueFromID_mEB8A5234102CD7B2C6158661A931EA120A38707C(L_68, NULL);
 		V_12 = L_69;
@@ -25266,16 +24960,16 @@ IL_012c:
 		int32_t L_71;
 		L_71 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586((&V_11), L_70, NULL);
 		V_5 = L_71;
-		goto IL_0229;
+		goto IL_02b1;
 	}
 
 IL_016e:
 	{
 		// if (lhs.sortingOrder != rhs.sortingOrder)
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_72 = ___0_lhs;
-		int32_t L_73 = L_72.___sortingOrder_6;
+		int32_t L_73 = L_72.___sortingOrder_8;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_74 = ___1_rhs;
-		int32_t L_75 = L_74.___sortingOrder_6;
+		int32_t L_75 = L_74.___sortingOrder_8;
 		V_13 = (bool)((((int32_t)((((int32_t)L_73) == ((int32_t)L_75))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_76 = V_13;
 		if (!L_76)
@@ -25285,13 +24979,13 @@ IL_016e:
 	}
 	{
 		// return rhs.sortingOrder.CompareTo(lhs.sortingOrder);
-		int32_t* L_77 = (&(&___1_rhs)->___sortingOrder_6);
+		int32_t* L_77 = (&(&___1_rhs)->___sortingOrder_8);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_78 = ___0_lhs;
-		int32_t L_79 = L_78.___sortingOrder_6;
+		int32_t L_79 = L_78.___sortingOrder_8;
 		int32_t L_80;
 		L_80 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586(L_77, L_79, NULL);
 		V_5 = L_80;
-		goto IL_0229;
+		goto IL_02b1;
 	}
 
 IL_019e:
@@ -25335,7 +25029,7 @@ IL_01ca:
 		bool L_92 = V_14;
 		if (!L_92)
 		{
-			goto IL_01e6;
+			goto IL_01e9;
 		}
 	}
 	{
@@ -25346,10 +25040,10 @@ IL_01ca:
 		int32_t L_96;
 		L_96 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586(L_93, L_95, NULL);
 		V_5 = L_96;
-		goto IL_0229;
+		goto IL_02b1;
 	}
 
-IL_01e6:
+IL_01e9:
 	{
 		// if (lhs.distance != rhs.distance)
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_97 = ___0_lhs;
@@ -25360,7 +25054,7 @@ IL_01e6:
 		bool L_101 = V_15;
 		if (!L_101)
 		{
-			goto IL_0213;
+			goto IL_0219;
 		}
 	}
 	{
@@ -25371,26 +25065,114 @@ IL_01e6:
 		int32_t L_105;
 		L_105 = Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F(L_102, L_104, NULL);
 		V_5 = L_105;
-		goto IL_0229;
+		goto IL_02b1;
 	}
 
-IL_0213:
+IL_0219:
+	{
+		// if (lhs.sortingGroupID != SortingGroup.invalidSortingGroupID && rhs.sortingGroupID != SortingGroup.invalidSortingGroupID)
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_106 = ___0_lhs;
+		int32_t L_107 = L_106.___sortingGroupID_5;
+		int32_t L_108;
+		L_108 = SortingGroup_get_invalidSortingGroupID_mEA453186185B225FA2410988959180BAEC604310(NULL);
+		if ((((int32_t)L_107) == ((int32_t)L_108)))
+		{
+			goto IL_0238;
+		}
+	}
+	{
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_109 = ___1_rhs;
+		int32_t L_110 = L_109.___sortingGroupID_5;
+		int32_t L_111;
+		L_111 = SortingGroup_get_invalidSortingGroupID_mEA453186185B225FA2410988959180BAEC604310(NULL);
+		G_B30_0 = ((((int32_t)((((int32_t)L_110) == ((int32_t)L_111))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0239;
+	}
+
+IL_0238:
+	{
+		G_B30_0 = 0;
+	}
+
+IL_0239:
+	{
+		V_16 = (bool)G_B30_0;
+		bool L_112 = V_16;
+		if (!L_112)
+		{
+			goto IL_029b;
+		}
+	}
+	{
+		// if (lhs.sortingGroupID != rhs.sortingGroupID)
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_113 = ___0_lhs;
+		int32_t L_114 = L_113.___sortingGroupID_5;
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_115 = ___1_rhs;
+		int32_t L_116 = L_115.___sortingGroupID_5;
+		V_17 = (bool)((((int32_t)((((int32_t)L_114) == ((int32_t)L_116))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_117 = V_17;
+		if (!L_117)
+		{
+			goto IL_026d;
+		}
+	}
+	{
+		// return lhs.sortingGroupID.CompareTo(rhs.sortingGroupID);
+		int32_t* L_118 = (&(&___0_lhs)->___sortingGroupID_5);
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_119 = ___1_rhs;
+		int32_t L_120 = L_119.___sortingGroupID_5;
+		int32_t L_121;
+		L_121 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586(L_118, L_120, NULL);
+		V_5 = L_121;
+		goto IL_02b1;
+	}
+
+IL_026d:
+	{
+		// if (lhs.sortingGroupOrder != rhs.sortingGroupOrder)
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_122 = ___0_lhs;
+		int32_t L_123 = L_122.___sortingGroupOrder_6;
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_124 = ___1_rhs;
+		int32_t L_125 = L_124.___sortingGroupOrder_6;
+		V_18 = (bool)((((int32_t)((((int32_t)L_123) == ((int32_t)L_125))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_126 = V_18;
+		if (!L_126)
+		{
+			goto IL_029a;
+		}
+	}
+	{
+		// return rhs.sortingGroupOrder.CompareTo(lhs.sortingGroupOrder);
+		int32_t* L_127 = (&(&___1_rhs)->___sortingGroupOrder_6);
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_128 = ___0_lhs;
+		int32_t L_129 = L_128.___sortingGroupOrder_6;
+		int32_t L_130;
+		L_130 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586(L_127, L_129, NULL);
+		V_5 = L_130;
+		goto IL_02b1;
+	}
+
+IL_029a:
+	{
+	}
+
+IL_029b:
 	{
 		// return lhs.index.CompareTo(rhs.index);
-		float* L_106 = (&(&___0_lhs)->___index_3);
-		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_107 = ___1_rhs;
-		float L_108 = L_107.___index_3;
-		int32_t L_109;
-		L_109 = Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F(L_106, L_108, NULL);
-		V_5 = L_109;
-		goto IL_0229;
+		float* L_131 = (&(&___0_lhs)->___index_3);
+		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_132 = ___1_rhs;
+		float L_133 = L_132.___index_3;
+		int32_t L_134;
+		L_134 = Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F(L_131, L_133, NULL);
+		V_5 = L_134;
+		goto IL_02b1;
 	}
 
-IL_0229:
+IL_02b1:
 	{
 		// }
-		int32_t L_110 = V_5;
-		return L_110;
+		int32_t L_135 = V_5;
+		return L_135;
 	}
 }
 // System.Void UnityEngine.EventSystems.EventSystem::RaycastAll(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>)

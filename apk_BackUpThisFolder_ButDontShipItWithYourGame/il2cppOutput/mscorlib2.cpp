@@ -2644,14 +2644,6 @@ struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
 
 // System.Runtime.ExceptionServices.ExceptionDispatchInfo
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Globalization.NumberFormatInfo
 struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472_StaticFields
 {
@@ -2720,10 +2712,6 @@ struct StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06_StaticFields
 
 // System.StringComparer
 
-// System.ValueType
-
-// System.ValueType
-
 // System.BitConverter/<>c
 struct U3CU3Ec_t4ABD75CB4C6B90D57F48F69C2606A5EFFB7F80C0_StaticFields
 {
@@ -2763,10 +2751,6 @@ struct U3CU3Ec_t7564B5177B5803CB85D9544EF4AAFF9EEE6A7124_StaticFields
 // System.TimeZoneInfo/CachedData
 
 // System.TimeZoneInfo/CachedData
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
 
 // System.Nullable`1<System.Int32>
 
@@ -2888,10 +2872,6 @@ struct IntPtr_t_StaticFields
 };
 
 // System.IntPtr
-
-// System.OrdinalComparer
-
-// System.OrdinalComparer
 
 // System.SByte
 
@@ -3106,10 +3086,6 @@ struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8_StaticFields
 // System.InvalidTimeZoneException
 
 // System.InvalidTimeZoneException
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.SystemException
 

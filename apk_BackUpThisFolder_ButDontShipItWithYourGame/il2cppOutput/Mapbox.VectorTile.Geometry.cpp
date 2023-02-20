@@ -1274,15 +1274,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 
 // System.Int64
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // Mapbox.VectorTile.Geometry.LatLng
 
 // Mapbox.VectorTile.Geometry.LatLng
@@ -1334,15 +1325,6 @@ struct IntPtr_t_StaticFields
 // System.Collections.Generic.List`1/Enumerator<Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntPoint>
 
 // System.Collections.Generic.List`1/Enumerator<Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntPoint>
-
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
 
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntersectNode
 

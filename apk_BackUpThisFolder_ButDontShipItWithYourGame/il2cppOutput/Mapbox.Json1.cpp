@@ -3988,18 +3988,6 @@ struct JsonSchemaConstants_t75973619125B85F46AA8106F5552683FF4EB98E8_StaticField
 
 // Mapbox.Json.Schema.JsonSchemaWriter
 
-// Mapbox.Json.Serialization.JsonSerializerInternalBase
-
-// Mapbox.Json.Serialization.JsonSerializerInternalBase
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // Mapbox.Json.Utilities.PropertyNameTable
 struct PropertyNameTable_t15B415EC1A379BC470F6F4C0C6DBCC6D9F071BFD_StaticFields
 {
@@ -4103,10 +4091,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 };
 
 // System.Uri
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.Linq.XObject
 
@@ -4430,10 +4414,6 @@ struct IntPtr_t_StaticFields
 
 // System.IntPtr
 
-// Mapbox.Json.Linq.JContainer
-
-// Mapbox.Json.Linq.JContainer
-
 // Mapbox.Json.JsonConverterCollection
 
 // Mapbox.Json.JsonConverterCollection
@@ -4455,10 +4435,6 @@ struct JsonPosition_t0D64A24195A4953E327757BFBC8F0E897D5CBEE9_StaticFields
 
 // Mapbox.Json.Serialization.JsonSerializerInternalWriter
 
-// System.OrdinalComparer
-
-// System.OrdinalComparer
-
 // System.SByte
 
 // System.SByte
@@ -4470,14 +4446,6 @@ struct JsonPosition_t0D64A24195A4953E327757BFBC8F0E897D5CBEE9_StaticFields
 // System.Runtime.Serialization.StreamingContext
 
 // System.Runtime.Serialization.StreamingContext
-
-// Mapbox.Json.Utilities.StringBuffer
-
-// Mapbox.Json.Utilities.StringBuffer
-
-// Mapbox.Json.Utilities.StringReference
-
-// Mapbox.Json.Utilities.StringReference
 
 // System.IO.TextReader
 struct TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7_StaticFields
@@ -4531,10 +4499,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 // System.Void
 
 // System.Void
-
-// System.Xml.Linq.XNode
-
-// System.Xml.Linq.XNode
 
 // System.Xml.XmlDocument
 struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
@@ -4686,10 +4650,6 @@ struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D_StaticFields
 
 // System.IO.StringWriter
 
-// System.Xml.Linq.XContainer
-
-// System.Xml.Linq.XContainer
-
 // Mapbox.Json.JsonWriter/State
 
 // Mapbox.Json.JsonWriter/State
@@ -4729,14 +4689,6 @@ struct JsonValidatingReader_tBC9CC28F1B9BA392123F2F02EC358C6A34F0A92E_StaticFiel
 };
 
 // Mapbox.Json.JsonValidatingReader
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // Mapbox.Json.Serialization.TraceJsonReader
 

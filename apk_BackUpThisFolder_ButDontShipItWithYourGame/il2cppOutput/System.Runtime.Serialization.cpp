@@ -108,10 +108,6 @@ struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C
 
 // <Module>
 
-// System.Attribute
-
-// System.Attribute
-
 // System.String
 struct String_t_StaticFields
 {
@@ -120,10 +116,6 @@ struct String_t_StaticFields
 };
 
 // System.String
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields

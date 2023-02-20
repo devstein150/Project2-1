@@ -25,7 +25,7 @@
 
 		void Update()
 		{
-			Location currLoc = _locationProvider.CurrentLocation;
+			/*Location currLoc = _locationProvider.CurrentLocation;
 
 			if (currLoc.IsLocationServiceInitializing)
 			{
@@ -48,7 +48,7 @@
 						_statusText.text = string.Format("{0}", currLoc.LatitudeLongitude);
 					}
 				}
-			}
+			}*/
 
 		}
 	}

@@ -1939,17 +1939,9 @@ struct ValidationUtility_1_t341A62AD04111B1E420AF1C31DC2190E708137BE_StaticField
 
 // UnityEngine.XR.ARSubsystems.ConfigurationChooser
 
-// UnityEngine.CustomYieldInstruction
-
-// UnityEngine.CustomYieldInstruction
-
 // System.Text.RegularExpressions.GroupCollection
 
 // System.Text.RegularExpressions.GroupCollection
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // UnityEngine.XR.ARSubsystems.PlaneAlignmentExtensions
 
@@ -1976,18 +1968,6 @@ struct String_t_StaticFields
 
 // UnityEngine.SubsystemsImplementation.SubsystemDescriptorWithProvider
 
-// UnityEngine.SubsystemsImplementation.SubsystemProvider
-
-// UnityEngine.SubsystemsImplementation.SubsystemProvider
-
-// UnityEngine.SubsystemsImplementation.SubsystemWithProvider
-
-// UnityEngine.SubsystemsImplementation.SubsystemWithProvider
-
-// System.ValueType
-
-// System.ValueType
-
 // UnityEngine.XR.ARSubsystems.XRCpuImageAsyncConversionStatusExtensions
 
 // UnityEngine.XR.ARSubsystems.XRCpuImageAsyncConversionStatusExtensions
@@ -1996,29 +1976,13 @@ struct String_t_StaticFields
 
 // UnityEngine.XR.ARSubsystems.XRCpuImage/Api
 
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.BoundedPlane>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.BoundedPlane>
-
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>
 
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>
 
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.TrackableId>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.TrackableId>
-
 // Unity.Collections.NativeArray`1<UnityEngine.Vector2>
 
 // Unity.Collections.NativeArray`1<UnityEngine.Vector2>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRParticipant>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRParticipant>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycast>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycast>
 
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>
 
@@ -2184,19 +2148,6 @@ struct SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378_StaticFields
 // System.Single
 
 // System.Single
-
-// System.TimeSpan
-struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
-{
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
-};
-
-// System.TimeSpan
 
 // UnityEngine.XR.ARSubsystems.TrackableId
 struct TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_StaticFields
@@ -2473,14 +2424,6 @@ struct BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_StaticFields
 // UnityEngine.XR.ARSubsystems.Configuration
 
 // UnityEngine.XR.ARSubsystems.Configuration
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

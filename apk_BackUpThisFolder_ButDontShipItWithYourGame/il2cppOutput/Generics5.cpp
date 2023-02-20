@@ -2464,22 +2464,6 @@ struct String_t_StaticFields
 
 // System.String
 
-// System.ValueType
-
-// System.ValueType
-
-// System.Nullable`1<System.Single>
-
-// System.Nullable`1<System.Single>
-
-// UnityEngine.Color
-
-// UnityEngine.Color
-
-// UnityEngine.Color32
-
-// UnityEngine.Color32
-
 // System.Int32
 
 // System.Int32
@@ -2492,28 +2476,6 @@ struct IntPtr_t_StaticFields
 };
 
 // System.IntPtr
-
-// UnityEngine.UIElements.Length
-
-// UnityEngine.UIElements.Length
-
-// UnityEngine.Quaternion
-struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
-{
-	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
-};
-
-// UnityEngine.Quaternion
-
-// UnityEngine.XR.ARSubsystems.SerializableGuid
-struct SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378_StaticFields
-{
-	// UnityEngine.XR.ARSubsystems.SerializableGuid UnityEngine.XR.ARSubsystems.SerializableGuid::k_Empty
-	SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378 ___k_Empty_0;
-};
-
-// UnityEngine.XR.ARSubsystems.SerializableGuid
 
 // UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken
 
@@ -2684,10 +2646,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.UIElements.FocusController/FocusedElement
 
-// System.Delegate
-
-// System.Delegate
-
 // System.Exception
 struct Exception_t_StaticFields
 {
@@ -2696,10 +2654,6 @@ struct Exception_t_StaticFields
 };
 
 // System.Exception
-
-// System.Runtime.InteropServices.GCHandle
-
-// System.Runtime.InteropServices.GCHandle
 
 // Mapbox.ProbeExtractorCs.TracePoint
 
@@ -2730,17 +2684,9 @@ struct UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_StaticFields
 
 // UnityEngine.XR.ARSubsystems.XRReferenceImage
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // UnityEngine.UIElements.StyleSheets.StyleValue
 
 // UnityEngine.UIElements.StyleSheets.StyleValue
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Comparison`1<UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken>
 

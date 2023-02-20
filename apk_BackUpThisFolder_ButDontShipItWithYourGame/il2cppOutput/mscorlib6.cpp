@@ -3200,10 +3200,6 @@ struct IntPtr_t_StaticFields
 
 // System.Reflection.MethodBase
 
-// System.Reflection.MonoPropertyInfo
-
-// System.Reflection.MonoPropertyInfo
-
 // System.MonoTODOAttribute
 
 // System.MonoTODOAttribute
@@ -3215,10 +3211,6 @@ struct IntPtr_t_StaticFields
 // System.Reflection.PropertyInfo
 
 // System.Reflection.PropertyInfo
-
-// Mono.RuntimeGPtrArrayHandle
-
-// Mono.RuntimeGPtrArrayHandle
 
 // Mono.RuntimeGenericParamInfoHandle
 
@@ -3279,10 +3271,6 @@ struct ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB_StaticFields
 };
 
 // System.Reflection.ConstructorInfo
-
-// System.Delegate
-
-// System.Delegate
 
 // System.Exception
 struct Exception_t_StaticFields
@@ -3353,10 +3341,6 @@ struct Exception_t_StaticFields
 
 // System.DefaultBinder/Primitives
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.Reflection.RuntimeConstructorInfo
 
 // System.Reflection.RuntimeConstructorInfo
@@ -3368,10 +3352,6 @@ struct Exception_t_StaticFields
 // System.Reflection.RuntimeMethodInfo
 
 // System.Reflection.RuntimeMethodInfo
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -3430,10 +3410,6 @@ struct Type_t_StaticFields
 
 // System.InvalidOperationException
 
-// System.MemberAccessException
-
-// System.MemberAccessException
-
 // System.NotImplementedException
 
 // System.NotImplementedException
@@ -3474,10 +3450,6 @@ struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7_StaticFi
 // System.ArgumentOutOfRangeException
 
 // System.ArgumentOutOfRangeException
-
-// System.MissingMemberException
-
-// System.MissingMemberException
 
 // System.PlatformNotSupportedException
 

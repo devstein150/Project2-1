@@ -2035,10 +2035,6 @@ struct Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785_StaticFields
 
 // System.Linq.Expressions.ExpressionVisitor
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
@@ -2080,10 +2076,6 @@ struct String_t_StaticFields
 // Mono.Security.Cryptography.SymmetricTransform
 
 // Mono.Security.Cryptography.SymmetricTransform
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Linq.Expressions.Expression/BinaryExpressionProxy
 
@@ -2184,23 +2176,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 
 // System.Linq.Expressions.ConstantExpression
 
-// System.DateTime
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
-};
-
-// System.DateTime
-
 // System.Double
 
 // System.Double
@@ -2216,15 +2191,6 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
 // System.Int32
 
 // System.Int32
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Linq.Expressions.InvocationExpression
 
@@ -2257,17 +2223,6 @@ struct IntPtr_t_StaticFields
 // System.Security.Cryptography.RSA
 
 // System.Security.Cryptography.RSA
-
-// System.Security.Cryptography.Rijndael
-struct Rijndael_t282661761E53E282457A31F5675ACF53D64EE807_StaticFields
-{
-	// System.Security.Cryptography.KeySizes[] System.Security.Cryptography.Rijndael::s_legalBlockSizes
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalBlockSizes_9;
-	// System.Security.Cryptography.KeySizes[] System.Security.Cryptography.Rijndael::s_legalKeySizes
-	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___s_legalKeySizes_10;
-};
-
-// System.Security.Cryptography.Rijndael
 
 // System.IO.TextWriter
 struct TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3_StaticFields
@@ -2345,10 +2300,6 @@ struct Exception_t_StaticFields
 
 // System.Linq.Expressions.FieldExpression
 
-// System.Linq.Expressions.InstanceMethodCallExpression
-
-// System.Linq.Expressions.InstanceMethodCallExpression
-
 // System.Linq.Expressions.InvocationExpression1
 
 // System.Linq.Expressions.InvocationExpression1
@@ -2404,10 +2355,6 @@ struct Exception_t_StaticFields
 // System.RuntimeTypeHandle
 
 // System.RuntimeTypeHandle
-
-// System.Linq.Expressions.ScopeExpression
-
-// System.Linq.Expressions.ScopeExpression
 
 // System.Linq.Expressions.SimpleBinaryExpression
 
@@ -2426,10 +2373,6 @@ struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D_StaticFields
 
 // System.Linq.Expressions.TypedConstantExpression
 
-// System.Security.Cryptography.X509Certificates.X509Certificate
-
-// System.Security.Cryptography.X509Certificates.X509Certificate
-
 // System.Linq.Expressions.InstanceMethodCallExpression0
 
 // System.Linq.Expressions.InstanceMethodCallExpression0
@@ -2454,10 +2397,6 @@ struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D_StaticFields
 
 // System.Linq.Expressions.MethodBinaryExpression
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.Linq.Expressions.Scope1
 
 // System.Linq.Expressions.Scope1
@@ -2465,10 +2404,6 @@ struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D_StaticFields
 // System.Linq.Expressions.ScopeN
 
 // System.Linq.Expressions.ScopeN
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

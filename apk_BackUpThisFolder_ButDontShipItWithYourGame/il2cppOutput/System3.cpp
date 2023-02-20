@@ -2027,17 +2027,9 @@ struct List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9_StaticFields
 
 // System.Attribute
 
-// System.Text.RegularExpressions.Capture
-
-// System.Text.RegularExpressions.Capture
-
 // System.Diagnostics.CorrelationManager
 
 // System.Diagnostics.CorrelationManager
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
@@ -2076,14 +2068,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 };
 
 // System.Collections.Hashtable
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // System.Text.RegularExpressions.RegexBoyerMoore
 
@@ -2230,10 +2214,6 @@ struct TraceInternal_t0889A704B4CC74B9E3D62989BA6C67D2B3AB23CB_ThreadStaticField
 
 // System.Diagnostics.TraceListenerCollection
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer
 struct SingleRangeComparer_t2D299E0E54D7F24BAF67EA65E92B6FCDB806F9D0_StaticFields
 {
@@ -2242,10 +2222,6 @@ struct SingleRangeComparer_t2D299E0E54D7F24BAF67EA65E92B6FCDB806F9D0_StaticField
 };
 
 // System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -2305,24 +2281,6 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
 
 // System.Double
 
-// System.Enum
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
-};
-
-// System.Enum
-
-// System.Text.RegularExpressions.Group
-struct Group_t26371E9136D6F43782C487B63C67C5FC4F472881_StaticFields
-{
-	// System.Text.RegularExpressions.Group System.Text.RegularExpressions.Group::s_emptyGroup
-	Group_t26371E9136D6F43782C487B63C67C5FC4F472881* ___s_emptyGroup_3;
-};
-
-// System.Text.RegularExpressions.Group
-
 // System.Int32
 
 // System.Int32
@@ -2330,15 +2288,6 @@ struct Group_t26371E9136D6F43782C487B63C67C5FC4F472881_StaticFields
 // System.Int64
 
 // System.Int64
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Text.RegularExpressions.RegexInterpreter
 
@@ -2444,10 +2393,6 @@ struct Exception_t_StaticFields
 
 // System.Exception
 
-// System.Runtime.InteropServices.GCHandle
-
-// System.Runtime.InteropServices.GCHandle
-
 // System.Int32Enum
 
 // System.Int32Enum
@@ -2531,10 +2476,6 @@ struct TraceEventCache_t45E8BA27697FA8ABEC2199A264D502A35E6D41DF_StaticFields
 // System.Text.RegularExpressions.RegexCode
 
 // System.Text.RegularExpressions.RegexCode
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

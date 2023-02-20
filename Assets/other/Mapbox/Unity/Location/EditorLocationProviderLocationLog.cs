@@ -55,7 +55,7 @@
 		}
 
 // public double movemement_speed;
-		static Vector2d current_player_latlong = new Vector2d(42.27956272028746, -83.7482328924759);
+		public static Vector2d current_player_latlong = new Vector2d(42.27956272028746, -83.7482328924759);
 		public double movement_speed = 0.000004;
 		public void Update()
         {

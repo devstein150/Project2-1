@@ -2899,14 +2899,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 
 // Mapbox.Json.JsonConverter
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.String
 struct String_t_StaticFields
 {
@@ -2970,10 +2962,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 };
 
 // System.Uri
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.Linq.XDeclaration
 
@@ -3062,41 +3050,9 @@ struct XNamespace_t86B6F8515F5E20D387B83EBDE0890C4559A4012C_StaticFields
 
 // System.Collections.Generic.KeyValuePair`2<System.String,System.String>
 
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<Mapbox.Json.DateFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.DateFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.DateParseHandling>
-
-// System.Nullable`1<Mapbox.Json.DateParseHandling>
-
-// System.Nullable`1<Mapbox.Json.DateTimeZoneHandling>
-
-// System.Nullable`1<Mapbox.Json.DateTimeZoneHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatParseHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatParseHandling>
-
-// System.Nullable`1<Mapbox.Json.Formatting>
-
-// System.Nullable`1<Mapbox.Json.Formatting>
-
 // System.Nullable`1<System.Int32>
 
 // System.Nullable`1<System.Int32>
-
-// System.Nullable`1<Mapbox.Json.StringEscapeHandling>
-
-// System.Nullable`1<Mapbox.Json.StringEscapeHandling>
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -3208,24 +3164,6 @@ struct Guid_t_StaticFields
 
 // System.Int64
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
-// Mapbox.Json.JsonPosition
-struct JsonPosition_t0D64A24195A4953E327757BFBC8F0E897D5CBEE9_StaticFields
-{
-	// System.Char[] Mapbox.Json.JsonPosition::SpecialCharacters
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___SpecialCharacters_0;
-};
-
-// Mapbox.Json.JsonPosition
-
 // System.Xml.NameTable
 
 // System.Xml.NameTable
@@ -3246,10 +3184,6 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 };
 
 // System.IO.Stream
-
-// System.Runtime.Serialization.StreamingContext
-
-// System.Runtime.Serialization.StreamingContext
 
 // System.TimeSpan
 struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
@@ -3362,10 +3296,6 @@ struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 
 // Mapbox.Json.Converters.XmlElementWrapper
 
-// System.Xml.XmlLinkedNode
-
-// System.Xml.XmlLinkedNode
-
 // Mapbox.Json.Converters.XmlNodeConverter
 struct XmlNodeConverter_t8E6B2F210D400261BCC7797F24DCE54AFB02E8F9_StaticFields
 {
@@ -3410,10 +3340,6 @@ struct XmlNodeConverter_t8E6B2F210D400261BCC7797F24DCE54AFB02E8F9_StaticFields
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=84
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=84
-
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
-
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
 
@@ -3550,10 +3476,6 @@ struct JsonWriter_t9234CB10B45B32FE36E8B357F5646AAB98473CEF_StaticFields
 
 // System.Xml.Linq.XText
 
-// System.Xml.XmlCharacterData
-
-// System.Xml.XmlCharacterData
-
 // System.Xml.XmlDeclaration
 
 // System.Xml.XmlDeclaration
@@ -3592,14 +3514,6 @@ struct BsonReader_tCB091965F8F73F0D936B041FCA7B7E7F19D7AE49_StaticFields
 // Mapbox.Json.Bson.BsonWriter
 
 // Mapbox.Json.Bson.BsonWriter
-
-// Mapbox.Json.JsonException
-
-// Mapbox.Json.JsonException
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -3661,10 +3575,6 @@ struct Type_t_StaticFields
 // System.ArgumentException
 
 // System.ArgumentException
-
-// System.IO.IOException
-
-// System.IO.IOException
 
 // System.InvalidOperationException
 

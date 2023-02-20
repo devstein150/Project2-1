@@ -388,10 +388,6 @@ struct ParticleSystemRenderer_t576C271A363A738A6C576D4C6AEFB3B5B23E46C4  : publi
 
 // <Module>
 
-// System.ValueType
-
-// System.ValueType
-
 // UnityEngine.Color
 
 // UnityEngine.Color
@@ -403,15 +399,6 @@ struct ParticleSystemRenderer_t576C271A363A738A6C576D4C6AEFB3B5B23E46C4  : publi
 // System.Int32
 
 // System.Int32
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Single
 
@@ -460,15 +447,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // UnityEngine.ParticleSystem/MinMaxCurve
 
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
-
-// UnityEngine.Object
-
 // UnityEngine.ParticleSystem/MinMaxGradient
 
 // UnityEngine.ParticleSystem/MinMaxGradient
@@ -476,10 +454,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // UnityEngine.ParticleSystem/Particle
 
 // UnityEngine.ParticleSystem/Particle
-
-// UnityEngine.Component
-
-// UnityEngine.Component
 
 // UnityEngine.Mesh
 
@@ -492,10 +466,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // UnityEngine.ParticleSystem
 
 // UnityEngine.ParticleSystem
-
-// UnityEngine.Renderer
-
-// UnityEngine.Renderer
 
 // UnityEngine.ParticleSystemRenderer
 

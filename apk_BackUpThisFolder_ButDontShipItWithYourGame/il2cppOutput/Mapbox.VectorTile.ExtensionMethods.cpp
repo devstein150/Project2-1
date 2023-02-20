@@ -873,10 +873,6 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.String>
 
-// System.Attribute
-
-// System.Attribute
-
 // Mapbox.VectorTile.ExtensionMethods.EnumExtensions
 
 // Mapbox.VectorTile.ExtensionMethods.EnumExtensions
@@ -902,10 +898,6 @@ struct String_t_StaticFields
 };
 
 // System.String
-
-// System.ValueType
-
-// System.ValueType
 
 // Mapbox.VectorTile.VectorTile
 
@@ -1038,10 +1030,6 @@ struct IntPtr_t_StaticFields
 
 // System.Void
 
-// System.Delegate
-
-// System.Delegate
-
 // System.RuntimeTypeHandle
 
 // System.RuntimeTypeHandle
@@ -1049,10 +1037,6 @@ struct IntPtr_t_StaticFields
 // Mapbox.VectorTile.VectorTileFeature
 
 // Mapbox.VectorTile.VectorTileFeature
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
 
 // System.Type
 struct Type_t_StaticFields

@@ -3590,10 +3590,6 @@ struct DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_StaticFields
 
 // System.Reflection.LocalVariableInfo
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
@@ -3736,23 +3732,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 // System.Runtime.CompilerServices.CustomConstantAttribute
 
 // System.Runtime.CompilerServices.CustomConstantAttribute
-
-// System.DateTime
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
-};
-
-// System.DateTime
 
 // System.Decimal
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
@@ -4507,10 +4486,6 @@ struct OpCodes_tF1E3ED87391CFAF9B644E2805904371C59186C56_StaticFields
 
 // System.Reflection.Emit.MethodBuilder
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.Reflection.RuntimeConstructorInfo
 
 // System.Reflection.RuntimeConstructorInfo
@@ -4555,14 +4530,6 @@ struct Type_t_StaticFields
 // System.ArgumentException
 
 // System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
-
-// System.IO.IOException
-
-// System.IO.IOException
 
 // System.IndexOutOfRangeException
 
@@ -4636,10 +4603,6 @@ struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7_StaticFi
 // System.Reflection.TypeInfo
 
 // System.Reflection.TypeInfo
-
-// System.TypeLoadException
-
-// System.TypeLoadException
 
 // System.Reflection.RuntimePropertyInfo/GetterAdapter
 

@@ -3204,10 +3204,6 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 
 // System.Runtime.Serialization.Formatters.Binary.InternalFE
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
@@ -3356,10 +3352,6 @@ struct ValueFixup_t66027E8BD30FD7C9AA2B1F1F2A7B92B124EE4E8B_StaticFields
 };
 
 // System.Runtime.Serialization.Formatters.Binary.ValueFixup
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Runtime.Serialization.Formatters.Binary.__BinaryParser
 struct __BinaryParser_tE382865BF0321CE908A1DB1929A8148FB63FD059_StaticFields
@@ -3567,10 +3559,6 @@ struct BinaryFormatter_t5A79B3E3328D1B8FDE8C57D1E17668AD47A4466F_StaticFields
 
 // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
 
-// System.Delegate
-
-// System.Delegate
-
 // System.Exception
 struct Exception_t_StaticFields
 {
@@ -3637,17 +3625,9 @@ struct ReadObjectInfo_tBC4855E4A295BCD624E3FD3A6F6C5BF9B6735416_StaticFields
 
 // System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.Reflection.RuntimeFieldInfo
 
 // System.Reflection.RuntimeFieldInfo
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -3690,10 +3670,6 @@ struct Type_t_StaticFields
 
 // System.Runtime.Remoting.Messaging.HeaderHandler
 
-// System.IO.IOException
-
-// System.IO.IOException
-
 // System.Security.SecurityException
 
 // System.Security.SecurityException
@@ -3706,10 +3682,6 @@ struct SerializationException_t09D5CC39CEF9CC37AC9D2E0C6DBE050B4E3F8CA7_StaticFi
 };
 
 // System.Runtime.Serialization.SerializationException
-
-// System.Reflection.TypeInfo
-
-// System.Reflection.TypeInfo
 
 // System.TypeLoadException
 

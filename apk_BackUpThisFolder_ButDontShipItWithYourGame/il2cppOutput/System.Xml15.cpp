@@ -3250,15 +3250,6 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
 
 // System.Collections.CollectionBase
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // System.Xml.HWStack
 
 // System.Xml.HWStack
@@ -3355,10 +3346,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 };
 
 // System.Uri
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Xml.XPath.XPathItem
 
@@ -3669,15 +3656,6 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 
 // System.Double
 
-// System.Enum
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
-};
-
-// System.Enum
-
 // System.Int16
 
 // System.Int16
@@ -3852,10 +3830,6 @@ struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 
 // System.Xml.Schema.XmlSchema
 
-// System.Xml.Schema.XmlSchemaAnnotated
-
-// System.Xml.Schema.XmlSchemaAnnotated
-
 // System.Xml.Schema.XmlSchemaAnnotation
 
 // System.Xml.Schema.XmlSchemaAnnotation
@@ -4027,10 +4001,6 @@ struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_StaticFields
 
 // System.DateTimeOffset
 
-// System.Delegate
-
-// System.Delegate
-
 // System.Exception
 struct Exception_t_StaticFields
 {
@@ -4164,21 +4134,9 @@ struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
 
 // System.Xml.Schema.XmlUnionConverter
 
-// System.Xml.Schema.XmlAtomicValue/Union
-
-// System.Xml.Schema.XmlAtomicValue/Union
-
 // System.Xml.Schema.XsdBuilder/State
 
 // System.Xml.Schema.XsdBuilder/State
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -4285,10 +4243,6 @@ struct XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0_StaticFiel
 
 // System.Xml.Schema.XmlSchemaMinInclusiveFacet
 
-// System.Xml.Schema.XmlSchemaNumericFacet
-
-// System.Xml.Schema.XmlSchemaNumericFacet
-
 // System.Xml.Schema.XmlSchemaPatternFacet
 
 // System.Xml.Schema.XmlSchemaPatternFacet
@@ -4339,10 +4293,6 @@ struct XmlUntypedConverter_tB707BD09CB81865831777481D33D744A4E960703_StaticField
 };
 
 // System.Xml.Schema.XmlUntypedConverter
-
-// System.ArgumentException
-
-// System.ArgumentException
 
 // System.InvalidCastException
 

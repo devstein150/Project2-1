@@ -6318,12 +6318,12 @@ struct BearingFilter_tB68204C2DFAF54DE6D1F5E552B41A96C440026AC_marshaled_com
 // UnityEngine.InputSystem.XR.Bone
 struct Bone_t85144A44EB1A1A887FF94DA59A79BD7065BE9B01 
 {
-	// System.UInt32 UnityEngine.InputSystem.XR.Bone::<parentBoneIndex>k__BackingField
-	uint32_t ___U3CparentBoneIndexU3Ek__BackingField_0;
-	// UnityEngine.Vector3 UnityEngine.InputSystem.XR.Bone::<position>k__BackingField
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CpositionU3Ek__BackingField_1;
-	// UnityEngine.Quaternion UnityEngine.InputSystem.XR.Bone::<rotation>k__BackingField
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrotationU3Ek__BackingField_2;
+	// System.UInt32 UnityEngine.InputSystem.XR.Bone::m_ParentBoneIndex
+	uint32_t ___m_ParentBoneIndex_0;
+	// UnityEngine.Vector3 UnityEngine.InputSystem.XR.Bone::m_Position
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Position_1;
+	// UnityEngine.Quaternion UnityEngine.InputSystem.XR.Bone::m_Rotation
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_Rotation_2;
 };
 
 // UnityEngine.Bounds
@@ -6575,20 +6575,20 @@ struct DebugScreenCapture_t859E4E87C94587A08893C726D4FF84BD8F288CC5
 // UnityEngine.InputSystem.XR.Eyes
 struct Eyes_t239151DFDE1BB47589CEBD22261A793F142B211D 
 {
-	// UnityEngine.Vector3 UnityEngine.InputSystem.XR.Eyes::<leftEyePosition>k__BackingField
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CleftEyePositionU3Ek__BackingField_0;
-	// UnityEngine.Quaternion UnityEngine.InputSystem.XR.Eyes::<leftEyeRotation>k__BackingField
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CleftEyeRotationU3Ek__BackingField_1;
-	// UnityEngine.Vector3 UnityEngine.InputSystem.XR.Eyes::<rightEyePosition>k__BackingField
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CrightEyePositionU3Ek__BackingField_2;
-	// UnityEngine.Quaternion UnityEngine.InputSystem.XR.Eyes::<rightEyeRotation>k__BackingField
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrightEyeRotationU3Ek__BackingField_3;
-	// UnityEngine.Vector3 UnityEngine.InputSystem.XR.Eyes::<fixationPoint>k__BackingField
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CfixationPointU3Ek__BackingField_4;
-	// System.Single UnityEngine.InputSystem.XR.Eyes::<leftEyeOpenAmount>k__BackingField
-	float ___U3CleftEyeOpenAmountU3Ek__BackingField_5;
-	// System.Single UnityEngine.InputSystem.XR.Eyes::<rightEyeOpenAmount>k__BackingField
-	float ___U3CrightEyeOpenAmountU3Ek__BackingField_6;
+	// UnityEngine.Vector3 UnityEngine.InputSystem.XR.Eyes::m_LeftEyePosition
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_LeftEyePosition_0;
+	// UnityEngine.Quaternion UnityEngine.InputSystem.XR.Eyes::m_LeftEyeRotation
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_LeftEyeRotation_1;
+	// UnityEngine.Vector3 UnityEngine.InputSystem.XR.Eyes::m_RightEyePosition
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_RightEyePosition_2;
+	// UnityEngine.Quaternion UnityEngine.InputSystem.XR.Eyes::m_RightEyeRotation
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_RightEyeRotation_3;
+	// UnityEngine.Vector3 UnityEngine.InputSystem.XR.Eyes::m_FixationPoint
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_FixationPoint_4;
+	// System.Single UnityEngine.InputSystem.XR.Eyes::m_LeftEyeOpenAmount
+	float ___m_LeftEyeOpenAmount_5;
+	// System.Single UnityEngine.InputSystem.XR.Eyes::m_RightEyeOpenAmount
+	float ___m_RightEyeOpenAmount_6;
 };
 
 // System.Runtime.InteropServices.GCHandle
@@ -7058,77 +7058,77 @@ struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2
 				struct
 				{
 					// System.Boolean UnityEngine.InputSystem.XR.PoseState::isTracked
-					bool ___isTracked_1;
+					bool ___isTracked_2;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					bool ___isTracked_1_forAlignmentOnly;
+					bool ___isTracked_2_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___trackingState_2_OffsetPadding[4];
+					char ___trackingState_3_OffsetPadding[4];
 					// UnityEngine.XR.InputTrackingState UnityEngine.InputSystem.XR.PoseState::trackingState
-					uint32_t ___trackingState_2;
+					uint32_t ___trackingState_3;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___trackingState_2_OffsetPadding_forAlignmentOnly[4];
-					uint32_t ___trackingState_2_forAlignmentOnly;
+					char ___trackingState_3_OffsetPadding_forAlignmentOnly[4];
+					uint32_t ___trackingState_3_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___position_3_OffsetPadding[8];
+					char ___position_4_OffsetPadding[8];
 					// UnityEngine.Vector3 UnityEngine.InputSystem.XR.PoseState::position
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_3;
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___position_3_OffsetPadding_forAlignmentOnly[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_3_forAlignmentOnly;
+					char ___position_4_OffsetPadding_forAlignmentOnly[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___rotation_4_OffsetPadding[20];
+					char ___rotation_5_OffsetPadding[20];
 					// UnityEngine.Quaternion UnityEngine.InputSystem.XR.PoseState::rotation
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_4;
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___rotation_4_OffsetPadding_forAlignmentOnly[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_4_forAlignmentOnly;
+					char ___rotation_5_OffsetPadding_forAlignmentOnly[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___velocity_5_OffsetPadding[36];
+					char ___velocity_6_OffsetPadding[36];
 					// UnityEngine.Vector3 UnityEngine.InputSystem.XR.PoseState::velocity
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_5;
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___velocity_5_OffsetPadding_forAlignmentOnly[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_5_forAlignmentOnly;
+					char ___velocity_6_OffsetPadding_forAlignmentOnly[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___angularVelocity_6_OffsetPadding[48];
+					char ___angularVelocity_7_OffsetPadding[48];
 					// UnityEngine.Vector3 UnityEngine.InputSystem.XR.PoseState::angularVelocity
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_6;
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___angularVelocity_6_OffsetPadding_forAlignmentOnly[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_6_forAlignmentOnly;
+					char ___angularVelocity_7_OffsetPadding_forAlignmentOnly[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7_forAlignmentOnly;
 				};
 			};
 		};
@@ -7147,72 +7147,72 @@ struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_marshaled_pinvoke
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					int32_t ___isTracked_1;
+					int32_t ___isTracked_2;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					int32_t ___isTracked_1_forAlignmentOnly;
+					int32_t ___isTracked_2_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___trackingState_2_OffsetPadding[4];
-					uint32_t ___trackingState_2;
+					char ___trackingState_3_OffsetPadding[4];
+					uint32_t ___trackingState_3;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___trackingState_2_OffsetPadding_forAlignmentOnly[4];
-					uint32_t ___trackingState_2_forAlignmentOnly;
+					char ___trackingState_3_OffsetPadding_forAlignmentOnly[4];
+					uint32_t ___trackingState_3_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___position_3_OffsetPadding[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_3;
+					char ___position_4_OffsetPadding[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___position_3_OffsetPadding_forAlignmentOnly[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_3_forAlignmentOnly;
+					char ___position_4_OffsetPadding_forAlignmentOnly[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___rotation_4_OffsetPadding[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_4;
+					char ___rotation_5_OffsetPadding[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___rotation_4_OffsetPadding_forAlignmentOnly[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_4_forAlignmentOnly;
+					char ___rotation_5_OffsetPadding_forAlignmentOnly[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___velocity_5_OffsetPadding[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_5;
+					char ___velocity_6_OffsetPadding[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___velocity_5_OffsetPadding_forAlignmentOnly[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_5_forAlignmentOnly;
+					char ___velocity_6_OffsetPadding_forAlignmentOnly[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___angularVelocity_6_OffsetPadding[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_6;
+					char ___angularVelocity_7_OffsetPadding[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___angularVelocity_6_OffsetPadding_forAlignmentOnly[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_6_forAlignmentOnly;
+					char ___angularVelocity_7_OffsetPadding_forAlignmentOnly[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7_forAlignmentOnly;
 				};
 			};
 		};
@@ -7231,72 +7231,72 @@ struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_marshaled_com
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					int32_t ___isTracked_1;
+					int32_t ___isTracked_2;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					int32_t ___isTracked_1_forAlignmentOnly;
+					int32_t ___isTracked_2_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___trackingState_2_OffsetPadding[4];
-					uint32_t ___trackingState_2;
+					char ___trackingState_3_OffsetPadding[4];
+					uint32_t ___trackingState_3;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___trackingState_2_OffsetPadding_forAlignmentOnly[4];
-					uint32_t ___trackingState_2_forAlignmentOnly;
+					char ___trackingState_3_OffsetPadding_forAlignmentOnly[4];
+					uint32_t ___trackingState_3_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___position_3_OffsetPadding[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_3;
+					char ___position_4_OffsetPadding[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___position_3_OffsetPadding_forAlignmentOnly[8];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_3_forAlignmentOnly;
+					char ___position_4_OffsetPadding_forAlignmentOnly[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___rotation_4_OffsetPadding[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_4;
+					char ___rotation_5_OffsetPadding[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___rotation_4_OffsetPadding_forAlignmentOnly[20];
-					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_4_forAlignmentOnly;
+					char ___rotation_5_OffsetPadding_forAlignmentOnly[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___velocity_5_OffsetPadding[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_5;
+					char ___velocity_6_OffsetPadding[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___velocity_5_OffsetPadding_forAlignmentOnly[36];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_5_forAlignmentOnly;
+					char ___velocity_6_OffsetPadding_forAlignmentOnly[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___angularVelocity_6_OffsetPadding[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_6;
+					char ___angularVelocity_7_OffsetPadding[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___angularVelocity_6_OffsetPadding_forAlignmentOnly[48];
-					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_6_forAlignmentOnly;
+					char ___angularVelocity_7_OffsetPadding_forAlignmentOnly[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7_forAlignmentOnly;
 				};
 			};
 		};
@@ -7367,18 +7367,22 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023
 	float ___index_3;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::depth
 	int32_t ___depth_4;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupID
+	int32_t ___sortingGroupID_5;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupOrder
+	int32_t ___sortingGroupOrder_6;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingLayer
-	int32_t ___sortingLayer_5;
+	int32_t ___sortingLayer_7;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
-	int32_t ___sortingOrder_6;
+	int32_t ___sortingOrder_8;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.RaycastResult::screenPosition
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::displayIndex
-	int32_t ___displayIndex_10;
+	int32_t ___displayIndex_12;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
@@ -7388,12 +7392,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 // Native definition for COM marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
@@ -7403,12 +7409,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 
 // UnityEngine.UIElements.Rotate
@@ -10081,10 +10089,6 @@ struct State_tB6FAFA007A70221C90A7D577663C8C57D0E6B4EF_marshaled_com
 	RuntimeObject* ___inputUserState_7;
 };
 
-// System.ValueType
-
-// System.ValueType
-
 // System.ArraySegment`1<System.Byte>
 struct ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_StaticFields
 {
@@ -10121,26 +10125,6 @@ struct ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_StaticFields
 // UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.UIElements.VectorImage>
 
 // UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.UIElements.VectorImage>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`2<UnityEngine.InputSystem.InputControl,UnityEngine.InputSystem.LowLevel.InputEventPtr>>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`2<UnityEngine.InputSystem.InputControl,UnityEngine.InputSystem.LowLevel.InputEventPtr>>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`3<UnityEngine.InputSystem.Users.InputUser,UnityEngine.InputSystem.Users.InputUserChange,UnityEngine.InputSystem.InputDevice>>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`3<UnityEngine.InputSystem.Users.InputUser,UnityEngine.InputSystem.Users.InputUserChange,UnityEngine.InputSystem.InputDevice>>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Func`3<UnityEngine.InputSystem.InputDevice,UnityEngine.InputSystem.LowLevel.InputEventPtr,System.Boolean>>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Func`3<UnityEngine.InputSystem.InputDevice,UnityEngine.InputSystem.LowLevel.InputEventPtr,System.Boolean>>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Touchscreen>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Touchscreen>
 
 // Mapbox.Json.Linq.JEnumerable`1<Mapbox.Json.Linq.JToken>
 struct JEnumerable_1_t815654B8F66B9ECE01CCF7921F3D5E777043E17E_StaticFields
@@ -10251,14 +10235,6 @@ struct JEnumerable_1_t815654B8F66B9ECE01CCF7921F3D5E777043E17E_StaticFields
 
 // System.Memory`1<System.Byte>
 
-// Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility>
-
-// Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.BoundedPlane>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.BoundedPlane>
-
 // Unity.Collections.NativeArray`1<System.Byte>
 
 // Unity.Collections.NativeArray`1<System.Byte>
@@ -10266,10 +10242,6 @@ struct JEnumerable_1_t815654B8F66B9ECE01CCF7921F3D5E777043E17E_StaticFields
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>
 
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>
-
-// Unity.Collections.NativeArray`1<System.Int32>
-
-// Unity.Collections.NativeArray`1<System.Int32>
 
 // Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI>
 
@@ -10279,89 +10251,29 @@ struct JEnumerable_1_t815654B8F66B9ECE01CCF7921F3D5E777043E17E_StaticFields
 
 // Unity.Collections.NativeArray`1<UnityEngine.ModifiableContactPair>
 
-// Unity.Collections.NativeArray`1<UnityEngine.Plane>
-
-// Unity.Collections.NativeArray`1<UnityEngine.Plane>
-
-// Unity.Collections.NativeArray`1<System.Single>
-
-// Unity.Collections.NativeArray`1<System.Single>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.TrackableId>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.TrackableId>
-
 // Unity.Collections.NativeArray`1<System.UInt16>
 
 // Unity.Collections.NativeArray`1<System.UInt16>
-
-// Unity.Collections.NativeArray`1<System.UInt64>
-
-// Unity.Collections.NativeArray`1<System.UInt64>
-
-// Unity.Collections.NativeArray`1<UnityEngine.Vector3>
-
-// Unity.Collections.NativeArray`1<UnityEngine.Vector3>
 
 // Unity.Collections.NativeArray`1<UnityEngine.UIElements.Vertex>
 
 // Unity.Collections.NativeArray`1<UnityEngine.UIElements.Vertex>
 
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRAnchor>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRAnchor>
-
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration>
 
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XREnvironmentProbe>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XREnvironmentProbe>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRFace>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRFace>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRHumanBody>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRHumanBody>
 
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRHumanBodyPose2DJoint>
 
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRHumanBodyPose2DJoint>
 
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRParticipant>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRParticipant>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRPointCloud>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRPointCloud>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycast>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycast>
-
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>
 
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>
 
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRReferencePoint>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRReferencePoint>
-
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTextureDescriptor>
 
 // Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTextureDescriptor>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTrackedImage>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTrackedImage>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTrackedObject>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTrackedObject>
 
 // Unity.Collections.NativeSlice`1<System.Byte>
 
@@ -10370,22 +10282,6 @@ struct JEnumerable_1_t815654B8F66B9ECE01CCF7921F3D5E777043E17E_StaticFields
 // Unity.Collections.NativeSlice`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>
 
 // Unity.Collections.NativeSlice`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>
-
-// Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>
-
-// Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>
-
-// Unity.Collections.NativeSlice`1<System.UInt16>
-
-// Unity.Collections.NativeSlice`1<System.UInt16>
-
-// Unity.Collections.NativeSlice`1<UnityEngine.Vector4>
-
-// Unity.Collections.NativeSlice`1<UnityEngine.Vector4>
-
-// Unity.Collections.NativeSlice`1<UnityEngine.UIElements.Vertex>
-
-// Unity.Collections.NativeSlice`1<UnityEngine.UIElements.Vertex>
 
 // System.Nullable`1<System.Boolean>
 
@@ -10451,22 +10347,6 @@ struct JEnumerable_1_t815654B8F66B9ECE01CCF7921F3D5E777043E17E_StaticFields
 
 // UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputControlScheme>
 
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>
-
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>
-
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString>
-
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString>
-
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
-
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
-
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue>
-
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue>
-
 // System.ReadOnlyMemory`1<System.Byte>
 
 // System.ReadOnlyMemory`1<System.Byte>
@@ -10474,30 +10354,6 @@ struct JEnumerable_1_t815654B8F66B9ECE01CCF7921F3D5E777043E17E_StaticFields
 // UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Record<UnityEngine.InputSystem.LowLevel.TouchState>
 
 // UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Record<UnityEngine.InputSystem.LowLevel.TouchState>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.InheritedData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.InheritedData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.LayoutData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.LayoutData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.RareData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.RareData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransformData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransformData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransitionData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.TransitionData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.VisualData>
-
-// UnityEngine.UIElements.StyleDataRef`1<UnityEngine.UIElements.VisualData>
 
 // UnityEngine.UIElements.StyleEnum`1<UnityEngine.UIElements.DisplayStyle>
 
@@ -10628,23 +10484,6 @@ struct ValueTask_1_t823DE87C36EA952D24C4E64F532E9D4425B72F21_StaticFields
 
 // UnityEngine.XR.ARFoundation.ARTrackedObjectsChangedEventArgs
 
-// UnityEngine.UIElements.UIR.Alloc
-
-// UnityEngine.UIElements.UIR.Alloc
-
-// UnityEngine.UIElements.Angle
-
-// UnityEngine.UIElements.Angle
-
-// UnityEngine.UIElements.UIR.BMPAlloc
-struct BMPAlloc_t29DA9D09157B8BAD2D5643711A53A5F11D216D30_StaticFields
-{
-	// UnityEngine.UIElements.UIR.BMPAlloc UnityEngine.UIElements.UIR.BMPAlloc::Invalid
-	BMPAlloc_t29DA9D09157B8BAD2D5643711A53A5F11D216D30 ___Invalid_0;
-};
-
-// UnityEngine.UIElements.UIR.BMPAlloc
-
 // UnityEngine.UIElements.Background
 
 // UnityEngine.UIElements.Background
@@ -10762,10 +10601,6 @@ struct GlyphRect_tB6D225B9318A527A1CBC1B4078EB923398EB808D_StaticFields
 
 // UnityEngine.TextCore.GlyphRect
 
-// UnityEngine.TextCore.LowLevel.GlyphValueRecord
-
-// UnityEngine.TextCore.LowLevel.GlyphValueRecord
-
 // System.Guid
 struct Guid_t_StaticFields
 {
@@ -10803,10 +10638,6 @@ struct InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD_StaticFields
 // UnityEngine.InputSystem.LowLevel.InputEventPtr
 
 // UnityEngine.InputSystem.LowLevel.InputEventPtr
-
-// UnityEngine.InputSystem.LowLevel.InputMetrics
-
-// UnityEngine.InputSystem.LowLevel.InputMetrics
 
 // System.IntPtr
 struct IntPtr_t_StaticFields
@@ -10890,17 +10721,9 @@ struct MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_StaticFields
 
 // UnityEngine.PhysicsScene
 
-// UnityEngine.InputSystem.Utilities.PrimitiveValue
-
-// UnityEngine.InputSystem.Utilities.PrimitiveValue
-
 // Mapbox.ProbeExtractorCs.Probe
 
 // Mapbox.ProbeExtractorCs.Probe
-
-// UnityEngine.PropertyName
-
-// UnityEngine.PropertyName
 
 // UnityEngine.Quaternion
 struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
@@ -10923,10 +10746,6 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 
 // UnityEngine.Rect
 
-// UnityEngine.RectInt
-
-// UnityEngine.RectInt
-
 // UnityEngine.UIElements.UIR.RenderChainTextEntry
 
 // UnityEngine.UIElements.UIR.RenderChainTextEntry
@@ -10950,23 +10769,6 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 // UnityEngine.UIElements.StyleSheets.SelectorMatchRecord
 
 // UnityEngine.UIElements.StyleSheets.SelectorMatchRecord
-
-// UnityEngine.XR.ARSubsystems.SerializableGuid
-struct SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378_StaticFields
-{
-	// UnityEngine.XR.ARSubsystems.SerializableGuid UnityEngine.XR.ARSubsystems.SerializableGuid::k_Empty
-	SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378 ___k_Empty_0;
-};
-
-// UnityEngine.XR.ARSubsystems.SerializableGuid
-
-// UnityEngine.Rendering.ShaderTagId
-
-// UnityEngine.Rendering.ShaderTagId
-
-// UnityEngine.Rendering.SphericalHarmonicsL2
-
-// UnityEngine.Rendering.SphericalHarmonicsL2
 
 // UnityEngine.UI.SpriteState
 
@@ -11238,10 +11040,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.InputSystem.HID.HIDSupport/HIDPageUsage
 
-// UnityEngine.InputSystem.LowLevel.IMECompositionString/<buffer>e__FixedBuffer
-
-// UnityEngine.InputSystem.LowLevel.IMECompositionString/<buffer>e__FixedBuffer
-
 // UnityEngine.InputSystem.InputAction/CallbackContext
 
 // UnityEngine.InputSystem.InputAction/CallbackContext
@@ -11270,14 +11068,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.InputSystem.InputRemoting/Message
 
-// UnityEngine.InputSystem.InputRemoting/SerializedState
-
-// UnityEngine.InputSystem.InputRemoting/SerializedState
-
-// UnityEngine.InputSystem.LowLevel.InputStateBuffers/DoubleBuffers
-
-// UnityEngine.InputSystem.LowLevel.InputStateBuffers/DoubleBuffers
-
 // UnityEngine.InputSystem.LowLevel.InputStateHistory/Record
 
 // UnityEngine.InputSystem.LowLevel.InputStateHistory/Record
@@ -11285,10 +11075,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 // UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState
 
 // UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState
-
-// UnityEngine.InputSystem.LowLevel.InputUpdate/UpdateStepCount
-
-// UnityEngine.InputSystem.LowLevel.InputUpdate/UpdateStepCount
 
 // UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection
 
@@ -11367,21 +11153,9 @@ struct ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_StaticField
 
 // UnityEngine.TextCore.Text.TextSettings/FontReferenceMap
 
-// TMPro.SpriteAssetUtilities.TexturePacker_JsonArray/SpriteFrame
-
-// TMPro.SpriteAssetUtilities.TexturePacker_JsonArray/SpriteFrame
-
-// TMPro.SpriteAssetUtilities.TexturePacker_JsonArray/SpriteSize
-
-// TMPro.SpriteAssetUtilities.TexturePacker_JsonArray/SpriteSize
-
 // UnityEngine.UIElements.TextureRegistry/TextureInfo
 
 // UnityEngine.UIElements.TextureRegistry/TextureInfo
-
-// UnityEngine.InputSystem.EnhancedTouch.Touch/FingerAndTouchState
-
-// UnityEngine.InputSystem.EnhancedTouch.Touch/FingerAndTouchState
 
 // UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData
 
@@ -11448,38 +11222,6 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 
 // UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/PrecompiledLayout
 
-// System.ByReference`1<System.Byte>
-
-// System.ByReference`1<System.Byte>
-
-// System.ByReference`1<System.Char>
-
-// System.ByReference`1<System.Char>
-
-// System.ByReference`1<System.Object>
-
-// System.ByReference`1<System.Object>
-
-// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
-
-// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
-
-// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`2<UnityEngine.InputSystem.InputControl,UnityEngine.InputSystem.LowLevel.InputEventPtr>>
-
-// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`2<UnityEngine.InputSystem.InputControl,UnityEngine.InputSystem.LowLevel.InputEventPtr>>
-
-// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`3<UnityEngine.InputSystem.Users.InputUser,UnityEngine.InputSystem.Users.InputUserChange,UnityEngine.InputSystem.InputDevice>>
-
-// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`3<UnityEngine.InputSystem.Users.InputUser,UnityEngine.InputSystem.Users.InputUserChange,UnityEngine.InputSystem.InputDevice>>
-
-// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Func`3<UnityEngine.InputSystem.InputDevice,UnityEngine.InputSystem.LowLevel.InputEventPtr,System.Boolean>>
-
-// UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Func`3<UnityEngine.InputSystem.InputDevice,UnityEngine.InputSystem.LowLevel.InputEventPtr,System.Boolean>>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection>
-
-// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection>
-
 // System.Collections.Generic.KeyValuePair`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
 
 // System.Collections.Generic.KeyValuePair`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
@@ -11604,10 +11346,6 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 
 // System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>>
 
-// System.Nullable`1<UnityEngine.Color>
-
-// System.Nullable`1<UnityEngine.Color>
-
 // System.Nullable`1<System.DateTime>
 
 // System.Nullable`1<System.DateTime>
@@ -11624,21 +11362,9 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 
 // System.Nullable`1<UnityEngine.InputSystem.InputBinding>
 
-// System.Nullable`1<UnityEngine.Matrix4x4>
-
-// System.Nullable`1<UnityEngine.Matrix4x4>
-
-// System.Nullable`1<UnityEngine.Rendering.SphericalHarmonicsL2>
-
-// System.Nullable`1<UnityEngine.Rendering.SphericalHarmonicsL2>
-
 // System.Nullable`1<System.TimeSpan>
 
 // System.Nullable`1<System.TimeSpan>
-
-// System.Nullable`1<UnityEngine.Vector3>
-
-// System.Nullable`1<UnityEngine.Vector3>
 
 // UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.BoundedPlane>
 
@@ -11725,17 +11451,9 @@ struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_StaticFields
 
 // UnityEngine.UI.ColorBlock
 
-// UnityEngine.UIElements.ColorPage
-
-// UnityEngine.UIElements.ColorPage
-
 // UnityEngine.UIElements.ComputedStyle
 
 // UnityEngine.UIElements.ComputedStyle
-
-// UnityEngine.XR.ARSubsystems.ConfigurationDescriptor
-
-// UnityEngine.XR.ARSubsystems.ConfigurationDescriptor
 
 // UnityEngine.UIElements.Cursor
 
@@ -11774,53 +11492,13 @@ struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_StaticFields
 
 // System.Runtime.InteropServices.GCHandle
 
-// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-
-// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-
 // UnityEngine.InputSystem.LowLevel.IMECompositionString
 
 // UnityEngine.InputSystem.LowLevel.IMECompositionString
 
-// UnityEngine.InputSystem.Layouts.InputDeviceMatcher
-struct InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555_StaticFields
-{
-	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.Layouts.InputDeviceMatcher::kInterfaceKey
-	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___kInterfaceKey_1;
-	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.Layouts.InputDeviceMatcher::kDeviceClassKey
-	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___kDeviceClassKey_2;
-	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.Layouts.InputDeviceMatcher::kManufacturerKey
-	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___kManufacturerKey_3;
-	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.Layouts.InputDeviceMatcher::kProductKey
-	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___kProductKey_4;
-	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.Layouts.InputDeviceMatcher::kVersionKey
-	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___kVersionKey_5;
-};
-
-// UnityEngine.InputSystem.Layouts.InputDeviceMatcher
-
-// UnityEngine.InputSystem.LowLevel.InputStateBuffers
-struct InputStateBuffers_t338A1714D01276EEEF5F8CD6AE81DFED939D5968_StaticFields
-{
-	// System.Void* UnityEngine.InputSystem.LowLevel.InputStateBuffers::s_DefaultStateBuffer
-	void* ___s_DefaultStateBuffer_7;
-	// System.Void* UnityEngine.InputSystem.LowLevel.InputStateBuffers::s_NoiseMaskBuffer
-	void* ___s_NoiseMaskBuffer_8;
-	// System.Void* UnityEngine.InputSystem.LowLevel.InputStateBuffers::s_ResetMaskBuffer
-	void* ___s_ResetMaskBuffer_9;
-	// UnityEngine.InputSystem.LowLevel.InputStateBuffers/DoubleBuffers UnityEngine.InputSystem.LowLevel.InputStateBuffers::s_CurrentBuffers
-	DoubleBuffers_tC70880E0E4F69237E763403F28F65B807E94A9ED ___s_CurrentBuffers_10;
-};
-
-// UnityEngine.InputSystem.LowLevel.InputStateBuffers
-
 // Unity.Jobs.JobHandle
 
 // Unity.Jobs.JobHandle
-
-// UnityEngine.Rendering.LODParameters
-
-// UnityEngine.Rendering.LODParameters
 
 // Mapbox.Unity.Location.Location
 
@@ -11849,24 +11527,6 @@ struct InputStateBuffers_t338A1714D01276EEEF5F8CD6AE81DFED939D5968_StaticFields
 // UnityEngine.Playables.PlayableGraph
 
 // UnityEngine.Playables.PlayableGraph
-
-// UnityEngine.Playables.PlayableHandle
-struct PlayableHandle_t5D6A01EF94382EFEDC047202F71DF882769654D4_StaticFields
-{
-	// UnityEngine.Playables.PlayableHandle UnityEngine.Playables.PlayableHandle::m_Null
-	PlayableHandle_t5D6A01EF94382EFEDC047202F71DF882769654D4 ___m_Null_2;
-};
-
-// UnityEngine.Playables.PlayableHandle
-
-// UnityEngine.Playables.PlayableOutputHandle
-struct PlayableOutputHandle_tEB217645A8C0356A3AC6F964F283003B9740E883_StaticFields
-{
-	// UnityEngine.Playables.PlayableOutputHandle UnityEngine.Playables.PlayableOutputHandle::m_Null
-	PlayableOutputHandle_tEB217645A8C0356A3AC6F964F283003B9740E883 ___m_Null_2;
-};
-
-// UnityEngine.Playables.PlayableOutputHandle
 
 // UnityEngine.Pose
 struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
@@ -11882,6 +11542,11 @@ struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
 // UnityEngine.XR.OpenXR.Input.Pose
 
 // UnityEngine.InputSystem.XR.PoseState
+struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_StaticFields
+{
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.XR.PoseState::s_Format
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___s_Format_1;
+};
 
 // UnityEngine.InputSystem.XR.PoseState
 
@@ -12044,14 +11709,6 @@ struct XRCpuImage_t36F512AD65D5B0AA1CC458C3666873D741C60A57_StaticFields
 
 // UnityEngine.InputSystem.InputManager/AvailableDevice
 
-// UnityEngine.InputSystem.LowLevel.InputUpdate/SerializedState
-
-// UnityEngine.InputSystem.LowLevel.InputUpdate/SerializedState
-
-// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
-
-// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
-
 // UnityEngine.UIElements.MeshGenerationContextUtils/TextParams
 
 // UnityEngine.UIElements.MeshGenerationContextUtils/TextParams
@@ -12151,10 +11808,6 @@ struct XRCpuImage_t36F512AD65D5B0AA1CC458C3666873D741C60A57_StaticFields
 // UnityEngine.XR.ARCore.ARCoreBeforeSetConfigurationEventArgs
 
 // UnityEngine.XR.ARCore.ARCoreBeforeSetConfigurationEventArgs
-
-// UnityEngine.XR.ARFoundation.ARLightEstimationData
-
-// UnityEngine.XR.ARFoundation.ARLightEstimationData
 
 // UnityEngine.XR.ARFoundation.ARTextureInfo
 
@@ -12338,14 +11991,6 @@ struct XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_StaticFields
 
 // UnityEngine.XR.ARSubsystems.XRTrackedObject
 
-// UnityEngine.InputSystem.InputManager/SerializedState
-
-// UnityEngine.InputSystem.InputManager/SerializedState
-
-// UnityEngine.InputSystem.Users.InputUser/GlobalState
-
-// UnityEngine.InputSystem.Users.InputUser/GlobalState
-
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
 
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
@@ -12353,14 +11998,6 @@ struct XRTrackedObject_t56B5A101A8698B5C95F2CBE93FCF0F8911B67E75_StaticFields
 // UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams
 
 // UnityEngine.UIElements.MeshGenerationContextUtils/RectangleParams
-
-// UnityEngine.InputSystem.UI.PointerModel/ButtonState
-
-// UnityEngine.InputSystem.UI.PointerModel/ButtonState
-
-// UnityEngine.InputSystem.EnhancedTouch.Touch/GlobalState
-
-// UnityEngine.InputSystem.EnhancedTouch.Touch/GlobalState
 
 // UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/LayoutMatcher
 

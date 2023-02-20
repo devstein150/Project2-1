@@ -2057,14 +2057,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 
 // System.Xml.IncrementalReadDecoder
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
-
 // System.Xml.Schema.SchemaDeclBase
 
 // System.Xml.Schema.SchemaDeclBase
@@ -2175,10 +2167,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XmlNameTable
 
 // System.Xml.XmlNameTable
@@ -2223,10 +2211,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 
 // System.Xml.Schema.XmlSchemaDatatype
 
-// System.Xml.Schema.XmlSchemaObject
-
-// System.Xml.Schema.XmlSchemaObject
-
 // System.Xml.XmlTextReaderImpl/DtdDefaultAttributeInfoToNodeDataComparer
 struct DtdDefaultAttributeInfoToNodeDataComparer_t316EE7BA1A7C3159565673C63167CDD82E3935A1_StaticFields
 {
@@ -2247,10 +2231,6 @@ struct DtdDefaultAttributeInfoToNodeDataComparer_t316EE7BA1A7C3159565673C63167CD
 // System.Xml.XmlTextReaderImpl/XmlContext
 
 // System.Xml.XmlTextReaderImpl/XmlContext
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
 
 // System.Threading.Tasks.Task`1<System.Tuple`4<System.Int32,System.Int32,System.Int32,System.Boolean>>
 struct Task_1_tB493F74D58DB1761E087206849D953E99D07600B_StaticFields
@@ -2314,15 +2294,6 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 // System.Int64
 
 // System.Int64
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
 
 // System.Xml.LineInfo
 
@@ -2397,10 +2368,6 @@ struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
 
 // System.Xml.XmlCharType
 
-// System.Xml.Schema.XmlSchemaAnnotated
-
-// System.Xml.Schema.XmlSchemaAnnotated
-
 // System.Xml.XmlUrlResolver
 struct XmlUrlResolver_tD1DCA07B66A58F98930187AF17C9B31258C1008E_StaticFields
 {
@@ -2417,10 +2384,6 @@ struct XmlUrlResolver_tD1DCA07B66A58F98930187AF17C9B31258C1008E_StaticFields
 // System.Xml.XmlTextReaderImpl/ParsingState
 
 // System.Xml.XmlTextReaderImpl/ParsingState
-
-// System.Delegate
-
-// System.Delegate
 
 // System.Exception
 struct Exception_t_StaticFields
@@ -2461,14 +2424,6 @@ struct NodeData_tEB6A7F9E5147217F637373A7B7644BE377D539FF_StaticFields
 
 // System.Xml.XmlTextReaderImpl/NodeData
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -2493,10 +2448,6 @@ struct Type_t_StaticFields
 // System.ArgumentException
 
 // System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.InvalidOperationException
 

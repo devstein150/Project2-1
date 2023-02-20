@@ -4958,10 +4958,6 @@ struct JavaScriptUtils_t0911E8349A6F497CEDE9E0A7A5C81FEBCADD8E2B_StaticFields
 
 // Mapbox.Json.Serialization.JsonSerializerInternalBase
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
@@ -5123,10 +5119,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 // Mapbox.Json.Utilities.ValidationUtils
 
 // Mapbox.Json.Utilities.ValidationUtils
-
-// System.ValueType
-
-// System.ValueType
 
 // Mapbox.Json.Serialization.DefaultContractResolver/<>c
 struct U3CU3Ec_t8519F375FCBC9F4B42E9F89D996C737B04D4521E_StaticFields
@@ -5295,18 +5287,6 @@ struct U3CU3Ec_t664C955FB22A64F7475E21571F56244FEC291F96_StaticFields
 
 // System.Nullable`1<System.Char>
 
-// System.Nullable`1<Mapbox.Json.DateFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.DateFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.DateParseHandling>
-
-// System.Nullable`1<Mapbox.Json.DateParseHandling>
-
-// System.Nullable`1<Mapbox.Json.DateTimeZoneHandling>
-
-// System.Nullable`1<Mapbox.Json.DateTimeZoneHandling>
-
 // System.Nullable`1<Mapbox.Json.DefaultValueHandling>
 
 // System.Nullable`1<Mapbox.Json.DefaultValueHandling>
@@ -5314,18 +5294,6 @@ struct U3CU3Ec_t664C955FB22A64F7475E21571F56244FEC291F96_StaticFields
 // System.Nullable`1<System.Double>
 
 // System.Nullable`1<System.Double>
-
-// System.Nullable`1<Mapbox.Json.FloatFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatFormatHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatParseHandling>
-
-// System.Nullable`1<Mapbox.Json.FloatParseHandling>
-
-// System.Nullable`1<Mapbox.Json.Formatting>
-
-// System.Nullable`1<Mapbox.Json.Formatting>
 
 // System.Nullable`1<System.Int16>
 
@@ -5366,10 +5334,6 @@ struct U3CU3Ec_t664C955FB22A64F7475E21571F56244FEC291F96_StaticFields
 // System.Nullable`1<System.Single>
 
 // System.Nullable`1<System.Single>
-
-// System.Nullable`1<Mapbox.Json.StringEscapeHandling>
-
-// System.Nullable`1<Mapbox.Json.StringEscapeHandling>
 
 // System.Nullable`1<Mapbox.Json.TypeNameHandling>
 
@@ -5634,10 +5598,6 @@ struct KeyValuePairConverter_t0C00727CDBCC6F3A4391952CA7A6BB1CA17E51F0_StaticFie
 // System.NonSerializedAttribute
 
 // System.NonSerializedAttribute
-
-// System.OrdinalComparer
-
-// System.OrdinalComparer
 
 // System.Reflection.ParameterModifier
 
@@ -5942,14 +5902,6 @@ struct JsonPrimitiveContract_t50EF32419E49A4CD5E44BD3733BA8269A9CAD87A_StaticFie
 // Mapbox.Json.JsonTextWriter
 
 // Mapbox.Json.JsonTextWriter
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // Mapbox.Json.Serialization.TraceJsonReader
 

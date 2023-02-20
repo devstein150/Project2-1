@@ -4298,10 +4298,6 @@ struct List_1_t43EC7C138A17FAAD7120408F039923082A70301A_StaticFields
 
 // System.Collections.ArrayList
 
-// System.Attribute
-
-// System.Attribute
-
 // System.Collections.CollectionBase
 
 // System.Collections.CollectionBase
@@ -4387,10 +4383,6 @@ struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
 
 // System.EventArgs
 
-// System.Diagnostics.Tracing.EventSource
-
-// System.Diagnostics.Tracing.EventSource
-
 // System.Data.ExpressionNode
 
 // System.Data.ExpressionNode
@@ -4425,19 +4417,6 @@ struct InternalDataCollectionBase_tDBDE593FD7AB64DA7E3C512E49C0E0B396D3DDB2_Stat
 };
 
 // System.Data.InternalDataCollectionBase
-
-// System.ComponentModel.MarshalByValueComponent
-struct MarshalByValueComponent_t19E5966D1CE2F9ED341EB16C060BA573F63AEDAA_StaticFields
-{
-	// System.Object System.ComponentModel.MarshalByValueComponent::s_eventDisposed
-	RuntimeObject* ___s_eventDisposed_0;
-};
-
-// System.ComponentModel.MarshalByValueComponent
-
-// System.ComponentModel.MemberDescriptor
-
-// System.ComponentModel.MemberDescriptor
 
 // System.Reflection.MemberInfo
 
@@ -4499,10 +4478,6 @@ struct TypeConverter_t5257E1653EB845D0044BBEDEB7B8AED7A061592C_StaticFields
 };
 
 // System.ComponentModel.TypeConverter
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Data.XMLDiffLoader
 
@@ -4762,10 +4737,6 @@ struct IntPtr_t_StaticFields
 // System.Data.MergeFailedEventArgs
 
 // System.Data.MergeFailedEventArgs
-
-// System.Reflection.MethodBase
-
-// System.Reflection.MethodBase
 
 // System.Data.PropertyCollection
 
@@ -5083,10 +5054,6 @@ struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 
 // System.Xml.XmlDocument
 
-// System.Xml.XmlLinkedNode
-
-// System.Xml.XmlLinkedNode
-
 // System.Xml.Serialization.XmlRootAttribute
 
 // System.Xml.Serialization.XmlRootAttribute
@@ -5127,10 +5094,6 @@ struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 // System.Data.Index/IndexTree
 
 // System.Data.Index/IndexTree
-
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
-
-// System.Xml.XmlNamedNodeMap/SmallXmlNodeList
 
 // System.Nullable`1<System.Data.DataKey>
 
@@ -5181,10 +5144,6 @@ struct Exception_t_StaticFields
 // System.Data.ForeignKeyConstraint
 
 // System.Data.ForeignKeyConstraint
-
-// System.Runtime.InteropServices.GCHandle
-
-// System.Runtime.InteropServices.GCHandle
 
 // System.Data.ParentForeignKeyConstraintEnumerator
 
@@ -5267,17 +5226,9 @@ struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
 
 // System.Xml.Schema.XmlSchemaXPath
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.Data.RelatedView
 
 // System.Data.RelatedView
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -5377,10 +5328,6 @@ struct XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0_StaticFiel
 
 // System.Xml.Schema.XmlSchemaMinInclusiveFacet
 
-// System.Xml.Schema.XmlSchemaNumericFacet
-
-// System.Xml.Schema.XmlSchemaNumericFacet
-
 // System.Xml.Schema.XmlSchemaPatternFacet
 
 // System.Xml.Schema.XmlSchemaPatternFacet
@@ -5433,14 +5380,6 @@ struct XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0_StaticFiel
 
 // System.Data.Listeners`1/Func`2<System.Data.DataViewListener,System.Data.DataViewListener,System.Boolean>
 
-// System.ArgumentException
-
-// System.ArgumentException
-
-// System.Data.DataException
-
-// System.Data.DataException
-
 // System.FormatException
 
 // System.FormatException
@@ -5448,10 +5387,6 @@ struct XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0_StaticFiel
 // System.Data.MergeFailedEventHandler
 
 // System.Data.MergeFailedEventHandler
-
-// System.NotSupportedException
-
-// System.NotSupportedException
 
 // System.Xml.Schema.XmlSchemaAll
 

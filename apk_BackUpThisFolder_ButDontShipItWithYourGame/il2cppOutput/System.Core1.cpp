@@ -2583,10 +2583,6 @@ struct EmptyReadOnlyCollection_1_t900EA35DD5424C3123926922D20A1AE39EF877E8_Stati
 
 // System.Dynamic.Utils.ContractUtils
 
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 {
@@ -2640,10 +2636,6 @@ struct Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785_StaticFields
 // System.Dynamic.Utils.ExpressionVisitorUtils
 
 // System.Dynamic.Utils.ExpressionVisitorUtils
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.Reflection.MemberInfo
 
@@ -2705,10 +2697,6 @@ struct TypeUtils_t2C9FA7DD0D8907A05421D44B8E7F1D4F602C9FE7_StaticFields
 };
 
 // System.Dynamic.Utils.TypeUtils
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Linq.Expressions.BlockExpressionList/<GetEnumerator>d__18
 
@@ -3061,10 +3049,6 @@ struct U3CPrivateImplementationDetailsU3E_t0985298E3928118182D9E60D8C7A51F84FE0D
 
 // System.Linq.Expressions.BlockN
 
-// System.Delegate
-
-// System.Delegate
-
 // System.Exception
 struct Exception_t_StaticFields
 {
@@ -3179,10 +3163,6 @@ struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
 
 // System.Threading.LockRecursionException
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // System.Linq.Expressions.Scope1
 
 // System.Linq.Expressions.Scope1
@@ -3190,10 +3170,6 @@ struct WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_StaticFields
 // System.Linq.Expressions.ScopeN
 
 // System.Linq.Expressions.ScopeN
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

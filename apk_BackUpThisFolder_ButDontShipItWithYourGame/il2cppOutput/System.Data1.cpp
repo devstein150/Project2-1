@@ -3576,10 +3576,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 
 // System.Collections.BitArray
 
-// System.Collections.CollectionBase
-
-// System.Collections.CollectionBase
-
 // System.Globalization.CompareInfo
 struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57_StaticFields
 {
@@ -3681,19 +3677,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 
 // System.Text.Encoding
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
-// System.Diagnostics.Tracing.EventSource
-
-// System.Diagnostics.Tracing.EventSource
-
 // System.Collections.Hashtable
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D_StaticFields
 {
@@ -3721,10 +3704,6 @@ struct InternalDataCollectionBase_tDBDE593FD7AB64DA7E3C512E49C0E0B396D3DDB2_Stat
 
 // System.Data.InternalDataCollectionBase
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.ComponentModel.MarshalByValueComponent
 struct MarshalByValueComponent_t19E5966D1CE2F9ED341EB16C060BA573F63AEDAA_StaticFields
 {
@@ -3733,14 +3712,6 @@ struct MarshalByValueComponent_t19E5966D1CE2F9ED341EB16C060BA573F63AEDAA_StaticF
 };
 
 // System.ComponentModel.MarshalByValueComponent
-
-// System.ComponentModel.MemberDescriptor
-
-// System.ComponentModel.MemberDescriptor
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // System.Data.Merger
 
@@ -3817,10 +3788,6 @@ struct StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06_StaticFields
 
 // System.StringComparer
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Version
 
 // System.Version
@@ -3828,10 +3795,6 @@ struct StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06_StaticFields
 // System.Data.XMLDiffLoader
 
 // System.Data.XMLDiffLoader
-
-// System.Data.XMLSchema
-
-// System.Data.XMLSchema
 
 // System.Data.XmlDataLoader
 
@@ -4054,15 +4017,6 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 
 // System.Int64
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // System.ComponentModel.PropertyChangedEventArgs
 
 // System.ComponentModel.PropertyChangedEventArgs
@@ -4118,17 +4072,6 @@ struct XSDSchema_t3BD7A85B5B77669F2A8AC189553BBDC0DC9B112C_StaticFields
 
 // System.Xml.XmlAttribute
 
-// System.Xml.XmlCharType
-struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
-{
-	// System.Object System.Xml.XmlCharType::s_Lock
-	RuntimeObject* ___s_Lock_0;
-	// System.Byte[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Xml.XmlCharType::s_CharProperties
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_CharProperties_1;
-};
-
-// System.Xml.XmlCharType
-
 // System.Xml.XmlDocument
 struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 {
@@ -4144,10 +4087,6 @@ struct XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B_StaticFields
 
 // System.Xml.XmlDocument
 
-// System.Xml.XmlLinkedNode
-
-// System.Xml.XmlLinkedNode
-
 // System.Xml.Schema.XmlSchema
 struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 {
@@ -4156,10 +4095,6 @@ struct XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941D_StaticFields
 };
 
 // System.Xml.Schema.XmlSchema
-
-// System.Xml.Schema.XmlSchemaAnnotated
-
-// System.Xml.Schema.XmlSchemaAnnotated
 
 // System.Xml.Schema.XmlSchemaObjectCollection
 
@@ -4198,10 +4133,6 @@ struct DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07_StaticFields
 };
 
 // System.Data.DataTable
-
-// System.Delegate
-
-// System.Delegate
 
 // System.Exception
 struct Exception_t_StaticFields
@@ -4249,10 +4180,6 @@ struct XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE_StaticFields
 
 // System.Xml.Schema.XmlSchemaParticle
 
-// System.Xml.Schema.XmlSchemaType
-
-// System.Xml.Schema.XmlSchemaType
-
 // System.Xml.XmlTextWriter
 struct XmlTextWriter_t9CB64E379F8FE646DA31698A03CE6AF8A594A73B_StaticFields
 {
@@ -4271,14 +4198,6 @@ struct XmlTextWriter_t9CB64E379F8FE646DA31698A03CE6AF8A594A73B_StaticFields
 // System.Data.DataRelationCollection/DataTableRelationCollection
 
 // System.Data.DataRelationCollection/DataTableRelationCollection
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields
@@ -4321,10 +4240,6 @@ struct XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0_StaticFiel
 // System.Xml.Schema.XmlSchemaGroupBase
 
 // System.Xml.Schema.XmlSchemaGroupBase
-
-// System.ArgumentException
-
-// System.ArgumentException
 
 // System.Data.DataColumnChangeEventHandler
 

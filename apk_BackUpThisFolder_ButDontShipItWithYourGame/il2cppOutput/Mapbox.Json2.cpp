@@ -3664,10 +3664,6 @@ struct List_1_tF278C686C36F3AA2A5E4A11BD370550285C16960_StaticFields
 
 // Mapbox.Json.Utilities.BufferUtils
 
-// System.Text.RegularExpressions.Capture
-
-// System.Text.RegularExpressions.Capture
-
 // Mapbox.Json.Utilities.CollectionUtils
 
 // Mapbox.Json.Utilities.CollectionUtils
@@ -3825,14 +3821,6 @@ struct JsonSchemaConstants_t75973619125B85F46AA8106F5552683FF4EB98E8_StaticField
 
 // Mapbox.Json.Utilities.JsonTokenUtils
 
-// System.Reflection.LocalVariableInfo
-
-// System.Reflection.LocalVariableInfo
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // Mapbox.Json.Utilities.MathUtils
 
 // Mapbox.Json.Utilities.MathUtils
@@ -3986,10 +3974,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Version
 
 // System.Version
@@ -4097,10 +4081,6 @@ struct U3CU3Ec_t664C955FB22A64F7475E21571F56244FEC291F96_StaticFields
 
 // System.Collections.Generic.KeyValuePair`2<System.String,Mapbox.Json.Schema.JsonSchemaType>
 
-// System.Collections.ObjectModel.KeyedCollection`2<System.String,Mapbox.Json.Serialization.JsonProperty>
-
-// System.Collections.ObjectModel.KeyedCollection`2<System.String,Mapbox.Json.Serialization.JsonProperty>
-
 // System.Nullable`1<System.Boolean>
 
 // System.Nullable`1<System.Boolean>
@@ -4128,22 +4108,6 @@ struct U3CU3Ec_t664C955FB22A64F7475E21571F56244FEC291F96_StaticFields
 // System.Nullable`1<Mapbox.Json.NullValueHandling>
 
 // System.Nullable`1<Mapbox.Json.NullValueHandling>
-
-// System.Nullable`1<Mapbox.Json.ObjectCreationHandling>
-
-// System.Nullable`1<Mapbox.Json.ObjectCreationHandling>
-
-// System.Nullable`1<Mapbox.Json.ReferenceLoopHandling>
-
-// System.Nullable`1<Mapbox.Json.ReferenceLoopHandling>
-
-// System.Nullable`1<Mapbox.Json.Required>
-
-// System.Nullable`1<Mapbox.Json.Required>
-
-// System.Nullable`1<Mapbox.Json.TypeNameHandling>
-
-// System.Nullable`1<Mapbox.Json.TypeNameHandling>
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -4331,10 +4295,6 @@ struct LateBoundReflectionDelegateFactory_t32AA79D1EE5950DCCD98CAF676D29713B1645
 // System.Reflection.Emit.OpCode
 
 // System.Reflection.Emit.OpCode
-
-// System.OrdinalComparer
-
-// System.OrdinalComparer
 
 // System.Reflection.ParameterModifier
 
@@ -5143,10 +5103,6 @@ struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8_StaticFields
 
 // System.TimeZoneInfo
 
-// System.ApplicationException
-
-// System.ApplicationException
-
 // System.Reflection.Emit.DynamicMethod
 
 // System.Reflection.Emit.DynamicMethod
@@ -5155,21 +5111,9 @@ struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8_StaticFields
 
 // Mapbox.Json.JsonArrayAttribute
 
-// Mapbox.Json.Serialization.JsonContainerContract
-
-// Mapbox.Json.Serialization.JsonContainerContract
-
 // Mapbox.Json.JsonException
 
 // Mapbox.Json.JsonException
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Type
 struct Type_t_StaticFields

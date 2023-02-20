@@ -2683,10 +2683,6 @@ struct HtmlTernaryTree_t5AF490C7A18F017033F549D01B03CDEF170B5069_StaticFields
 
 // System.Xml.HtmlTernaryTree
 
-// System.Xml.IncrementalReadDecoder
-
-// System.Xml.IncrementalReadDecoder
-
 // System.LocalAppContextSwitches
 struct LocalAppContextSwitches_tD4691F88F847A5F076065A6FEF10BBB5DB039434_StaticFields
 {
@@ -2697,14 +2693,6 @@ struct LocalAppContextSwitches_tD4691F88F847A5F076065A6FEF10BBB5DB039434_StaticF
 };
 
 // System.LocalAppContextSwitches
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // SR
 
@@ -2774,10 +2762,6 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
 
 // System.Xml.TernaryTreeReadOnly
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XmlNameTable
 
 // System.Xml.XmlNameTable
@@ -2822,10 +2806,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,System.Xml.XmlSqlBinaryReader/NamespaceDecl>
 
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,System.Xml.XmlSqlBinaryReader/NamespaceDecl>
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
 
 // System.Threading.Tasks.Task`1<System.Boolean>
 struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043_StaticFields
@@ -2964,15 +2944,6 @@ struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_StaticFields
 
 // System.Text.EncoderExceptionFallback
 
-// System.Enum
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
-};
-
-// System.Enum
-
 // System.Guid
 struct Guid_t_StaticFields
 {
@@ -2993,19 +2964,6 @@ struct Guid_t_StaticFields
 // System.Int64
 
 // System.Int64
-
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
-// System.Xml.LineInfo
-
-// System.Xml.LineInfo
 
 // System.MonoTODOAttribute
 
@@ -3098,10 +3056,6 @@ struct XmlCharType_t7C471894C8862126737E800F5A14AACBD14FCBC3_StaticFields
 // System.Xml.XmlSqlBinaryReader/SymbolTables
 
 // System.Xml.XmlSqlBinaryReader/SymbolTables
-
-// System.Xml.XmlTextReaderImpl/ParsingState
-
-// System.Xml.XmlTextReaderImpl/ParsingState
 
 // System.DateTimeOffset
 struct DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_StaticFields
@@ -3213,10 +3167,6 @@ struct HtmlUtf8RawTextWriter_tBDA64D6572325D75C2E84DE787BC2D7C9A0AE850_StaticFie
 
 // System.Xml.HtmlUtf8RawTextWriter
 
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -3237,14 +3187,6 @@ struct Type_t_StaticFields
 };
 
 // System.Type
-
-// System.ArgumentException
-
-// System.ArgumentException
-
-// System.ArithmeticException
-
-// System.ArithmeticException
 
 // System.Xml.HtmlEncodedRawTextWriterIndent
 

@@ -840,11 +840,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5C14DC276C8B2D50724A3F3F270AAC7F0E953D5B
 IL2CPP_EXTERN_C String_t* _stringLiteral5CE36D1049E621945C0048E2ACEBBD3BAA0E02B3;
 IL2CPP_EXTERN_C String_t* _stringLiteral647E0FB2B5E859CC4BD7C73623B82C8EFABA2563;
 IL2CPP_EXTERN_C String_t* _stringLiteral64A6206595EAF23FA7568CEF19E671D14193F283;
+IL2CPP_EXTERN_C String_t* _stringLiteral745884CD813C0C4A5FDFC11DB14CDB0899CFD5EA;
 IL2CPP_EXTERN_C String_t* _stringLiteral74FE784595E09FD945DC4AD913891AC7AC1629B8;
 IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D;
 IL2CPP_EXTERN_C String_t* _stringLiteral7647DA43E7DC0DD75AB227C0AD8507CDC743C340;
 IL2CPP_EXTERN_C String_t* _stringLiteral76CC62E0AD4C93DA55268E721DE9B1F15FF58287;
 IL2CPP_EXTERN_C String_t* _stringLiteral7B5C7E3239429F84CAE230217DB929DB5D939466;
+IL2CPP_EXTERN_C String_t* _stringLiteral7E0E0DCC5B26BDF7A273F9B0A18A012B81DE5010;
 IL2CPP_EXTERN_C String_t* _stringLiteral7EB9D9106B67D6E5918DBB56F7543651D6A96DE5;
 IL2CPP_EXTERN_C String_t* _stringLiteral8106D60A7DDE6CBFEF101D51A1B62C1E3631272B;
 IL2CPP_EXTERN_C String_t* _stringLiteral852B82DE25E59D0A7B2ACFB4BF3A8724D5145748;
@@ -3957,10 +3959,6 @@ struct List_1_t5A4B4E13F2AF0775A1B814AE7A8FDC734D8C79F7_StaticFields
 
 // Mapbox.Unity.Map.AbstractLayer
 
-// System.Attribute
-
-// System.Attribute
-
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 {
@@ -3989,10 +3987,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 // Mapbox.Unity.Map.CustomStyleBundle
 
 // Mapbox.Unity.Map.CustomStyleBundle
-
-// UnityEngine.CustomYieldInstruction
-
-// UnityEngine.CustomYieldInstruction
 
 // Mapbox.Unity.Map.ElevationModificationOptions
 
@@ -4067,10 +4061,6 @@ struct MapboxAccess_tC94B5A04459BE9E185301E7ADA32C26B4083BFAD_StaticFields
 // Mapbox.Unity.MeshGeneration.Modifiers.MaterialList
 
 // Mapbox.Unity.MeshGeneration.Modifiers.MaterialList
-
-// System.Reflection.MemberInfo
-
-// System.Reflection.MemberInfo
 
 // Mapbox.Unity.Map.PresetSubLayerPropertiesFetcher
 
@@ -4152,14 +4142,6 @@ struct String_t_StaticFields
 // Mapbox.Unity.Map.TileJsonData
 
 // Mapbox.Unity.Map.TileJsonData
-
-// System.ValueType
-
-// System.ValueType
-
-// UnityEngine.YieldInstruction
-
-// UnityEngine.YieldInstruction
 
 // Mapbox.Unity.Map.AbstractMap/<>c
 struct U3CU3Ec_t4D3F3D9989DFAEA917EB83D9E043B7F6E98B3734_StaticFields
@@ -4254,18 +4236,6 @@ struct U3CU3Ec_t1F27D87B207EF060C4C1FE651E33CEDAC7F7EFA1_StaticFields
 // System.Collections.Generic.List`1/Enumerator<Mapbox.Unity.Map.VectorSubLayerProperties>
 
 // System.Collections.Generic.List`1/Enumerator<Mapbox.Unity.Map.VectorSubLayerProperties>
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Int32>
-
-// System.Nullable`1<System.Int32>
-
-// System.Nullable`1<System.Single>
-
-// System.Nullable`1<System.Single>
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -4387,10 +4357,6 @@ struct IntPtr_t_StaticFields
 // Mapbox.Unity.Map.MapScalingOptions
 
 // Mapbox.Unity.Map.MapScalingOptions
-
-// Mapbox.Unity.MeshGeneration.Modifiers.ModifierProperties
-
-// Mapbox.Unity.MeshGeneration.Modifiers.ModifierProperties
 
 // UnityEngine.PropertyAttribute
 
@@ -4589,10 +4555,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // Mapbox.Utils.RectD
 
-// System.RuntimeTypeHandle
-
-// System.RuntimeTypeHandle
-
 // Mapbox.Unity.Map.SpawnPrefabOptions
 
 // Mapbox.Unity.Map.SpawnPrefabOptions
@@ -4674,10 +4636,6 @@ struct Colors_tAF351136A707DA352975FF1E194F730E3893F765_StaticFields
 
 // UnityEngine.Material
 
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
 // Mapbox.Unity.Map.PrefabItemOptions
 
 // Mapbox.Unity.Map.PrefabItemOptions
@@ -4689,19 +4647,6 @@ struct Colors_tAF351136A707DA352975FF1E194F730E3893F765_StaticFields
 // UnityEngine.Shader
 
 // UnityEngine.Shader
-
-// System.SystemException
-
-// System.SystemException
-
-// UnityEngine.Texture
-struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
-{
-	// System.Int32 UnityEngine.Texture::GenerateAllMips
-	int32_t ___GenerateAllMips_4;
-};
-
-// UnityEngine.Texture
 
 // System.Type
 struct Type_t_StaticFields
@@ -4808,10 +4753,6 @@ struct Type_t_StaticFields
 
 // Mapbox.Unity.MeshGeneration.Data.AtlasInfo
 
-// UnityEngine.Behaviour
-
-// UnityEngine.Behaviour
-
 // System.EventHandler
 
 // System.EventHandler
@@ -4819,10 +4760,6 @@ struct Type_t_StaticFields
 // Mapbox.Unity.MeshGeneration.Interfaces.LayerVisualizerBase
 
 // Mapbox.Unity.MeshGeneration.Interfaces.LayerVisualizerBase
-
-// Mapbox.Unity.MeshGeneration.Modifiers.ModifierBase
-
-// Mapbox.Unity.MeshGeneration.Modifiers.ModifierBase
 
 // System.NotSupportedException
 
@@ -5345,6 +5282,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Contains_m1CC614873655D9D1BE83
 // System.Boolean System.Collections.Generic.HashSet`1<Mapbox.Map.CanonicalTileId>::Add(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m9E46FEADE44CFC58FEA455D86A7E257CF767EAF5_gshared (HashSet_1_t46724F42EFC959EB8E4E76D7AFF134473D9BCD50* __this, CanonicalTileId_tE2B21F97F3C75188F50DD1C880DB3655BD8D57A6 ___0_item, const RuntimeMethod* method) ;
 
+// System.Void Mapbox.Unity.Map.VectorLayerUpdateArgs::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorLayerUpdateArgs__ctor_mA350CBD2AE1CE9D627322E00DA38AC9F362F8DEF (VectorLayerUpdateArgs_t0867F2060041621F41CCC92C2B5F959421A154BD* __this, const RuntimeMethod* method) ;
+// System.Void Mapbox.Unity.Map.MapboxDataProperty::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapboxDataProperty__ctor_mB7A6A09D1A35DB799CD6AF37505C8D20EE2886BB (MapboxDataProperty_tCE3820EB0F34A56CEB12861BE2B80124C5FDACCD* __this, const RuntimeMethod* method) ;
 // System.Void Mapbox.Unity.Map.LayerSourceOptions::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayerSourceOptions__ctor_m35E8851AF576C52CBB0AAE6474FE46503BA0DD3D (LayerSourceOptions_tEB16767706B7601F1180CD41DB49D14C6C46FE0B* __this, const RuntimeMethod* method) ;
 // System.Void Mapbox.Unity.Map.Style::.ctor()
@@ -5365,10 +5306,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayerProperties__ctor_mBF4300A371911A25B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Style_t7E7F4803A0020C9499FEF1B1882613F58ABE9726* MapboxDefaultImagery_GetParameters_m72D2A95B63336C6185F022FB08DB532F692EF828 (int32_t ___0_defaultImagery, const RuntimeMethod* method) ;
 // System.Void Mapbox.Unity.Map.ImageryRasterOptions::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageryRasterOptions__ctor_m9E7526474BDD2FCBED72A9EA3A7C187A68EC3956 (ImageryRasterOptions_tCDCEB2C1080C225E6055FA5685173B214E80BC22* __this, const RuntimeMethod* method) ;
-// System.Void Mapbox.Unity.Map.MapboxDataProperty::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapboxDataProperty__ctor_mB7A6A09D1A35DB799CD6AF37505C8D20EE2886BB (MapboxDataProperty_tCE3820EB0F34A56CEB12861BE2B80124C5FDACCD* __this, const RuntimeMethod* method) ;
-// System.Void Mapbox.Unity.Map.VectorLayerUpdateArgs::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorLayerUpdateArgs__ctor_mA350CBD2AE1CE9D627322E00DA38AC9F362F8DEF (VectorLayerUpdateArgs_t0867F2060041621F41CCC92C2B5F959421A154BD* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<Mapbox.Unity.Map.LocationPrefabFindBy,System.String>::.ctor()
 inline void Dictionary_2__ctor_m9A574EC5E6DD55E1C7CDF843EF84D56C4702BB1B (Dictionary_2_t854855EA3C24C0B09D518726127DB5685868E5F6* __this, const RuntimeMethod* method)
 {
@@ -6650,6 +6587,110 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_op_Equality_mCEA0E5F229F4AE8C55152F7A8F84345F24F52DC6_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_lhs, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_rhs, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector4::.ctor(System.Single,System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Mapbox.Unity.Map.CoreVectorLayerProperties::set_HasChanged(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoreVectorLayerProperties_set_HasChanged_mC4A812C6F117BA85658625D1159AA44A50446716 (CoreVectorLayerProperties_t9885029C610EEA56ECE0C7190594BACE0D1D08FE* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VectorLayerUpdateArgs_t0867F2060041621F41CCC92C2B5F959421A154BD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// if (value == true)
+		bool L_0 = ___0_value;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		// OnPropertyHasChanged(new VectorLayerUpdateArgs { property = this });
+		VectorLayerUpdateArgs_t0867F2060041621F41CCC92C2B5F959421A154BD* L_2 = (VectorLayerUpdateArgs_t0867F2060041621F41CCC92C2B5F959421A154BD*)il2cpp_codegen_object_new(VectorLayerUpdateArgs_t0867F2060041621F41CCC92C2B5F959421A154BD_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		VectorLayerUpdateArgs__ctor_mA350CBD2AE1CE9D627322E00DA38AC9F362F8DEF(L_2, NULL);
+		VectorLayerUpdateArgs_t0867F2060041621F41CCC92C2B5F959421A154BD* L_3 = L_2;
+		NullCheck(L_3);
+		((LayerUpdateArgs_t2A1E95548D3F32CB0EA9366701E39E166070CC47*)L_3)->___property_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((LayerUpdateArgs_t2A1E95548D3F32CB0EA9366701E39E166070CC47*)L_3)->___property_2), (void*)__this);
+		VirtualActionInvoker1< EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* >::Invoke(4 /* System.Void Mapbox.Unity.Map.MapboxDataProperty::OnPropertyHasChanged(System.EventArgs) */, __this, L_3);
+	}
+
+IL_001b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Mapbox.Unity.Map.CoreVectorLayerProperties::SetPrimitiveType(Mapbox.Unity.Map.VectorPrimitiveType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoreVectorLayerProperties_SetPrimitiveType_mD1E1AF1691880E2CD2CC89CA17B1CE1E01B8B68F (CoreVectorLayerProperties_t9885029C610EEA56ECE0C7190594BACE0D1D08FE* __this, int32_t ___0_type, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		// if (geometryType != type)
+		int32_t L_0 = __this->___geometryType_4;
+		int32_t L_1 = ___0_type;
+		V_0 = (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// geometryType = type;
+		int32_t L_3 = ___0_type;
+		__this->___geometryType_4 = L_3;
+		// HasChanged = true;
+		VirtualActionInvoker1< bool >::Invoke(5 /* System.Void Mapbox.Unity.Map.MapboxDataProperty::set_HasChanged(System.Boolean) */, __this, (bool)1);
+	}
+
+IL_0022:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Mapbox.Unity.Map.CoreVectorLayerProperties::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoreVectorLayerProperties__ctor_m7032D4F2517B37C4E205F1E551FA365304DFDFEC (CoreVectorLayerProperties_t9885029C610EEA56ECE0C7190594BACE0D1D08FE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral745884CD813C0C4A5FDFC11DB14CDB0899CFD5EA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7E0E0DCC5B26BDF7A273F9B0A18A012B81DE5010);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public bool isActive = true;
+		__this->___isActive_2 = (bool)1;
+		// public string sublayerName = "untitled";
+		__this->___sublayerName_3 = _stringLiteral745884CD813C0C4A5FDFC11DB14CDB0899CFD5EA;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___sublayerName_3), (void*)_stringLiteral745884CD813C0C4A5FDFC11DB14CDB0899CFD5EA);
+		// public VectorPrimitiveType geometryType = VectorPrimitiveType.Polygon;
+		__this->___geometryType_4 = 2;
+		// public string layerName = "layerName";
+		__this->___layerName_5 = _stringLiteral7E0E0DCC5B26BDF7A273F9B0A18A012B81DE5010;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___layerName_5), (void*)_stringLiteral7E0E0DCC5B26BDF7A273F9B0A18A012B81DE5010);
+		// public bool snapToTerrain = true;
+		__this->___snapToTerrain_6 = (bool)1;
+		// public bool combineMeshes = false;
+		__this->___combineMeshes_7 = (bool)0;
+		MapboxDataProperty__ctor_mB7A6A09D1A35DB799CD6AF37505C8D20EE2886BB(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

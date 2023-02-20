@@ -1578,10 +1578,6 @@ struct KeyPairPersistence_t78D61FCDE172753BFE756B555CBD85127832CDF6_StaticFields
 
 // System.Security.Cryptography.KeySizes
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // System.Security.Util.Parser
 
 // System.Security.Util.Parser
@@ -1642,14 +1638,6 @@ struct String_t_StaticFields
 // System.Security.Cryptography.SymmetricAlgorithm
 
 // System.Security.Cryptography.SymmetricAlgorithm
-
-// Mono.Security.Cryptography.SymmetricTransform
-
-// Mono.Security.Cryptography.SymmetricTransform
-
-// System.ValueType
-
-// System.ValueType
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -1796,14 +1784,6 @@ struct Rijndael_t282661761E53E282457A31F5675ACF53D64EE807_StaticFields
 
 // System.Security.Cryptography.SHA256
 
-// System.Security.Cryptography.SHA384
-
-// System.Security.Cryptography.SHA384
-
-// System.Security.Cryptography.SHA512
-
-// System.Security.Cryptography.SHA512
-
 // System.IO.Stream
 struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 {
@@ -1848,19 +1828,6 @@ struct DSACryptoServiceProvider_tB418CD8E85D69D879C7298E4A6A7D8CFAC09D79E_Static
 };
 
 // System.Security.Cryptography.DSACryptoServiceProvider
-
-// System.Delegate
-
-// System.Delegate
-
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
 
 // System.Security.Cryptography.HMAC
 
@@ -1984,14 +1951,6 @@ struct SHA512Managed_tB1AB3D2ABFCDE9EFB2A43D3FFC3008B4FE85A89B_StaticFields
 // System.Security.Cryptography.HMACSHA512
 
 // System.Security.Cryptography.HMACSHA512
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.ArgumentException
 

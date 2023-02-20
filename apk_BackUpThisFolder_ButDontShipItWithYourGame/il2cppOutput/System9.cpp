@@ -3705,17 +3705,6 @@ struct StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06_StaticFields
 
 // System.StringComparer
 
-// System.Diagnostics.Switch
-struct Switch_t9C3FB6E0121B928798EA7C18AAB5DFC8F3A09412_StaticFields
-{
-	// System.Collections.Generic.List`1<System.WeakReference> System.Diagnostics.Switch::switches
-	List_1_t99645769CE679BC507C0D8F0C572B4E324C834D9* ___switches_9;
-	// System.Int32 System.Diagnostics.Switch::s_LastCollectionCount
-	int32_t ___s_LastCollectionCount_10;
-};
-
-// System.Diagnostics.Switch
-
 // System.ComponentModel.TypeConverter
 struct TypeConverter_t5257E1653EB845D0044BBEDEB7B8AED7A061592C_StaticFields
 {
@@ -3761,10 +3750,6 @@ struct TypeDescriptor_tC36C76617F823DE4F887E1D17846077CE7B0C3D0_StaticFields
 };
 
 // System.ComponentModel.TypeDescriptor
-
-// System.ValueType
-
-// System.ValueType
 
 // System.ComponentModel.CultureInfoConverter/CultureComparer
 
@@ -4108,10 +4093,6 @@ struct ListBindableAttribute_t9CEF5416BE8F70CE47130DA0897D2AC603BD3517_StaticFie
 
 // System.ComponentModel.NullableConverter
 
-// System.OrdinalComparer
-
-// System.OrdinalComparer
-
 // System.Reflection.ParameterModifier
 
 // System.Reflection.ParameterModifier
@@ -4420,18 +4401,6 @@ struct ReflectTypeDescriptionProvider_t23B368F67882890DA4935F979394FB9D9C45CD6A_
 
 // System.ComponentModel.TypeConverter/SimplePropertyDescriptor
 
-// System.ApplicationException
-
-// System.ApplicationException
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
-
 // System.Type
 struct Type_t_StaticFields
 {
@@ -4468,10 +4437,6 @@ struct Type_t_StaticFields
 // System.EventHandler
 
 // System.EventHandler
-
-// System.Runtime.InteropServices.ExternalException
-
-// System.Runtime.InteropServices.ExternalException
 
 // System.FormatException
 

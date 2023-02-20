@@ -2758,15 +2758,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 
 // System.Text.Encoding
 
-// System.EventArgs
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
-// System.EventArgs
-
 // System.LocalAppContextSwitches
 struct LocalAppContextSwitches_tD4691F88F847A5F076065A6FEF10BBB5DB039434_StaticFields
 {
@@ -2777,10 +2768,6 @@ struct LocalAppContextSwitches_tD4691F88F847A5F076065A6FEF10BBB5DB039434_StaticF
 };
 
 // System.LocalAppContextSwitches
-
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
 
 // System.Globalization.NumberFormatInfo
 struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472_StaticFields
@@ -2794,10 +2781,6 @@ struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472_StaticFields
 // System.Xml.ReadContentAsBinaryHelper
 
 // System.Xml.ReadContentAsBinaryHelper
-
-// System.Xml.Schema.SchemaDeclBase
-
-// System.Xml.Schema.SchemaDeclBase
 
 // System.Xml.Schema.SchemaInfo
 
@@ -2876,10 +2859,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Uri
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Xml.XmlNameTable
 
 // System.Xml.XmlNameTable
@@ -2946,10 +2925,6 @@ struct DtdDefaultAttributeInfoToNodeDataComparer_t316EE7BA1A7C3159565673C63167CD
 
 // System.Xml.XmlWellFormedWriter/NamespaceResolverProxy
 
-// System.Nullable`1<System.Boolean>
-
-// System.Nullable`1<System.Boolean>
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -2974,15 +2949,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 
 // System.Char
 
-// System.Enum
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
-};
-
-// System.Enum
-
 // System.Int32
 
 // System.Int32
@@ -2999,10 +2965,6 @@ struct IntPtr_t_StaticFields
 };
 
 // System.IntPtr
-
-// System.Xml.LineInfo
-
-// System.Xml.LineInfo
 
 // System.Xml.Schema.SchemaAttDef
 struct SchemaAttDef_tC497C6246FCEF4C205C09DC0A9D186A4C2E81553_StaticFields
@@ -3093,10 +3055,6 @@ struct XmlValidatingReaderImpl_t5E1938148F73C4871F4B28C234B1EEF586998EA8_StaticF
 };
 
 // System.Xml.XmlValidatingReaderImpl
-
-// System.Xml.XmlTextReaderImpl/ParsingState
-
-// System.Xml.XmlTextReaderImpl/ParsingState
 
 // System.Xml.XmlTextWriter/Namespace
 
@@ -3228,14 +3186,6 @@ struct NodeData_tEB6A7F9E5147217F637373A7B7644BE377D539FF_StaticFields
 // System.Xml.XmlWellFormedWriter/State
 
 // System.Xml.XmlWellFormedWriter/State
-
-// System.MulticastDelegate
-
-// System.MulticastDelegate
-
-// System.SystemException
-
-// System.SystemException
 
 // System.Xml.XmlUtf8RawTextWriterIndent
 
