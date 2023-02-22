@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SquirrelSpawner : MonoBehaviour
 {
+    private int update_tree_num = 0;
+    public Vector3 offset;
     public GameObject[] Trees;
 
     public float spawnTime = 40.0f; // spawn every 40 seconds
@@ -22,13 +24,12 @@ public class SquirrelSpawner : MonoBehaviour
 
     void SquirrelSpawn()
     {
-        float placed_one_squirrel = 3.0f;
+        //float placed_one_squirrel = 3.0f;
         Trees = GameObject.FindGameObjectsWithTag("Tree");
 
         var newSquirrel = GameObject.Instantiate(whatToSpawn);
-        foreach(GameObject tree in Trees)
-        {
-            if()
-        }
+        newSquirrel.transform.position = Trees[update_tree_num].gameObject.transform.position + offset; // Make sure y is 0
+        update_tree_num += 1;
+        update_tree_num = update_tree_num % Trees.Length;
     }
 }
