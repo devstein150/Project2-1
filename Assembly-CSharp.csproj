@@ -181,6 +181,7 @@
     <Compile Include="Assets/components/ConstantMovement.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/MeshGeneration/Data/KdTree/IntervalHeap.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/SourceLayers/ISubLayerColliderOptions.cs" />
+    <Compile Include="Assets/DisplayInfo.cs" />
     <Compile Include="Assets/other/Mapbox/Examples/Scripts/ChangeShadowDistance.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/Utilities/HTTPRequest.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/DataContainers/RangeAroundTransformTileProviderOptions.cs" />
@@ -435,7 +436,8 @@
     <Compile Include="Assets/other/Mapbox/Examples/1_DataExplorer/HighlightBuildings.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/Location/DeviceLocationProviderAndroidNative.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/MeshGeneration/Factories/ImageDataFetcher.cs" />
-    <Compile Include="Assets/DisplayInfo.cs" />
+    <Compile Include="Assets/AcornSpawner.cs" />
+    <Compile Include="Assets/isSquirrel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/other/TextMesh Pro/Shaders/TMPro.cginc" />
