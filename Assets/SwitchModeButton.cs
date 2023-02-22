@@ -16,6 +16,13 @@ public class SwitchModeButton : MonoBehaviour
 
     public GameObject switchModeButton;
 
+    public GameObject playerTarget;
+
+    public GameObject[] Squirrels;
+
+    public GameObject[] Trees;
+
+
     public AbstractMap map;
     public void Start()
     {
@@ -43,13 +50,46 @@ public class SwitchModeButton : MonoBehaviour
             
         }
         else
-        {
+        { //exploration scene
             SceneManager.LoadScene("interaction_scene");
             TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
             text.SetText("Explore");
             Vector2d tempLocation = map.WorldToGeoPosition(character.transform.position);
             currentLocation = new Vector2d(tempLocation.x, tempLocation.y);
             print(currentLocation);
+
+
+            Squirrels = GameObject.FindGameObjectsWithTag("Squirrel");
+            Trees = GameObject.FindGameObjectsWithTag("Tree");
+            foreach (GameObject Squirrel in Squirrels)
+            {
+                Vector3 diff = Squirrel.transform.position - playerTarget.transform.position;
+                if ( diff.sqrMagnitude < 200.0f)
+                {
+                    SpawnTreeScene();
+                }
+
+            }
+            foreach (GameObject Tree in Trees)
+            {
+                Vector3 diff = Tree.transform.position - playerTarget.transform.position;
+                if (diff.sqrMagnitude < 200.0f)
+                {
+                    SpawnSquirrelScene();
+                }
+
+            }
+
         }
+    }
+
+    void SpawnSquirrelScene()
+    {
+
+    }
+
+    void SpawnTreeScene()
+    {
+
     }
 }
