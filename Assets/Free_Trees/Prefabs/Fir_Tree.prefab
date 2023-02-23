@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 471828}
   - component: {fileID: 3384114}
   - component: {fileID: 2377290}
+  - component: {fileID: -2441466100786774261}
+  - component: {fileID: 2647123366126999787}
   m_Layer: 0
   m_Name: Fir_Tree
   m_TagString: Tree
@@ -83,3 +85,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-2441466100786774261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7fdf9004e94a4932a9cab44bd027ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2647123366126999787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d766af114a404b6ebd2b7ef3f2dd578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

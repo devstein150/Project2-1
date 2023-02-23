@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Windows.Input;
+
 
 public class OrbitCamera : MonoBehaviour
 
@@ -12,7 +14,7 @@ public class OrbitCamera : MonoBehaviour
     private float current_y_loc = 85.4f;
     private float current_x_loc = 0;
     private float current_z_loc = -48.5f;
-
+    public float radius = 20.0f;
 
     public float push_factor;
     //private string current_camera = "Overhead View";
@@ -22,12 +24,14 @@ public class OrbitCamera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        radius = Vector3.Distance(transform.position, player_avatar.transform.position);
+        print(radius);
 
     }
 
     float t = 0.0f;
     float h = 0.0f;
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -44,14 +48,20 @@ public class OrbitCamera : MonoBehaviour
         {
             Debug.Log("mouse x value [" + Input.GetAxis("Mouse X") + "]");
         }
-        
 
-        transform.position = player_avatar.position + Vector3.up * 5 + xz_plane_offset * 4.0f;
-        transform.position = player_avatar.position + Vector3.up * 5 + yz_plane_offset * 4.0f;
-        if ( Input.GetKey(KeyCode.D) | Input.GetKeyDown(KeyCode.A))
-            t += 1.0f * Time.deltaTime;
-        if ( Input.GetKey(KeyCode.W) | Input.GetKeyDown(KeyCode.S))
+        transform.position = new Vector3(Mathf.Cos(t) * radius, (player_avatar.position.y + 85.4f) , Mathf.Sin(t)*radius) ;
+        transform.position = new Vector3((player_avatar.position.x), Mathf.Cos(h) * radius, Mathf.Sin(h) * radius);
+      //  if (Keyboard.IsKeyDown(Key.A) && Keyboard.IsKeyDown(Key.W))
+
+
+        if ( Input.GetKeyDown(KeyCode.D))
             h += 1.0f * Time.deltaTime;
+        //else if ( Input.getKey(KeyCode.W))
+            t += 1.0f * Time.deltaTime;
+        //else if (Input.GetKey(KeyCode.A) && transform.position.y > 0)
+            h -= 1.0f * Time.deltaTime;
+        //else if (Input.GetKey(KeyCode.S))
+            t -= 1.0f * Time.deltaTime;
 
 
         //if (Input.GetMouseButton(0))

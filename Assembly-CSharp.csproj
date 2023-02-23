@@ -204,6 +204,7 @@
     <Compile Include="Assets/other/Mapbox/Unity/LayerProperties/CoreVectorLayerProperties.cs" />
     <Compile Include="Assets/other/Mapbox/Core/mapbox-sdk-cs/Utils/Compression.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/MeshGeneration/Data/VectorFeatureUnity.cs" />
+    <Compile Include="Assets/SquirrelSpawner.cs" />
     <Compile Include="Assets/other/Mapbox/Core/mapbox-sdk-cs/Map/VectorTile.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/Location/AngleSmoothing/AngleSmoothingAbstractBase.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/DataContainers/TileStats.cs" />
@@ -328,6 +329,7 @@
     <Compile Include="Assets/other/Mapbox/Unity/Location/AngleSmoothing/IAngleSmoothing.cs" />
     <Compile Include="Assets/other/Mapbox/Core/mapbox-sdk-cs/Platform/IResource.cs" />
     <Compile Include="Assets/other/Mapbox/Core/mapbox-sdk-cs/Directions/RoutingProfile.cs" />
+    <Compile Include="Assets/CurrencyUpdate.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/Utilities/PolygonUtils.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/MeshGeneration/Factories/TerrainStrategies/FlatTerrainStrategy.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/SourceLayers/ISubLayerLineGeometryOptions.cs" />
@@ -363,6 +365,7 @@
     <Compile Include="Assets/other/Mapbox/Unity/Telemetry/TelemetryWebgl.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/MeshGeneration/Modifiers/MeshGenerationBase.cs" />
     <Compile Include="Assets/other/ExampleAssets/Scripts/AnchorCreator.cs" />
+    <Compile Include="Assets/TreeUpdate.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/MeshGeneration/Components/TextureSelector.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/Map/AbstractMap.cs" />
     <Compile Include="Assets/TreeDataManager.cs" />
@@ -438,7 +441,6 @@
     <Compile Include="Assets/other/Mapbox/Examples/1_DataExplorer/HighlightBuildings.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/Location/DeviceLocationProviderAndroidNative.cs" />
     <Compile Include="Assets/other/Mapbox/Unity/MeshGeneration/Factories/ImageDataFetcher.cs" />
-    <Compile Include="Assets/SquirrelSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/other/TextMesh Pro/Shaders/TMPro.cginc" />

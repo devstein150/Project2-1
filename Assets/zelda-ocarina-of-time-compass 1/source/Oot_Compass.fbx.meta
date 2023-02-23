@@ -3,7 +3,27 @@ guid: 135f5af8b48854b28b41ffe3496114e2
 ModelImporter:
   serializedVersion: 22103
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompassBody_mat
+    second: {fileID: 2100000, guid: c1e6e908cec604d84be841f0645d5bb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompassGlass_mat
+    second: {fileID: 2100000, guid: c1e6e908cec604d84be841f0645d5bb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompassNeedleHolder_mat
+    second: {fileID: 2100000, guid: c1e6e908cec604d84be841f0645d5bb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CompassNeedle_mat
+    second: {fileID: 2100000, guid: c1e6e908cec604d84be841f0645d5bb2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
