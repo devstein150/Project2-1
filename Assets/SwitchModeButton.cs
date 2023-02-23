@@ -85,6 +85,7 @@ public class SwitchModeButton : MonoBehaviour
 
     void SpawnSquirrelScene()
     {
+        SceneManager.LoadScene("interaction_scene");
 
     }
 
