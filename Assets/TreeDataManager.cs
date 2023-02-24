@@ -35,6 +35,7 @@ public class TreeDatum
     public Vector2d lat_long_coords;
     public float growth_progress = 0.0f;
     public float revenue_per_tick_adulthood = 1.0f;
+    public GameObject treeObject;
 
     public TreeDatum(string _tree_type, Vector2d _lat_long_coords, float _growth_progress, float _revenue_per_tick_adulthood)
     {

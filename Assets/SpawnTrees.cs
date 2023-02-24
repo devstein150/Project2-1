@@ -11,12 +11,12 @@ public class SpawnTrees : MonoBehaviour
     public AbstractMap map;
     void Start()
     {
-        StartCoroutine(waiter());
+        StartCoroutine(Waiter());
     }
 
     
 
-    IEnumerator waiter()
+    IEnumerator Waiter()
     {
         yield return new WaitForSeconds(1);
 
@@ -33,21 +33,42 @@ public class SpawnTrees : MonoBehaviour
             print("pos " + position);
             position = new Vector3(position.x, 0.0f, position.z);
             print(position);
+            GameObject new_tree;
             if (tree.tree_type == "palm")
             {
-                GameObject new_tree = GameObject.Instantiate(InvSys.palm_tree_prefab);
+                new_tree = GameObject.Instantiate(InvSys.palm_tree_prefab);
                 new_tree.transform.SetPositionAndRotation(position, Quaternion.identity);
             }
-            else if (tree.tree_type == "magnolia")
+            else if (tree.tree_type == "street")
             {
-                GameObject new_tree = GameObject.Instantiate(InvSys.magnolia_tree_prefab);
+                new_tree = GameObject.Instantiate(InvSys.street_tree_prefab);
                 new_tree.transform.SetPositionAndRotation(position, Quaternion.identity);
             }
             else if (tree.tree_type == "pine")
             {
-                GameObject new_tree = GameObject.Instantiate(InvSys.pine_tree_prefab);
+                new_tree = GameObject.Instantiate(InvSys.pine_tree_prefab);
                 new_tree.transform.SetPositionAndRotation(position, Quaternion.identity);
             }
+            else if (tree.tree_type == "poplar")
+            {
+                new_tree = GameObject.Instantiate(InvSys.poplar_tree_prefab);
+                new_tree.transform.SetPositionAndRotation(position, Quaternion.identity);
+            }
+            else if (tree.tree_type == "oak")
+            {
+                new_tree = GameObject.Instantiate(InvSys.oak_tree_prefab);
+                new_tree.transform.SetPositionAndRotation(position, Quaternion.identity);
+            }
+            else if (tree.tree_type == "fir")
+            {
+                new_tree = GameObject.Instantiate(InvSys.fir_tree_prefab);
+                new_tree.transform.SetPositionAndRotation(position, Quaternion.identity);
+            }
+            else
+            {
+                new_tree = GameObject.Instantiate(InvSys.fir_tree_prefab);
+            }
+            tree.treeObject = new_tree;
         }
     }
 

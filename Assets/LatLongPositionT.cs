@@ -13,10 +13,10 @@ public class LatLongPositionT : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        StartCoroutine(waiter());
+        StartCoroutine(Waiter());
     }
     
-    IEnumerator waiter()
+    IEnumerator Waiter()
     {
         yield return new WaitForSeconds(1);
         transform.position = map.GeoToWorldPosition(latlong_position, queryHeight: false);
