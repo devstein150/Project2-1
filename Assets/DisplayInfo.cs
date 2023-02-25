@@ -23,12 +23,17 @@ public class DisplayInfo : MonoBehaviour
     {
         Vector3 diff = transform.position - player_object.transform.position;
 
-        if (Input.GetKey(KeyCode.N))
+        if ( diff.sqrMagnitude < 200.0f)
         {
             print("HEY WE GOT HERE!!!");
             bool isActive = Panel.activeSelf;
-            Panel.SetActive(!isActive);
+            Panel.SetActive(true);
            // Panel.transform.position = player_object.transform.position;
+        }
+        else
+        {
+            Panel.SetActive(false);
+
         }
     }
 
