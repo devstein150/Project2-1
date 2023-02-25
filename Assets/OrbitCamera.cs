@@ -43,7 +43,7 @@ public class OrbitCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = player_avatar.position + offset;
+       // transform.position = player_avatar.position + offset;
         //float h = push_factor * Input.GetAxis("Mouse X");
         // float v = push_factor * Input.GetAxis("Mouse Y");
         // transform.Rotate(v, h, 0);
@@ -61,24 +61,32 @@ public class OrbitCamera : MonoBehaviour
         //  if (Keyboard.IsKeyDown(Key.A) && Keyboard.IsKeyDown(Key.W))
 
 
-        if (Input.GetKey(KeyCode.D) && transform.position.y > 0)
+        if (Input.GetKey(KeyCode.W) && transform.position.y > 0)
         {
             //0 85.4   -48.5
             //117 2.5     -28
-            h += 0.001f;
-            transform.position = new Vector3((player_avatar.position.x), (Mathf.Cos(h) * radius) + player_avatar.position.y, (Mathf.Sin(h) * radius) + player_avatar.position.z);
+            h += 0.005f;
+            transform.position = new Vector3((player_avatar.position.x), (Mathf.Cos(h) * radius), (Mathf.Sin(h) * radius));
 
             //transform.position = new Vector3((player_avatar.position.x), (Mathf.Cos(h) * radius) + transform.position.y, (Mathf.Sin(h) * radius) + transform.position.z);
 
         }
-        //else if ( Input.getKey(KeyCode.W))
-        //t += 1.0f * Time.deltaTime;
-        //transform.position = new Vector3(Mathf.Cos(t) * radius, (player_avatar.position.y + 85.4f), Mathf.Sin(t) * radius);
-        //else if (Input.GetKey(KeyCode.A) && transform.position.y > 0)
-         //   h -= 1.0f ;
-        //else if (Input.GetKey(KeyCode.S))
-        //  t -= 1.0f * Time.deltaTime;
+        if (Input.GetKey(KeyCode.D))
+        {
+            t += 0.005f;
+            transform.position = new Vector3(Mathf.Cos(t) * radius, (player_avatar.position.y + 85.4f), Mathf.Sin(t) * radius);
+        }
+        if (Input.GetKey(KeyCode.S) && transform.position.y > 0)
+        {
+            h -= 0.005f;
+            transform.position = new Vector3((player_avatar.position.x), (Mathf.Cos(h) * radius), (Mathf.Sin(h) * radius));
 
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            t -= 0.005f;
+            transform.position = new Vector3(Mathf.Cos(t) * radius, (player_avatar.position.y + 85.4f), Mathf.Sin(t) * radius);
+        }
 
         //if (Input.GetMouseButton(0))
         //{
