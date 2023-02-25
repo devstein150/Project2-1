@@ -22,12 +22,12 @@ public class MoneyManager : MonoBehaviour
     public static void IncreaseMoney(float amount)
     {
         currentBalance += amount;
-        UpdateText();
+        //UpdateText();
     }
 
     static void UpdateText()
     {
-        TextMeshProUGUI money_text = transform.Find("CurrentMoneyText").GetComponent<TextMeshProUGUI>();
-        money_text.text = "$" + currentBalance.ToString();
+        //TextMeshProUGUI money_text = transform.Find("CurrentMoneyText").GetComponent<TextMeshProUGUI>();
+        //money_text.text = "$" + currentBalance.ToString();
     }
 }

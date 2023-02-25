@@ -8,7 +8,7 @@ public class SquirrelSpawner : MonoBehaviour
     public Vector3 offset;
      GameObject[] Trees;
 
-    public float spawnTime = 40.0f; // spawn every 40 seconds
+    public float spawnTime = 10.0f; // spawn every 40 seconds
     public GameObject whatToSpawn;
     // Start is called before the first frame update
     void Start()
@@ -29,6 +29,7 @@ public class SquirrelSpawner : MonoBehaviour
         if (Trees.Length == 0)
             return;
         var newSquirrel = GameObject.Instantiate(whatToSpawn);
+        GameObject.Find("SwitchModeButton").GetComponent<SwitchModeButton>().Squirrels.Add(newSquirrel);
         newSquirrel.transform.position = Trees[update_tree_num].gameObject.transform.position + offset; // Make sure y is 0
         update_tree_num += 1;
         update_tree_num = update_tree_num % Trees.Length;

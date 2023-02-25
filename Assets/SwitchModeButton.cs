@@ -12,15 +12,19 @@ public class SwitchModeButton : MonoBehaviour
 {
     public GameObject gameplay_canvas;
 
+    public GameObject Squirrel__Object;
+
     static GameObject gameplay_canvas_instance;
 
     public GameObject switchModeButton;
 
     public GameObject playerTarget;
 
-    public GameObject[] Squirrels;
+    public List<GameObject> Squirrels;
 
-    public GameObject[] Trees;
+    public List<GameObject> Trees;
+
+    public GameObject interactionScene;
 
 
     public AbstractMap map;
@@ -30,6 +34,7 @@ public class SwitchModeButton : MonoBehaviour
         {
             gameplay_canvas_instance = gameplay_canvas;
             DontDestroyOnLoad(gameplay_canvas);
+
         }
         else
         {
@@ -41,56 +46,93 @@ public class SwitchModeButton : MonoBehaviour
     public GameObject character;
     public void OnSwitchButtonPressed()
     {
-        
+        Debug.Log("BUTTON PRESSED");
         if(SceneManager.GetActiveScene().name == "interaction_scene")
         {
-            SceneManager.LoadScene("exploration_scene");
-            TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
-            text.SetText("Interact");
-            
+
+                    SceneManager.LoadScene("exploration_scene");
+                    TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
+                    text.SetText("Interact");
+
         }
         else
         { //exploration scene
-            SceneManager.LoadScene("interaction_scene");
-            TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
-            text.SetText("Explore");
-            Vector2d tempLocation = map.WorldToGeoPosition(character.transform.position);
-            currentLocation = new Vector2d(tempLocation.x, tempLocation.y);
-            print(currentLocation);
 
+            foreach (GameObject Tree in Trees)
+            {
+                Debug.Log("DO WE GET HERE?2132??");
 
-            Squirrels = GameObject.FindGameObjectsWithTag("Squirrel");
-            Trees = GameObject.FindGameObjectsWithTag("Tree");
+                Vector3 diff = Tree.transform.position - playerTarget.transform.position;
+                if (diff.sqrMagnitude < 200000.0f)
+                {
+                    Debug.Log("DO WE NOT GET HERE>>>>");
+
+                    SceneManager.LoadScene("interaction_scene");
+                    TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
+                    text.SetText("Explore");
+                    Vector2d tempLocation = map.WorldToGeoPosition(character.transform.position);
+                    currentLocation = new Vector2d(tempLocation.x, tempLocation.y);
+                    DontDestroyOnLoad(Tree);
+                   // DontDestroyOnLoad(currentLocation);
+
+                    Debug.Log("DO WE GET HERE???");
+                    GameObject Spawner = GameObject.Find("SpawnTree");
+                    Spawner.GetComponent<SpawnableManager>().what_to_spawn = Tree;
+                    Spawner.GetComponent<SpawnableManager>().areyougettingthis = "NO";
+                    Debug.Log("DO WE GET HEREeqw???");
+
+                    Spawner.GetComponent<SpawnableManager>().Location = new Vector3((float)currentLocation.x, (float)currentLocation.y, 0.0f);
+                    //SpawnTreeScene();
+
+                }
+            
+                else
+                {
+                    SceneManager.LoadScene("interaction_scene");
+                    TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
+                    text.SetText("Explore");
+                    Vector2d tempLocation = map.WorldToGeoPosition(character.transform.position);
+                    currentLocation = new Vector2d(tempLocation.x, tempLocation.y);
+
+                }
+            }
+
             foreach (GameObject Squirrel in Squirrels)
             {
                 Vector3 diff = Squirrel.transform.position - playerTarget.transform.position;
                 if ( diff.sqrMagnitude < 200.0f)
                 {
-                    SpawnTreeScene();
+                    SpawnSquirrelScene(Squirrel);
+                    break;
                 }
 
             }
-            foreach (GameObject Tree in Trees)
-            {
-                Vector3 diff = Tree.transform.position - playerTarget.transform.position;
-                if (diff.sqrMagnitude < 200.0f)
-                {
-                    SpawnSquirrelScene();
-                }
 
-            }
 
         }
     }
 
-    void SpawnSquirrelScene()
+    void SpawnSquirrelScene(GameObject Squirrel)
     {
         SceneManager.LoadScene("interaction_scene");
+        GameObject interactiveTree = Instantiate(Squirrel);
+        Vector2d tempLocation = map.WorldToGeoPosition(Squirrel.transform.position);
+        currentLocation = new Vector2d(tempLocation.x, tempLocation.y);
+        GameObject newSquirrel = Instantiate(Squirrel);
+        interactiveTree.transform.position = new Vector3((float)currentLocation.x, (float)currentLocation.y, 0.0f);
 
     }
 
     void SpawnTreeScene()
     {
+        foreach (GameObject Tree in Trees)
+        {
 
+
+            Vector2d tempLocation = map.WorldToGeoPosition(Tree.transform.position);
+            currentLocation = new Vector2d(tempLocation.x, tempLocation.y);
+            GameObject interactiveTree = Instantiate(Tree);
+            interactiveTree.transform.position = new Vector3((float)currentLocation.x, (float)currentLocation.y, 0.0f);
+        }
     }
 }

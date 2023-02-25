@@ -59,20 +59,40 @@
 		public double movement_speed = 0.000004;
 		public void Update()
         {
+			Quaternion rotation = GameObject.Find("PlayerTarget").transform.localRotation;
+
 			if (Input.GetKey(KeyCode.UpArrow))
+			{
 				current_player_latlong += new Vector2d(movement_speed, 0.0);
+				rotation = Quaternion.Euler(0, 0, 0);
+			}
 			if (Input.GetKey(KeyCode.DownArrow))
+			{
 				current_player_latlong += new Vector2d(-movement_speed, 0.0);
+				rotation = Quaternion.Euler(0, 180, 0);
+
+			}
 			if (Input.GetKey(KeyCode.RightArrow))
+			{
 				current_player_latlong += new Vector2d(0.0, movement_speed);
+				rotation = Quaternion.Euler(0, 90, 0);
+
+			}
 			if (Input.GetKey(KeyCode.LeftArrow))
+			{
 				current_player_latlong += new Vector2d(0.0, -movement_speed);
+				rotation = Quaternion.Euler(0, 270, 0);
+
+
+			}
 
 			_currentLocation.LatitudeLongitude = current_player_latlong;
+			GameObject.Find("PlayerTarget").transform.rotation = (rotation );
+
 		}
 
 
-        protected override void SetLocation()
+		protected override void SetLocation()
 		{
 			/*if (null == _locationEnumerator) { return; }
 

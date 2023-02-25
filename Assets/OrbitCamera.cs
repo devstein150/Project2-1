@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Windows.Input;
-
+using System;
+using System.Globalization;
+using System.IO;
+using Mapbox.Unity.Utilities;
+using Mapbox.Utils;
 
 public class OrbitCamera : MonoBehaviour
 
-    //This will do the same thing for the compass (hopefully)
+//This will do the same thing for the compass (hopefully)
 {
     private float current_y_rot = 55;
     private float current_x_rot = 0;
@@ -15,6 +19,10 @@ public class OrbitCamera : MonoBehaviour
     private float current_x_loc = 0;
     private float current_z_loc = -48.5f;
     public float radius = 20.0f;
+    private float key_presses_d = 0.0f;
+    private float key_presses_w = 0.0f;
+    private float key_presses_s = 0.0f;
+    private float key_presses_a = 0.0f;
 
     public float push_factor;
     //private string current_camera = "Overhead View";
@@ -31,11 +39,11 @@ public class OrbitCamera : MonoBehaviour
 
     float t = 0.0f;
     float h = 0.0f;
-    
+
     // Update is called once per frame
     void Update()
     {
-        //transform.position = player_avatar.position + offset;
+        transform.position = player_avatar.position + offset;
         //float h = push_factor * Input.GetAxis("Mouse X");
         // float v = push_factor * Input.GetAxis("Mouse Y");
         // transform.Rotate(v, h, 0);
@@ -49,19 +57,27 @@ public class OrbitCamera : MonoBehaviour
             Debug.Log("mouse x value [" + Input.GetAxis("Mouse X") + "]");
         }
 
-        transform.position = new Vector3(Mathf.Cos(t) * radius, (player_avatar.position.y + 85.4f) , Mathf.Sin(t)*radius) ;
-        transform.position = new Vector3((player_avatar.position.x), Mathf.Cos(h) * radius, Mathf.Sin(h) * radius);
-      //  if (Keyboard.IsKeyDown(Key.A) && Keyboard.IsKeyDown(Key.W))
+        // 
+        //  if (Keyboard.IsKeyDown(Key.A) && Keyboard.IsKeyDown(Key.W))
 
 
-        if ( Input.GetKeyDown(KeyCode.D))
-            h += 1.0f * Time.deltaTime;
+        if (Input.GetKey(KeyCode.D) && transform.position.y > 0)
+        {
+            //0 85.4   -48.5
+            //117 2.5     -28
+            h += 0.001f;
+            transform.position = new Vector3((player_avatar.position.x), (Mathf.Cos(h) * radius) + player_avatar.position.y, (Mathf.Sin(h) * radius) + player_avatar.position.z);
+
+            //transform.position = new Vector3((player_avatar.position.x), (Mathf.Cos(h) * radius) + transform.position.y, (Mathf.Sin(h) * radius) + transform.position.z);
+
+        }
         //else if ( Input.getKey(KeyCode.W))
-            t += 1.0f * Time.deltaTime;
+        //t += 1.0f * Time.deltaTime;
+        //transform.position = new Vector3(Mathf.Cos(t) * radius, (player_avatar.position.y + 85.4f), Mathf.Sin(t) * radius);
         //else if (Input.GetKey(KeyCode.A) && transform.position.y > 0)
-            h -= 1.0f * Time.deltaTime;
+         //   h -= 1.0f ;
         //else if (Input.GetKey(KeyCode.S))
-            t -= 1.0f * Time.deltaTime;
+        //  t -= 1.0f * Time.deltaTime;
 
 
         //if (Input.GetMouseButton(0))
@@ -77,23 +93,23 @@ public class OrbitCamera : MonoBehaviour
 
 }
 
-    /*void rotateCamera()
-    {
-        current_x_loc+= Mathf.Cos(push_factor * Input.GetAxis("Mouse X"));
-        current_y_loc += Mathf.Sin(push_factor * Input.GetAxis("Mouse X"));
-        transform.position = new Vector3(current_x_loc, current_y_loc, current_z_loc);
-    
-    }*/
+/*void rotateCamera()
+{
+    current_x_loc+= Mathf.Cos(push_factor * Input.GetAxis("Mouse X"));
+    current_y_loc += Mathf.Sin(push_factor * Input.GetAxis("Mouse X"));
+    transform.position = new Vector3(current_x_loc, current_y_loc, current_z_loc);
 
-    /*void shiftCamera(){ // vertical swipe, go to overhead view or down
-        current_y_loc += Mathf.Cos(push_factor * Input.GetAxis("Mouse Y"));
-        current_z_loc += Mathf.Sin(push_factor * Input.GetAxis("Mouse Y"));
-        transform.position = new Vector3(current_x_loc, current_y_loc, current_z_loc);
-        // if (current_camera == "Overhead View")
-        // {
-        //   current_camera == "Side View";
-        //transform.rotation = Quaternion.Euler(current_x_axis, current_y_axis + 90, gameObject.transform.localRotation.eulerAngles.z);
-        /// }
+}*/
 
-    }*/
+/*void shiftCamera(){ // vertical swipe, go to overhead view or down
+    current_y_loc += Mathf.Cos(push_factor * Input.GetAxis("Mouse Y"));
+    current_z_loc += Mathf.Sin(push_factor * Input.GetAxis("Mouse Y"));
+    transform.position = new Vector3(current_x_loc, current_y_loc, current_z_loc);
+    // if (current_camera == "Overhead View")
+    // {
+    //   current_camera == "Side View";
+    //transform.rotation = Quaternion.Euler(current_x_axis, current_y_axis + 90, gameObject.transform.localRotation.eulerAngles.z);
+    /// }
+
+}*/
 
