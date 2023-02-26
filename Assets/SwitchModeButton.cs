@@ -10,6 +10,12 @@ using UnityEngine.UI;
 
 public class SwitchModeButton : MonoBehaviour
 {
+    public float spawnTime = 10.0f; // spawn every 40 seconds
+
+    private int update_tree_num = 0;
+    public Vector3 offset;
+    GameObject[] Trees_array;
+
     public GameObject gameplay_canvas;
 
     public GameObject Squirrel__Object;
@@ -20,6 +26,7 @@ public class SwitchModeButton : MonoBehaviour
 
     public GameObject playerTarget;
 
+    public string what_to_spawn;
     public List<GameObject> Squirrels;
 
     public List<GameObject> Trees;
@@ -32,6 +39,8 @@ public class SwitchModeButton : MonoBehaviour
     public AbstractMap map;
     public void Start()
     {
+        InvokeRepeating("SquirrelSpawn", spawnTime, spawnTime);
+
         if (gameplay_canvas_instance == null)
         {
             gameplay_canvas_instance = gameplay_canvas;
@@ -121,13 +130,13 @@ public class SwitchModeButton : MonoBehaviour
         }
     }
 
-    void SpawnSquirrelScene(GameObject Squirrel)
+    void SpawnSquirrelScene()
     {
         SceneManager.LoadScene("interaction_scene");
-        GameObject interactiveTree = Instantiate(Squirrel);
-        Vector2d tempLocation = map.WorldToGeoPosition(Squirrel.transform.position);
+        GameObject interactiveTree = Instantiate(Squirrel__Object);
+        Vector2d tempLocation = map.WorldToGeoPosition(Squirrel__Object.transform.position);
         currentLocation = new Vector2d(tempLocation.x, tempLocation.y);
-        GameObject newSquirrel = Instantiate(Squirrel);
+        GameObject newSquirrel = Instantiate(Squirrel__Object);
         interactiveTree.transform.position = new Vector3((float)currentLocation.x, (float)currentLocation.y, 0.0f);
 
     }
@@ -144,4 +153,47 @@ public class SwitchModeButton : MonoBehaviour
             interactiveTree.transform.position = new Vector3((float)currentLocation.x, (float)currentLocation.y, 0.0f);
         }
     }*/
+
+    void SquirrelSpawn()
+    {
+        //float placed_one_squirrel = 3.0f;
+        Trees_array = GameObject.FindGameObjectsWithTag("Tree");
+        if (Trees_array.Length == 0)
+            return;
+        var newSquirrel = GameObject.Instantiate(Squirrel__Object);
+        GameObject.Find("SwitchModeButton").GetComponent<SwitchModeButton>().Squirrels.Add(newSquirrel);
+        newSquirrel.transform.position = Trees[update_tree_num].gameObject.transform.position + offset; // Make sure y is 0
+        Squirrels.Add(newSquirrel);
+        update_tree_num += 1;
+        update_tree_num = update_tree_num % Trees_array.Length;
+    }
+
+
+    void treeAndSquirrelCheck()
+    {
+
+
+        foreach (GameObject Squirrel in Squirrels)
+        {
+            Vector3 diff = Squirrel.transform.position - playerTarget.transform.position;
+            if (diff.sqrMagnitude < 200.0f)
+            {
+                what_to_spawn = "Squirrel";
+
+                return;
+            }
+        }
+        foreach (GameObject Tree in Trees)
+        {
+
+            Vector3 diff = Tree.transform.position - playerTarget.transform.position;
+
+            SceneManager.LoadScene("interaction_scene");
+
+            if (diff.sqrMagnitude < 200.0f)
+            {
+                what_to_spawn = "Tree";
+                Debug.Log("DO WE NOT GET HERE>>>>");
+            }
 }
+
