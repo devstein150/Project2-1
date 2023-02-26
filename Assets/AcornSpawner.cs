@@ -14,13 +14,13 @@ public class AcornSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
-            LaunchAcorn();
+        //if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            //LaunchAcorn();
     }
 
     public float acorn_launch_velocity = 100.00f;
     public Vector3 offset;
-    void LaunchAcorn()
+    public void LaunchAcorn()
     {
         Vector3 spawn_position = Camera.main.gameObject.transform.position;
         GameObject new_acorn = GameObject.Instantiate(acorn_prefab, spawn_position + offset, Quaternion.identity);

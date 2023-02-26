@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4614873735337804267
+  m_GuidHigh: 9111912006610790329
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5616168135029321428
+      m_GuidHigh: 2439577442833973164
+    m_SerializedTextureGuid:
+      m_GuidLow: 11026027719098251748
+      m_GuidHigh: 17187902974104665289
+    m_Size: {x: 0.1, y: 0.09973334}
+    m_SpecifySize: 1
+    m_Name: a2logo
+    m_Texture: {fileID: 2800000, guid: c87639e451ca9904c97c6385b0b287ee, type: 3}

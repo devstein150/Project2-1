@@ -26,6 +26,8 @@ public class SwitchModeButton : MonoBehaviour
 
     public GameObject interactionScene;
 
+    public static Vector2d currentLocation;
+    GameObject character;
 
     public AbstractMap map;
     public void Start()
@@ -40,34 +42,42 @@ public class SwitchModeButton : MonoBehaviour
         {
             Destroy(gameplay_canvas);
         }
+        character = GameObject.Find("PlayerTarget");
     }
 
-    public static Vector2d currentLocation;
-    public GameObject character;
+    
     public void OnSwitchButtonPressed()
     {
-        Debug.Log("BUTTON PRESSED");
+        //Debug.Log("BUTTON PRESSED");
         if(SceneManager.GetActiveScene().name == "interaction_scene")
-        {
-
-                    SceneManager.LoadScene("exploration_scene");
-                    TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
-                    text.SetText("Interact");
-
+        {   // interaction to exploration
+            SceneManager.LoadScene("exploration_scene");
+            TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
+            text.SetText("Interact");
         }
-        else
-        { //exploration scene
+        else if (SceneManager.GetActiveScene().name == "exploration_scene")
+        { // exploration to interaction
+            TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
+            text.SetText("Explore");
+            character = GameObject.Find("PlayerTarget");
+            map = GameObject.Find("Map").GetComponent<AbstractMap>();
+            Vector2d tempLocation = map.WorldToGeoPosition(character.transform.position);
+            currentLocation = new Vector2d(tempLocation.x, tempLocation.y);
+            SceneManager.LoadScene("interaction_scene");
 
-            foreach (GameObject Tree in Trees)
+            /*foreach (GameObject Tree in Trees)
             {
-                Debug.Log("DO WE GET HERE?2132??");
+                //Debug.Log("DO WE GET HERE?2132??");
 
                 Vector3 diff = Tree.transform.position - playerTarget.transform.position;
+
+                SceneManager.LoadScene("interaction_scene");
+
                 if (diff.sqrMagnitude < 200000.0f)
                 {
                     Debug.Log("DO WE NOT GET HERE>>>>");
 
-                    SceneManager.LoadScene("interaction_scene");
+                    
                     TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
                     text.SetText("Explore");
                     Vector2d tempLocation = map.WorldToGeoPosition(character.transform.position);
@@ -88,7 +98,6 @@ public class SwitchModeButton : MonoBehaviour
             
                 else
                 {
-                    SceneManager.LoadScene("interaction_scene");
                     TextMeshProUGUI text = switchModeButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
                     text.SetText("Explore");
                     Vector2d tempLocation = map.WorldToGeoPosition(character.transform.position);
@@ -106,7 +115,7 @@ public class SwitchModeButton : MonoBehaviour
                     break;
                 }
 
-            }
+            }*/
 
 
         }
@@ -123,7 +132,7 @@ public class SwitchModeButton : MonoBehaviour
 
     }
 
-    void SpawnTreeScene()
+    /*void SpawnTreeScene()
     {
         foreach (GameObject Tree in Trees)
         {
@@ -134,5 +143,5 @@ public class SwitchModeButton : MonoBehaviour
             GameObject interactiveTree = Instantiate(Tree);
             interactiveTree.transform.position = new Vector3((float)currentLocation.x, (float)currentLocation.y, 0.0f);
         }
-    }
+    }*/
 }
